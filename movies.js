@@ -470,7 +470,6 @@ const filmListesi = [
     { id: 468, title: "For All Mankind", poster: "./afisler/forallmankind.jpg"},
     { id: 469, title: "The Invite", poster: "./afisler/theinvite.jpg"},
     { id: 470, title: "Leviticus", poster: "./afisler/leviticus.jpg"},
-    { id: 471, title: "Hadestown: The Musical", poster: "./afisler/hadestown.jpg"},
     
     
 
@@ -5177,16 +5176,6 @@ const filmDetaylari = {
     duration: "88 Dakika",
     releaseDate: "19 Haziran 2026",
     imdbId: "tt39143902"
-},
-    471: {
-    konu: "Orpheus/Eurydice ve Hades/Persephone mitlerinin müzikal bir şekilde yan yana getirilmesiyle, gerçek hayatın mükemmel bir dünya arayışımızı nasıl etkileyebileceği inceleniyor.",
-    genre: ["Müzikal", "Müzik", "Dram"],
-    cast: "Reeve Carney, Eva Noblezada, Patrick Page, André De Shields, Amber Gray, Bella Brown",
-    director: "Brett Sullivan",
-    imdb: "8.7",
-    duration: "141 Dakika",
-    releaseDate: "24 Temmuz 2026",
-    imdbId: "tt36307021"
 },
     
 
