@@ -468,6 +468,9 @@ const filmListesi = [
     { id: 466, title: "The Killers (1946)", poster: "./afisler/malcolmx.jpg"},
     { id: 467, title: "The Testament of Dr.Mabuse", poster: "./afisler/TheTestamentofDrMabuse.jpg"},
     { id: 468, title: "For All Mankind", poster: "./afisler/forallmankind.jpg"},
+    { id: 469, title: "The Invite", poster: "./afisler/theinvite.jpg"},
+    { id: 470, title: "Leviticus", poster: "./afisler/leviticus.jpg"},
+    { id: 471, title: "Hadestown", poster: "./afisler/hadestown.jpg"},
     
     
 
@@ -5154,6 +5157,36 @@ const filmDetaylari = {
     duration: "80 Dakika",
     releaseDate: "19 Mayıs 1989",
     imdbId: "tt0097372"
+},
+    469: {
+    konu: "Joe ve Angela'nın evliliği pamuk ipliğine bağlı. Gizemli üst kat komşularını akşam yemeğine davet ettiklerinde, gece beklenmedik yerlere doğru sürüklenir.",
+    genre: ["Komedi", "Dram", "Romantik"],
+    cast: "Seth Rogen, Olivia Wilde, Penélope Cruz, Edward Norton",
+    director: "Olivia Wilde",
+    imdb: "7.9",
+    duration: "107 Dakika",
+    releaseDate: "10 Temmuz 2026",
+    imdbId: "tt14173636"
+},
+    470: {
+    konu: "İki genç erkek, en çok arzuladıkları kişi olan birbirlerinin şeklini alan şiddet dolu bir varlıktan kaçmak zorundadır.",
+    genre: ["Korku", "Romantik", "Gizem"],
+    cast: "Joe Bird, Stacy Clausen, Mia Wasikowska, Jeremy Blewitt",
+    director: "Adrian Chiarella",
+    imdb: "6.5",
+    duration: "88 Dakika",
+    releaseDate: "19 Haziran 2026",
+    imdbId: "tt39143902"
+},
+    471: {
+    konu: "Orpheus/Eurydice ve Hades/Persephone mitlerinin müzikal bir şekilde yan yana getirilmesiyle, gerçek hayatın mükemmel bir dünya arayışımızı nasıl etkileyebileceği inceleniyor.",
+    genre: ["Müzikal", "Müzik", "Dram"],
+    cast: "Reeve Carney, Eva Noblezada, Patrick Page, André De Shields, Amber Gray, Bella Brown",
+    director: "Brett Sullivan",
+    imdb: "8.7",
+    duration: "141 Dakika",
+    releaseDate: "24 Temmuz 2026",
+    imdbId: "tt36307021"
 },
     
 
