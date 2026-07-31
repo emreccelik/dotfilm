@@ -470,7 +470,7 @@ const filmListesi = [
     { id: 468, title: "For All Mankind", poster: "./afisler/forallmankind.jpg"},
     { id: 469, title: "The Invite", poster: "./afisler/theinvite.jpg"},
     { id: 470, title: "Leviticus", poster: "./afisler/leviticus.jpg"},
-    { id: 471, title: "Hadestown", poster: "./afisler/hadestown.jpg"},
+    { id: 471, title: "Hadestown: The Musical", poster: "./afisler/hadestown.jpg"},
     
     
 
