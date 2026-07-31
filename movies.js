@@ -460,6 +460,15 @@ const filmListesi = [
     { id: 458, title: "A Place in the Sun", poster: "./afisler/aplaceinthesun.jpg"},
     { id: 459, title: "The Odyssey", poster: "./afisler/TheOdyssey.jpg"},
     { id: 460, title: "Spider-Man: Brand New Day", poster: "afisler/spidermanbrandnewday.jpg"},
+    { id: 461, title: "Malcolm X", poster: "./afisler/malcolmx.jpg"},
+    { id: 462, title: "The Player", poster: "./afisler/theplayer.jpg"},
+    { id: 463, title: "Boyhood", poster: "./afisler/boyhood.jpg"},
+    { id: 464, title: "One False Move", poster: "./afisler/onefalsemove.jpg"},
+    { id: 465, title: "Dogville", poster: "./afisler/dogville.jpg"},
+    { id: 466, title: "The Killers (1946)", poster: "./afisler/malcolmx.jpg"},
+    { id: 467, title: "The Testament of Dr.Mabuse", poster: "./afisler/TheTestamentofDrMabuse.jpg"},
+    { id: 468, title: "For All Mankind", poster: "./afisler/forallmankind.jpg"},
+    
     
 
 ];
@@ -5066,6 +5075,86 @@ const filmDetaylari = {
         releaseDate: "31 Temmuz 2026",
         imdbId: "tt22084616"
     },
+    461: {
+    konu: "Afrikalı-Amerikalı aktivist ve lider Malcolm X'in hayatının dramatize edilmiş hikayesi: suç hayatından, hapishanede İslam'a geçişine, Siyahların Milleti bünyesindeki liderliğine ve sonunda örgütle kopuşuna kadar uzanan zorlu yolculuğu.",
+    genre: ["Biyografi", "Dram", "Tarih"],
+    cast: "Denzel Washington, Angela Bassett, Albert Hall, Al Freeman Jr., Delroy Lindo, Spike Lee, Theresa Randle, Kate Vernon, Lonette McKee",
+    director: "Spike Lee",
+    imdb: "7.7",
+    duration: "202 Dakika",
+    releaseDate: "18 Kasım 1992",
+    imdbId: "tt0104797"
+},
+462: {
+    konu: "Bir Hollywood stüdyosu yöneticisi, kendisine ölüm tehditleri gönderen bir senaristin peşine düşer. Ancak bu kovalamaca, onu beklemediği bir suç sarmalının içine çeker. Robert Altman'ın Hollywood'u keskin bir dille yerden yere vurduğu siyah komedi.",
+    genre: ["Komedi", "Suç", "Dram"],
+    cast: "Tim Robbins, Greta Scacchi, Fred Ward, Whoopi Goldberg, Peter Gallagher, Brion James, Cynthia Stevenson, Vincent D'Onofrio, Dean Stockwell, Richard E. Grant",
+    director: "Robert Altman",
+    imdb: "7.5",
+    duration: "124 Dakika",
+    releaseDate: "10 Nisan 1992",
+    imdbId: "tt0105151"
+},
+463: {
+    konu: "12 yıl boyunca aynı oyuncularla çekilen bu film, Mason adlı bir çocuğun 6 yaşından üniversiteye başladığı 18 yaşına kadar büyüyüşünü, ailesiyle ilişkilerini ve hayata dair keşiflerini gerçek zamanlı olarak takip eder.",
+    genre: ["Dram"],
+    cast: "Ellar Coltrane, Patricia Arquette, Ethan Hawke, Lorelei Linklater, Libby Villari, Marco Perella, Brad Hawkins, Jenni Tooley",
+    director: "Richard Linklater",
+    imdb: "7.9",
+    duration: "165 Dakika",
+    releaseDate: "11 Temmuz 2014",
+    imdbId: "tt1065073"
+},
+464: {
+    konu: "Los Angeles'ta uyuşturucu çalan ve birçok kişiyi öldüren üç suçlu, küçük bir Arkansas kasabasına doğru yola çıkar. Kasabanın neşeli ama deneyimsiz şerifi, iki LA dedektifiyle güçlerini birleştirerek beklenmedik bir hesaplaşmaya hazırlanır.",
+    genre: ["Suç", "Dram", "Gerilim"],
+    cast: "Bill Paxton, Cynda Williams, Billy Bob Thornton, Michael Beach, Earl Billings, Jim Metzler",
+    director: "Carl Franklin",
+    imdb: "7.1",
+    duration: "105 Dakika",
+    releaseDate: "8 Mayıs 1992",
+    imdbId: "tt0102592"
+},
+465: {
+    konu: "1930'larda Colorado'nun ücra dağlarında, gangsterlerden kaçan güzel bir yabancı kadın olan Grace, küçük bir kasabaya sığınır. Kasaba halkı onu kabul etmek için çalışması karşılığında barındırmayı kabul eder; ancak zamanla Grace'in zayıf konumu, kasabalıların en karanlık yüzlerini ortaya çıkarır.",
+    genre: ["Dram", "Suç"],
+    cast: "Nicole Kidman, Paul Bettany, Lauren Bacall, James Caan, Patricia Clarkson, Jeremy Davies, Ben Gazzara, Philip Baker Hall, Chloë Sevigny, Stellan Skarsgård",
+    director: "Lars von Trier",
+    imdb: "8.0",
+    duration: "171 Dakika",
+    releaseDate: "23 Nisan 2004",
+    imdbId: "tt0276919"
+},
+466: {
+    konu: "Küçük bir New Jersey kasabasında, eski boksör Pete Anderson direniş göstermeden iki tetikçi tarafından öldürülür. Sigorta dedektifi Jim Reardon, bu gizemli ölümün arkasındaki gerçeği araştırmaya başlar ve kara para, güzel bir kadın ve ihanetle dolu karanlık bir geçmişle yüz yüze gelir.",
+    genre: ["Suç", "Dram", "Film Noir"],
+    cast: "Burt Lancaster, Ava Gardner, Edmond O'Brien, Albert Dekker, Sam Levene, Charles McGraw, William Conrad",
+    director: "Robert Siodmak",
+    imdb: "7.7",
+    duration: "103 Dakika",
+    releaseDate: "30 Ağustos 1946",
+    imdbId: "tt0038669"
+},
+467: {
+    konu: "Akıl hastanesine kapatılmış suç dehası Dr. Mabuse, ölmek üzereyken manifestosunu kağıda döker; gelecekte işlenecek suçların planlarını. Bu planlar gerçek hayatta uygulanmaya başlayınca, Berlin'in en iyi dedektifi Komiser Lohmann gizemi çözmek için harekete geçer.",
+    genre: ["Suç", "Gizem", "Gerilim"],
+    cast: "Rudolf Klein-Rogge, Otto Wernicke, Oscar Beregi Sr., Gustav Diessl, Wera Liessem, Theodor Loos",
+    director: "Fritz Lang",
+    imdb: "7.9",
+    duration: "121 Dakika",
+    releaseDate: "19 Mart 1943",
+    imdbId: "tt0023563"
+},
+468: {
+    konu: "NASA'nın Apollo programından derlenen gerçek görüntüler ve astronot röportajlarından oluşan bu belgesel, aya yolculuk eden 24 astronotun deneyimlerini onların ağzından ve gözünden aktarır. Brian Eno'nun büyüleyici müziği eşliğinde insanlığın en büyük macerasına tanıklık edersiniz.",
+    genre: ["Belgesel", "Tarih"],
+    cast: "Jim Lovell, Eugene Cernan, Russell Schweickart, Ken Mattingly, Michael Collins, Buzz Aldrin, Neil Armstrong, Charlie Duke, Harrison Schmitt",
+    director: "Al Reinert",
+    imdb: "8.1",
+    duration: "80 Dakika",
+    releaseDate: "19 Mayıs 1989",
+    imdbId: "tt0097372"
+},
     
 
 
