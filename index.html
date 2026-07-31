@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOTFILM | İzlemeye Başla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html" class="logo" onclick="closeMovieDetail(); closeSearchPage();">DOTFILM</a>
+            <div class="divider"></div>
+            <ul class="nav-links">
+                <li onclick="showSearchPage(); closeMenu();">ARA</li>
+                <li onclick="closeSearchPage(); closeMovieDetail(); closeMenu(); document.getElementById('movies-section').scrollIntoView({behavior: 'smooth'})">FİLMLER</li>
+                <li>
+                    KATEGORİLER
+                    <div class="dropdown-content">
+                        <a href="#" onclick="filterByCategory('Aksiyon')">Aksiyon</a><a href="#" onclick="filterByCategory('Komedi')">Komedi</a><a href="#" onclick="filterByCategory('Dram')">Dram</a><a href="#" onclick="filterByCategory('Korku')">Korku</a>
+                        <a href="#" onclick="filterByCategory('Bilim Kurgu')">Bilim Kurgu</a><a href="#" onclick="filterByCategory('Romantik')">Romantik</a><a href="#" onclick="filterByCategory('Belgesel')">Belgesel</a><a href="#" onclick="filterByCategory('Animasyon')">Animasyon</a>
+                        <a href="#" onclick="filterByCategory('Gerilim')">Gerilim</a><a href="#" onclick="filterByCategory('Macera')">Macera</a><a href="#" onclick="filterByCategory('Gizem')">Gizem</a><a href="#" onclick="filterByCategory('Suç')">Suç</a>
+                        <a href="#" onclick="filterByCategory('Savaş')">Savaş</a><a href="#" onclick="filterByCategory('Biyografi')">Biyografi</a><a href="#" onclick="filterByCategory('Tarih')">Tarih</a><a href="#" onclick="filterByCategory('Aile')">Aile</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Arama Sayfası -->
+    <section id="search-page">
+        <h2 class="search-header-text">Filmleri Ara</h2>
+        <div class="search-input-wrapper">
+            <div class="search-icon-placeholder">
+                <i class="fas fa-search"></i>
+            </div>
+            <input type="text" id="live-search" placeholder="Film ismini girin..." oninput="performLiveSearch()">
+        </div>
+        <div class="movies-grid" id="search-results-grid">
+            <!-- Arama sonuçları buraya gelecek -->
+        </div>
+    </section>
+
+    <!-- Main Content Wrapper -->
+    <main id="main-content">
+        <!-- Home Section -->
+        <section id="home">
+            <h2 style="margin-bottom: 10px; font-weight: 600; font-size: 32px; text-align: center;">DOTFILM</h2>
+            <p style="color: #86868b;">En yeni filmleri keşfetmeye hemen başla.</p>
+        </section>
+
+        <!-- Son Çıkanlar Section -->
+        <section id="latest">
+            <div class="hero-banner">
+                <div class="hero-info">
+                    <h1>SPIDER-MAN: BRAND NEW DAY</h1>
+                    <p>Unutulmuş bir Peter Parker, tam zamanlı bir Örümcek Adam olarak tek başına yaşar; ta ki artan baskı tehlikeli bir değişime yol açana ve güçlü yeni bir düşman ortaya çıkana kadar.</p>
+                    <button class="play-btn" onclick="showMovieDetail(460)"><i class="fas fa-play"></i> ŞİMDİ İZLE</button>
+                </div>
+            </div>
+
+        <!-- Filmler Grid Section -->
+        <section id="movies-section">
+            <h2 style="margin-bottom: 25px;">Tüm Filmler</h2>
+            <div class="movies-grid" id="movie-container"></div>
+            <div class="pagination" id="pagination">
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">4</button>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq-section">
+            <h2 class="faq-title">Sıkça Sorulan Sorular</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>DOTFILM nedir?</span>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>DOTFILM, tüm popüler filmlerin mevcut olduğu bir çevrimiçi film izleme sitesidir. Abonelik tabanlı platformların aksine, kayıt veya aylık ücret gerektirmeden anında izlemeye odaklanmaktadır.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>DOTFILM'in başlıca özellikleri nelerdir?</span>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>DOTFILM, şık posterlere ve sade bir düzene sahiptir. İlk kez ziyaret edenler bile rahatça gezinebilir. İster dizüstü bilgisayar, ister tablet, ister akıllı telefon olsun, farklı ekran boyutlarına uyum sağlar. Çoğu yapım yüksek kalitede sunulmaktadır.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>DOTFILM'de film nasıl izlenir?</span>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Belirli bir filmi bulmak için ARA kısmını kullanın veya öneriler için kategorilere göz atın. İzlemek istediğiniz filme tıklayın. Oynat düğmesine basın ve "CC" kısmından altyazı dilinizi seçin. Ayarlar simgesinden ise altyazı ayarları ve kalite seçeneklerini bulabilirsiniz.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Türkçe altyazı seçenekleri nasıl çalışıyor?</span>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Türkçe altyazı dilini seçtikten sonra size birkaç tane kaynak sunar. Bu kaynaklardan bazıları filmdeki sese göre geç geliyor. Bu yüzden doğru kaynağı bulmalısınız. Bazen bir sürü kaynak çıkıyor ve bulması zor olabiliyor. Bu sorun için farklı alternatifler geliştirilecektir.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>İleride geliştirilecek olan şeyler nelerdir?</span>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Kullanıcı profilleri, filmin altına yorum yapabilmek...</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Diğer sitelere göre üretilen çözüm nedir?</span>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>DOTFILM'de son çıkan filmleri anında bulup izleyebilirsiniz. Sinema çekimi bile olsa Türkçe altyazı seçeneği ile sitede mevcuttur. Filmler dijitallerde yayınlandığı andan itibaren gerçek kalitesinde hemen güncelleniyor. Ayrıca şık posterler, sade tasarım, kullanıcı kaydı ve ücret olmaması, bütün filmlerde çoğu dilin altyazı olarak sunulması gibi özellikler ile diğer yerel sitelerden ayrılıyor. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Movie Detail View -->
+    <div id="movie-detail">
+        <button class="back-btn" onclick="closeMovieDetail()">
+            <i class="fas fa-chevron-left"></i> Geri Dön
+        </button>
+        <div class="video-container">
+            <iframe id="movie-player" src="" allowfullscreen></iframe>
+        </div>
+        <div class="movie-info-header">
+            <h1 id="detail-title" style="font-size: 36px; margin-bottom: 20px;"></h1>
+            <p id="detail-desc" class="movie-description"></p>
+        </div>
+        <div class="detail-meta">
+            <div class="meta-left">
+                <div class="meta-item"><span class="meta-label">TÜR</span><span id="detail-genre" class="meta-value"></span></div>
+                <div class="meta-item"><span class="meta-label">OYUNCULAR</span><span id="detail-cast" class="meta-value"></span></div>
+                <div class="meta-item"><span class="meta-label">YÖNETMEN</span><span id="detail-director" class="meta-value"></span></div>
+            </div>
+            <div class="meta-right">
+                <div class="meta-item"><span class="meta-label">IMDb PUANI</span><span class="meta-value"><span id="detail-imdb" class="imdb-badge"></span> / 10</span></div>
+                <div class="meta-item"><span class="meta-label">SÜRE</span><span id="detail-duration" class="meta-value"></span></div>
+                <div class="meta-item"><span class="meta-label">YAYIN TARİHİ</span><span id="detail-date" class="meta-value"></span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="movies.js"></script>
+
+    <script>
+        const itemsPerPage = 40; // Her sayfada 40 film
+
+
+// 1. POPÜLER/SON ÇIKANLAR (Tarihe göre sırala ve ilk 15'i al)
+function renderTrending() {
+    const sliderWrapper = document.getElementById('trending-slider');
+    if(!sliderWrapper) return;
+    sliderWrapper.innerHTML = '';
+  
+    sorted.slice(0, 15).forEach(movie => {
+        const card = document.createElement('div');
+        card.className = 'slider-card';
+        
+        // EĞER poster2 VARSA ONU KULLAN, YOKSA NORMAL POSTER'I KULLAN
+        const sliderGorsel = movie.poster2 ? movie.poster2 : movie.poster;
+        card.innerHTML = `<img src="${sliderGorsel}" alt="${movie.title}" draggable="false">`;
+        card.onclick = () => showMovieDetail(movie.id);
+        sliderWrapper.appendChild(card);
+    });
+}
+
+// 2. TÜM FİLMLER VE SAYFALAMA
+function renderMovies(page) {
+    const container = document.getElementById('movie-container');
+    if(!container) return;
+    container.innerHTML = '';
+
+    // 1. Seçili kategoriye göre filmleri filtrele
+    let filteredMovies = (currentCategory === "Tüm Filmler") 
+        ? allMovies 
+        : allMovies.filter(m => m.genre && m.genre.includes(currentCategory));
+
+    // 2. Sadece bu sayfanın filmlerini al
+    const start = (page - 1) * itemsPerPage;
+    const pageItems = filteredMovies.slice(start, start + itemsPerPage);
+
+    // 3. Filmleri ekrana bas
+    if (pageItems.length === 0) {
+        container.innerHTML = `<p style="color: #86868b; grid-column: 1/-1; text-align: center; padding: 50px;">Bu kategoride henüz film bulunamadı.</p>`;
+    } else {
+        pageItems.forEach(movie => {
+            const card = document.createElement('div');
+            card.className = 'movie-card';
+            card.onclick = () => showMovieDetail(movie.id);
+            card.innerHTML = `<img src="${movie.poster}" alt="${movie.title}"><div class="info">${movie.title}</div>`;
+            container.appendChild(card);
+        });
+    }
+
+    // 4. Sayfalama butonlarını güncelle (Filtrelenmiş sayıyı gönderiyoruz)
+    renderPagination(page, filteredMovies.length);
+}
+
+function renderPagination(currentPage, totalItems) {
+    const paginationContainer = document.getElementById('pagination');
+    if(!paginationContainer) return;
+    
+    // ÖNEMLİ: Önceki sayfalardan kalan butonları temizle
+    paginationContainer.innerHTML = '';
+    
+    const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+    // Eğer film sayısı 1 sayfaya sığıyorsa (40'tan azsa) butonları gösterme
+    if (totalPages <= 1) return;
+
+    for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement('button');
+        btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+        btn.innerText = i;
+        btn.onclick = () => {
+            renderMovies(i);
+            document.getElementById('movies-section').scrollIntoView({behavior: 'smooth'});
+        };
+        paginationContainer.appendChild(btn);
+    }
+}
+
+// 3. FİLM DETAY SAYFASI
+function showMovieDetail(id) {
+    const movie = allMovies.find(m => m.id === id);
+    if (!movie) return;
+
+    // ... (Diğer detay doldurma kodların aynı kalsın) ...
+    document.getElementById('detail-title').innerText = movie.title;
+    document.getElementById('detail-desc').innerText = movie.konu;
+    document.getElementById('detail-genre').innerText = Array.isArray(movie.genre) ? movie.genre.join(', ') : movie.genre;
+    document.getElementById('detail-cast').innerText = movie.cast;
+    document.getElementById('detail-director').innerText = movie.director;
+    document.getElementById('detail-imdb').innerText = movie.imdb;
+    document.getElementById('detail-duration').innerText = movie.duration;
+    document.getElementById('detail-date').innerText = movie.releaseDate;
+
+    // --- API KAYNAK SEÇENEKLERİ ---
+    let finalVideoUrl = "";
+    
+    if (movie.imdbId) {
+        // Alternatif 1 (vidsrc.me - Şu an en popüleri)
+        finalVideoUrl = `https://vidsrc.me/embed/movie?imdb=${movie.imdbId}`;
+        
+        // Alternatif 2 (vidsrc.xyz - Eğer üstteki çalışmazsa bunu aç)
+        // finalVideoUrl = `https://vidsrc.xyz/embed/movie/${movie.imdbId}`;
+        
+        // Alternatif 3 (vidsrc.cc - Çok hızlıdır)
+        // finalVideoUrl = `https://vidsrc.cc/v3/embed/movie/${movie.imdbId}`;
+        
+        // Alternatif 4 (embed.su - Çok kaliteli kaynaklar barındırır)
+        // finalVideoUrl = `https://embed.su/embed/movie/${movie.imdbId}`;
+    } else if (movie.videoUrl) {
+        finalVideoUrl = movie.videoUrl;
+    }
+
+    document.getElementById('movie-player').src = finalVideoUrl;
+
+    // Sayfa geçişleri
+    document.getElementById('main-content').style.display = 'none';
+    document.getElementById('search-page').style.display = 'none';
+    document.getElementById('movie-detail').style.display = 'block';
+    window.scrollTo(0, 0);
+}
+
+// 4. ARAMA FONKSİYONU
+function performLiveSearch() {
+    const query = document.getElementById('live-search').value.toLowerCase();
+    const resultsGrid = document.getElementById('search-results-grid');
+    resultsGrid.innerHTML = '';
+
+    if (query.length < 2) return;
+
+    const filtered = allMovies.filter(m => m.title.toLowerCase().includes(query));
+    filtered.forEach(movie => {
+        const card = document.createElement('div');
+        card.className = 'movie-card';
+        card.onclick = () => { closeSearchPage(); showMovieDetail(movie.id); };
+        card.innerHTML = `
+            <img src="${movie.poster}" alt="${movie.title}">
+            <div class="info">${movie.title}</div>
+        `;
+        resultsGrid.appendChild(card);
+    });
+}
+
+let currentCategory = "Tüm Filmler"; // Varsayılan kategori
+
+function filterByCategory(category) {
+    // 1. Önce gizli olan bölümleri aç/kapat (BURASI ÖNEMLİ)
+    document.getElementById('movie-detail').style.display = 'none'; // Detay sayfasını kapat
+    document.getElementById('movie-player').src = ""; // Videoyu durdur
+    document.getElementById('main-content').style.display = 'block'; // Ana içeriği göster
+    document.getElementById('search-page').style.display = 'none'; // Arama sayfasını kapat
+    
+    // 2. Kategori ayarlarını yap
+    currentCategory = category;
+    const titleElement = document.querySelector('#movies-section h2');
+    if(titleElement) titleElement.innerText = category === "Tüm Filmler" ? "Tüm Filmler" : `${category} Filmleri`;
+    
+    // 3. Menüyü kapat ve kaydır
+    if(typeof closeMenu === "function") closeMenu();
+    document.getElementById('movies-section').scrollIntoView({behavior: 'smooth'});
+
+    // 4. Filmleri filtreleyip göster
+    renderMovies(1);
+}
+
+// Yardımcı Navigasyon Fonksiyonları
+function toggleMenu() { document.querySelector('.nav-links').classList.toggle('active'); }
+function closeMenu() { document.querySelector('.nav-links').classList.remove('active'); }
+function closeMovieDetail() { 
+    document.getElementById('movie-player').src = "";
+    document.getElementById('movie-detail').style.display = 'none';
+    document.getElementById('main-content').style.display = 'block';
+}
+function showSearchPage() {
+    document.getElementById('main-content').style.display = 'none';
+    document.getElementById('movie-detail').style.display = 'none';
+    document.getElementById('search-page').style.display = 'block';
+}
+function closeSearchPage() {
+    document.getElementById('search-page').style.display = 'none';
+    document.getElementById('main-content').style.display = 'block';
+}
+function scrollSlider(direction) {
+    document.getElementById('trending-slider').scrollLeft += direction * 600;
+}
+        // FAQ Akordeon Mantığı
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const icon = button.querySelector('.faq-icon');
+                
+                // Diğer açık olanları kapat (Opsiyonel)
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    if (item !== faqItem) {
+                        item.classList.remove('active');
+                        item.querySelector('.faq-icon').classList.replace('fa-minus', 'fa-plus');
+                    }
+                });
+
+                faqItem.classList.toggle('active');
+                
+                if (faqItem.classList.contains('active')) {
+                    icon.classList.replace('fa-plus', 'fa-minus');
+                } else {
+                    icon.classList.replace('fa-minus', 'fa-plus');
+                }
+            });
+        });
+
+        // Başlangıç Çalıştırması
+renderTrending();
+renderMovies(1);
+    </script>
+</body>
+</html>
