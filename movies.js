@@ -465,7 +465,7 @@ const filmListesi = [
     { id: 463, title: "Boyhood", poster: "./afisler/boyhood.jpg"},
     { id: 464, title: "One False Move", poster: "./afisler/onefalsemove.jpg"},
     { id: 465, title: "Dogville", poster: "./afisler/dogville.jpg"},
-    { id: 466, title: "The Killers (1946)", poster: "./afisler/malcolmx.jpg"},
+    { id: 466, title: "The Killers (1946)", poster: "./afisler/thekillers1946.jpg"},
     { id: 467, title: "The Testament of Dr.Mabuse", poster: "./afisler/TheTestamentofDrMabuse.jpg"},
     { id: 468, title: "For All Mankind", poster: "./afisler/forallmankind.jpg"},
     { id: 469, title: "The Invite", poster: "./afisler/theinvite.jpg"},
@@ -5077,7 +5077,7 @@ const filmDetaylari = {
         releaseDate: "31 Temmuz 2026",
         imdbId: "tt22084616"
     },
-    461: {
+461: {
     konu: "Afrikalı-Amerikalı aktivist ve lider Malcolm X'in hayatının dramatize edilmiş hikayesi: suç hayatından, hapishanede İslam'a geçişine, Siyahların Milleti bünyesindeki liderliğine ve sonunda örgütle kopuşuna kadar uzanan zorlu yolculuğu.",
     genre: ["Biyografi", "Dram", "Tarih"],
     cast: "Denzel Washington, Angela Bassett, Albert Hall, Al Freeman Jr., Delroy Lindo, Spike Lee, Theresa Randle, Kate Vernon, Lonette McKee",
