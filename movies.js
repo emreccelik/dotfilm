@@ -470,6 +470,8 @@ const filmListesi = [
     { id: 468, title: "For All Mankind", poster: "./afisler/forallmankind.jpg"},
     { id: 469, title: "The Invite", poster: "./afisler/theinvite.jpg"},
     { id: 470, title: "Leviticus", poster: "./afisler/leviticus.jpg"},
+    { id: 471, title: "The Aviator", poster: "./afisler/theaviator.jpg"},
+    { id: 472, title: "The Crying Game", poster: "./afisler/thecryinggame.jpg"},
     
     
 
@@ -5176,6 +5178,26 @@ const filmDetaylari = {
     duration: "88 Dakika",
     releaseDate: "19 Haziran 2026",
     imdbId: "tt39143902"
+},
+    471: {
+    konu: "Film yapımcısı ve havacılık öncüsü Howard Hughes'un 1920'lerin sonlarından 1940'ların ortasına kadar olan yıllarını anlatan biyografik dram. Hughes, bu dönemde başarılı bir film yapımcısı ve havacılık milyarderi olurken giderek ağırlaşan obsesif kompulsif bozukluğuyla da mücadele eder.",
+    genre: ["Biyografi", "Dram"],
+    cast: "Leonardo DiCaprio, Cate Blanchett, Kate Beckinsale, John C. Reilly, Alec Baldwin, Alan Alda, Ian Holm, Danny Huston, Gwen Stefani, Jude Law, Adam Scott, Willem Dafoe",
+    director: "Martin Scorsese",
+    imdb: "7.5",
+    duration: "170 Dakika",
+    releaseDate: "25 Aralık 2004",
+    imdbId: "tt0338751"
+},
+472: {
+    konu: "IRA üyesi Fergus, gözetimindeki kaçırılmış İngiliz askeri Jody ile beklenmedik bir bağ kurar. Jody'nin ölümünün ardından Fergus, onun sevgilisi Dil'i Londra'da bulmak için söz verir. Ancak eski IRA bağlantıları peşini bırakmaz ve Dil ile gelişen ilişki, kimlik ve sadakat üzerine derin sorular doğurur.",
+    genre: ["Suç", "Dram", "Gerilim"],
+    cast: "Stephen Rea, Jaye Davidson, Forest Whitaker, Miranda Richardson, Adrian Dunbar, Ralph Brown, Jim Broadbent",
+    director: "Neil Jordan",
+    imdb: "7.2",
+    duration: "111 Dakika",
+    releaseDate: "19 Şubat 1993",
+    imdbId: "tt0104036"
 },
     
 
