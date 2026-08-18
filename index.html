@@ -273,7 +273,7 @@ function showMovieDetail(id) {
     
     if (movie.imdbId) {
         // Alternatif 1 (vidsrc.me - Şu an en popüleri)
-        finalVideoUrl = `https://vidsrc.me/embed/movie?imdb=${movie.imdbId}`;
+        finalVideoUrl = `https://embed.su/embed/movie/${movie.imdbId}`;
         
         // Alternatif 2 (vidsrc.xyz - Eğer üstteki çalışmazsa bunu aç)
         // finalVideoUrl = `https://vidsrc.xyz/embed/movie/${movie.imdbId}`;
