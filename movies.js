@@ -5095,7 +5095,7 @@ const filmDetaylari = {
         genre: ["Aksiyon", "Macera", "Bilim Kurgu"],
         cast: "Tom Holland, Zendaya, Mark Ruffalo, Jon Bernthal, Jacob Batalon, Sadie Sink, Liza Colón-Zayas, Michael Mando",
         director: "Destin Daniel Cretton",
-        imdb: "8.3",
+        imdb: "8.1",
         duration: "145 Dakika",
         releaseDate: "31 Temmuz 2026",
         imdbId: "tt22084616"
