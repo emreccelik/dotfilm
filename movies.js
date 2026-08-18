@@ -5967,7 +5967,7 @@ const filmDetaylari = {
     releaseDate: "16 Aralık 1994",
     imdbId: "tt0109686"
     },
-543: {
+542: {
     konu: "Kariyeri uğruna sürekli yalan söyleyen hırslı avukat Fletcher Reede'in, oğlunun doğum günü dileğiyle 24 saat boyunca yalnızca doğruyu söylemek zorunda kalması ve bu durumun mahkemede ve hayatında yarattığı gülünç ve absürt karmaşayı anlatan eğlenceli bir komedi.",
     genre: ["Komedi", "Fantastik"],
     cast: "Jim Carrey, Maura Tierney, Justin Cooper, Cary Elwes, Jennifer Tilly, Amanda Donohoe, Jason Bernard",
@@ -5977,7 +5977,7 @@ const filmDetaylari = {
     releaseDate: "21 Mart 1997",
     imdbId: "tt0119528"
     },
-544: {
+543: {
     konu: "San Francisco'da işlenen vahşi bir cinayeti araştıran dedektif Nick Curran'ın, baş şüpheli olan, zeki ve cazibeli yazar Catherine Tramell'ın büyüleyici ve tehlikeli çekim kapısına kapılarak sürüklendiği ölümcül tutku ve gerilim dolu soruşturmasını anlatan kült bir erotik gerilim filmi.",
     genre: ["Gizem", "Romantik", "Gerilim"],
     cast: "Michael Douglas, Sharon Stone, George Dzundza, Jeanne Tripplehorn, Denis Arndt, Leilani Sarelle",
@@ -5987,7 +5987,7 @@ const filmDetaylari = {
     releaseDate: "20 Mart 1992",
     imdbId: "tt0103772"
     },
-545: {
+544: {
     konu: "2084 yılında yaşayan ve sürekli Mars seyahatleri rüyası gören inşaat işçisi Douglas Quaid'in, anı implantı sunan Rekall şirketine gitmesiyle hafızasının silindiğini ve kendisini gizli bir ajan olarak bulduğu, gerçeklik algısını altüst eden bilim kurgu ve aksiyon klasiği.",
     genre: ["Aksiyon", "Macera", "Bilim Kurgu", "Gizem", "Gerilim"],
     cast: "Arnold Schwarzenegger, Rachel Ticotin, Sharon Stone, Ronny Cox, Michael Ironside, Mel Johnson Jr.",
@@ -5997,7 +5997,7 @@ const filmDetaylari = {
     releaseDate: "1 Haziran 1990",
     imdbId: "tt0100802"
     },
-546: {
+545: {
     konu: "Doğu Afrika'daki Cibuti'de görev yapan Fransız Yabancı Lejyonu askerlerinin çölde geçen disiplinli, monoton ve fiziksel rutinlerini, kıdemli bir astsubayın bir askere duyduğu kıskançlık ve saplantılı hayranlığın birliğin dengesini altüst etmesiyle gelişen dramı anlatan büyüleyici ve estetik bir başyapıt.",
     genre: ["Dram"],
     cast: "Denis Lavant, Michel Subor, Grégoire Colin, Richard Courcet",
@@ -6007,7 +6007,7 @@ const filmDetaylari = {
     releaseDate: "4 Eylül 1999",
     imdbId: "tt0209933"
     },
-547: {
+546: {
     konu: "Las Vegas'ta büyük bir yıldız olma hayaliyle yanıp tutuşan genç ve hırslı bir dansçı olan Nomi Malone'un, ihtişamlı ama bir o kadar da acımasız şov dünyasının karanlık yüzüne, entrikalarına ve rekabetine adım atışını anlatan cesur ve kült bir dram.",
     genre: ["Dram"],
     cast: "Elizabeth Berkley, Kyle MacLachlan, Gina Gershon, Glenn Plummer, Robert Davi, Alan Rachins",
@@ -6017,7 +6017,7 @@ const filmDetaylari = {
     releaseDate: "22 Eylül 1995",
     imdbId: "tt0114436"
     },
-548: {
+547: {
     konu: "Yıllar önce birbirlerine eğer belirli bir yaşa kadar evlenmezlerse evleneceklerine dair söz veren iki yakın arkadaştan Julianne'in, en yakın arkadaşının başka bir kadınla evleneceğini öğrendiğinde nikahı bozmak ve onu kendine aşık etmek için planlar yapmaya başlamasını anlatan eğlenceli ve romantik bir komedi.",
     genre: ["Komedi", "Romantik"],
     cast: "Julia Roberts, Dermot Mulroney, Cameron Diaz, Rupert Everett, Philip Bosco, M. Emmet Walsh",
@@ -6027,7 +6027,7 @@ const filmDetaylari = {
     releaseDate: "20 Haziran 1997",
     imdbId: "tt0119738"
     },
-549: {
+548: {
     konu: "Cumartesi günü okulda ceza çekmek üzere bir araya gelen, tamamen farklı sosyal sınıflara ve stereotiplere sahip beş lise öğrencisinin, gün boyunca yaşadıkları derinlemesine sohbetlerle önyargılarını kırıp birbirlerini ve kendilerini keşfetmelerini anlatan zamansız bir gençlik dramı.",
     genre: ["Komedi", "Dram"],
     cast: "Emilio Estevez, Anthony Michael Hall, Judd Nelson, Molly Ringwald, Ally Sheedy, Paul Gleason, John Kapelos",
@@ -6037,7 +6037,7 @@ const filmDetaylari = {
     releaseDate: "15 Şubat 1985",
     imdbId: "tt0088847"
     },
-550: {
+549: {
     konu: "Noel tatilini geçirmek ve karısıyla barışmak için Los Angeles'a gelen New Yorklu polis memuru John McClane'in, karısının çalıştığı gökdeleni ele geçiren Hans Gruber liderliğindeki uluslararası terörist grubuna karşı tek başına verdiği gerilim dolu hayatta kalma mücadelesini anlatan efsanevi bir aksiyon klasiği.",
     genre: ["Aksiyon", "Gerilim"],
     cast: "Bruce Willis, Alan Rickman, Bonnie Bedelia, Reginald VelJohnson, Paul Gleason, William Atherton, Alexander Godunov",
