@@ -515,6 +515,13 @@ const filmListesi = [
     { id: 513, title: "Thelma & Louise", poster: "./afisler/Thelma&Louise.jpg"},
     { id: 514, title: "Misery", poster: "./afisler/Misery.jpg"},
     { id: 515, title: "The Iron Giant", poster: "./afisler/TheIronGiant.jpg"},
+    { id: 516, title: "Interview with the Vampire", poster: "./afisler/InterviewwiththeVampire.jpg"},
+    { id: 517, title: "The Craft", poster: "./afisler/TheCraft.jpg"},
+    { id: 518, title: "Cure", poster: "./afisler/Cure.jpg"},
+    { id: 519, title: "Funny Games", poster: "./afisler/FunnyGames.jpg"},
+    { id: 520, title: "Sleepy Hollow", poster: "./afisler/SleepyHollow.jpg"},
+    { id: 521, title: "The Devil’s Advocate", poster: "./afisler/TheDevilsAdvocate.jpg"},
+    { id: 522, title: "Rush Hour", poster: "./afisler/RushHour.jpg"},
 
     
     
@@ -5673,6 +5680,77 @@ const filmDetaylari = {
     releaseDate: "6 Ağustos 1999",
     imdbId: "tt0129167"
     },
+516: {
+    konu: "18. yüzyılda bir vampir tarafından dönüştürülen yaslı bir lordun, San Francisco'da bir muhabire ölümsüzlük, yalnızlık, pişmanlık ve kan dolu hayat hikayesini tüm detaylarıyla anlatmasını konu alan görkemli bir gotik başyapıt.",
+    genre: ["Drama", "Korku", "Fantezi"],
+    cast: "Tom Cruise, Brad Pitt, Antonio Banderas, Kirsten Dunst, Christian Slater, Stephen Rea",
+    director: "Neil Jordan",
+    imdb: "7.5",
+    duration: "123 Dakika",
+    releaseDate: "11 Kasım 1994",
+    imdbId: "tt0110148"
+    },
+517: {
+    konu: "Yeni bir liseye gelen uyumsuz bir genç kızın, okulda cadılıkla ilgilenen diğer üç dışlanmış kızla arkadaş olması ve aralarında kurdukları güçlü cemaatle birlikte güç kazanarak hem kendi sorunlarını çözmeye hem de tehlikeli büyülerin pençesine düşmelerini konu alır.",
+    genre: ["Drama", "Fantezi", "Korku", "Gerilim"],
+    cast: "Robin Tunney, Fairuza Balk, Neve Campbell, Rachel True, Skeet Ulrich, Christine Taylor",
+    director: "Andrew Fleming",
+    imdb: "6.5",
+    duration: "101 Dakika",
+    releaseDate: "3 Mayıs 1996",
+    imdbId: "tt0115963"
+    },
+518: {
+    konu: "Tokyo'da işlenen ve faillerin hiçbir mantıklı neden olmaksızın suçları işledikten sonra cinayeti nasıl işlediklerini hatırlamadıkları tuhaf cinayet serisini araştıran bir dedektifin, hafızasını yitirmiş gibi görünen gizemli bir adamla karşılaştıktan sonra kendi akıl sağlığını ve kimliğini sorgulamaya başladığı hipnotik bir Japon korku/gerilim başyapıtı.",
+    genre: ["Gizem", "Korku", "Gerilim", "Suç"],
+    cast: "Koji Yakusho, Masato Hagiwara, Tsuyoshi Ujiki, Anna Nakagawa, Denden",
+    director: "Kiyoshi Kurosawa",
+    imdb: "7.5",
+    duration: "111 Dakika",
+    releaseDate: "6 Kasım 1997",
+    imdbId: "tt0123948"
+    },
+519: {
+    konu: "Yazlık evlerine dinlenmek için giden mutlu bir ailenin, kibar ve nazik görünümlü iki genç psikopat tarafından rehin alınması ve ailenin hayatta kalabilmek için katillerin sadist oyunlarına maruz kalmasını anlatan rahatsız edici ve sarsıcı bir psikolojik gerilim.",
+    genre: ["Dram", "Gerilim", "Suç"],
+    cast: "Susanne Lothar, Ulrich Mühe, Arno Frisch, Stefan Clapczynski, Frank Giering",
+    director: "Michael Haneke",
+    imdb: "7.5",
+    duration: "108 Dakika",
+    releaseDate: "14 Mart 1997",
+    imdbId: "tt0119167"
+    },
+520: {
+    konu: "1799 yılında geçen filmde, New York'tan esrarengiz kafasız bir süvari tarafından işlenen bir dizi cinayeti araştırmak için ürkütücü Sleepy Hollow kasabasına gönderilen mantık odaklı polis memuru Ichabod Crane'in, bilim ile batıl inançların çatıştığı bu gizemli dünyada gerçeği ortaya çıkarma çabasını anlatır.",
+    genre: ["Fantezi", "Gizem", "Korku", "Romantik"],
+    cast: "Johnny Depp, Christina Ricci, Miranda Richardson, Michael Gambon, Casper Van Dien, Christopher Lee",
+    director: "Tim Burton",
+    imdb: "7.3",
+    duration: "105 Dakika",
+    releaseDate: "19 Kasım 1999",
+    imdbId: "tt0162661"
+    },
+521: {
+    konu: "Florida'da hiçbir davasını kaybetmeyen hırslı bir genç avukatın, New York'un en prestijli hukuk firmasından teklif alması ve gizemli ve karizmatik patronunun yanında çalışmaya başladıkça hem kariyerinin hem de evliliğinin doğaüstü ve tehlikeli bir cehenneme dönüşmesini konu alan sürükleyici bir gerilim.",
+    genre: ["Dram", "Gizem", "Gerilim", "Fantezi"],
+    cast: "Keanu Reeves, Al Pacino, Charlize Theron, Jeffrey Jones, Judith Ivey, Craig T. Nelson",
+    director: "Taylor Hackford",
+    imdb: "7.5",
+    duration: "144 Dakika",
+    releaseDate: "17 Ekim 1997",
+    imdbId: "tt0118971"
+    },
+522: {
+    konu: "Çinli bir diplomatın kaçırılan kızını kurtarmak için FBI ile birlikte çalışmak zorunda kalan geleneksel ve ciddi bir Hong Kong polis dedektifi ile Los Angeles'ta görev yapan kibirli ve ağzı bozuk bir dedektifin, aralarındaki kültürel çatışmalara rağmen suçluları yakalamak için kurdukları eğlenceli ve aksiyon dolu ortaklığı anlatır.",
+    genre: ["Aksiyon", "Komedi", "Suç", "Gerilim"],
+    cast: "Jackie Chan, Chris Tucker, Tom Wilkinson, Tzi Ma, Ken Leung, Elizabeth Peña",
+    director: "Brett Ratner",
+    imdb: "7.1",
+    duration: "98 Dakika",
+    releaseDate: "18 Eylül 1998",
+    imdbId: "tt0120812"
+    },
+
 
 
 
