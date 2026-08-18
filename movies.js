@@ -5867,7 +5867,7 @@ const filmDetaylari = {
     releaseDate: "21 Kasım 1997",
     imdbId: "tt0118617"
     },
-533: {
+532: {
     konu: "4 Temmuz Bağımsızlık Günü kutlamaları yaklaşırken dünyaya saldıran devasa uzay gemilerinin yok edici istilasına karşı, insanlığın hayatta kalabilmek ve dünyayı kurtarmak için birlik olup başlattığı umut dolu ve destansı karşı koyuşu anlatan aksiyon dolu bir bilim kurgu filmi.",
     genre: ["Aksiyon", "Macera", "Bilim Kurgu", "Felaket"],
     cast: "Will Smith, Bill Pullman, Jeff Goldblum, Mary McDonnell, Judd Hirsch, Margaret Colin, Vivica A. Fox, Randy Quaid",
@@ -5877,7 +5877,7 @@ const filmDetaylari = {
     releaseDate: "3 Temmuz 1996",
     imdbId: "tt0116629"
     },
-534: {
+533: {
     konu: "Travmatik geçmişleri olan ve birbirlerine delicesine aşık olan Mickey ve Mallory Knox çiftinin, acımasızca işledikleri cinayetlerle medyanın manipülatif ve sansasyonel gücü sayesinde birer halk kahramanına ve popüler kültür ikonuna dönüşmelerini anlatan sarsıcı ve eleştirel bir suç filmi.",
     genre: ["Suç", "Dram", "Romantik", "Gerilim"],
     cast: "Woody Harrelson, Juliette Lewis, Robert Downey Jr., Tommy Lee Jones, Tom Sizemore, Rodney Dangerfield",
@@ -5887,7 +5887,7 @@ const filmDetaylari = {
     releaseDate: "26 Ağustos 1994",
     imdbId: "tt0110632"
     },
-535: {
+534: {
     konu: "Güneydoğu'da bir kasabada işlemedikleri bir cinayet suçundan hapse atılan iki üniversite öğrencisini kurtarmak için, hayatında ilk defa mahkemeye çıkacak olan, heyecanlı ve alışılmadık avukat kuzenleri Vinny Gambini ile sevgilisinin yardımıyla katıldıkları eğlenceli ve zeka dolu hukuk mücadelesini anlatır.",
     genre: ["Komedi", "Suç", "Romantik"],
     cast: "Joe Pesci, Marisa Tomei, Fred Gwynne, Lane Smith, Bruce McGill, Mitchell Whitfield",
@@ -5897,7 +5897,7 @@ const filmDetaylari = {
     releaseDate: "13 Mart 1992",
     imdbId: "tt0104952"
     },
-536: {
+535: {
     konu: "Cadılar Bayramı arifesinde acımasızca öldürülen genç bir müzisyen olan Eric Draven'ın, intikam almak ve sevgilisinin katillerinden hesap sorabilmek için gizemli bir karga tarafından mezarından diriltilerek karanlık ve gotik bir intikam meleğine dönüşmesini anlayan kült bir aksiyon ve fantastik film.",
     genre: ["Aksiyon", "Fantastik", "Suç", "Dram"],
     cast: "Brandon Lee, Michael Wincott, Ernie Hudson, Rochelle Davis, Bai Ling, Sofia Shinas",
@@ -5907,7 +5907,7 @@ const filmDetaylari = {
     releaseDate: "13 Mayıs 1994",
     imdbId: "tt0109506"
     },
-537: {
+536: {
     konu: "New York'ta yaşayan bir grup ergenin, AIDS ve uyuşturucu gibi tehlikeli gerçeklerden habersiz bir şekilde bir gün boyunca yaşadıkları sorumsuzlukları, cinsellik arayışlarını ve sokaklardaki tasasız ama karanlık hayatlarını sarsıcı bir dürüstlükle anlatan bağımsız bir dram.",
     genre: ["Dram"],
     cast: "Leo Fitzpatrick, Justin Pierce, Chloë Sevigny, Rosario Dawson, Jon Abrahams, Harold Hunter",
@@ -5917,7 +5917,7 @@ const filmDetaylari = {
     releaseDate: "1 Eylül 1995",
     imdbId: "tt0113540"
     },
-538: {
+537: {
     konu: "Dünyanın ilk süper modellerinden biri olarak kabul edilen Gia Carangi'nin, zirveye giden yolda yaşadığı büyük başarıları, yalnızlığı, şöhretin getirdiği yıkımı ve uyuşturucu bağımlılığı yüzünden trajik bir şekilde sönen kısa ve sarsıcı hayat hikayesini anlatan etkileyici bir biyografik dram.",
     genre: ["Biyografi", "Dram", "Romantik"],
     cast: "Angelina Jolie, Elizabeth Mitchell, Eric Michael Cole, Faye Dunaway, Mercedes Ruehl, Scott Cohen",
@@ -5927,7 +5927,7 @@ const filmDetaylari = {
     releaseDate: "31 Ocak 1998",
     imdbId: "tt0123865"
     },
-539: {
+538: {
     konu: "Chicago'nun banliyölerindeki bir toplu konut bölgesinde geçen efsanelere dayanan kentsel mitleri araştıran bir yüksek lisans öğrencisinin, aynanın karşısında adı beş kez söylendiğinde kancalı eliyle geri dönen korkunç bir intikam ruhu olan Candyman'in kana susamış lanetini gerçeğe dönüştürmesini anlatan ürpertici bir korku klasiği.",
     genre: ["Korku", "Gizem", "Gerilim"],
     cast: "Virginia Madsen, Tony Todd, Xander Berkeley, Kasi Lemmons, Vanessa Williams, DeJuan Guy",
@@ -5937,7 +5937,7 @@ const filmDetaylari = {
     releaseDate: "16 Ekim 1992",
     imdbId: "tt0103919"
     },
-540: {
+539: {
     konu: "1970'lerde bir FBI ajanı olan Joseph D. Pistone'un, mob teşkilatına sızmak için Donnie Brasco adını alarak mafya tetikçisi 'Leftty' Ruggiero ile kurduğu tehlikeli dostluğu ve iki dünya arasında sıkışıp kalışını anlatan gerilim dolu usta işi bir suç filmi.",
     genre: ["Biyografi", "Suç", "Dram"],
     cast: "Johnny Depp, Al Pacino, Michael Madsen, Bruno Kirby, James Russo, Anne Heche",
@@ -5947,7 +5947,7 @@ const filmDetaylari = {
     releaseDate: "28 Şubat 1997",
     imdbId: "tt0119008"
     },
-541: {
+540: {
     konu: "Teknoloji şirketindeki tekdüze ve ruhsuz işinden nefret eden Peter Gibbons'ın, hipnototerapi seansında yaşadığı ani bir değişimle tüm kuralları ve patronunun baskılarını bir kenara bırakıp hayatını yeniden ele alışını anlatan kült bir iş yeri komedisi.",
     genre: ["Komedi", "Suç"],
     cast: "Ron Livingston, Jennifer Aniston, David Herman, Ajay Naidu, Diedrich Bader, Stephen Root, Gary Cole",
@@ -5957,7 +5957,7 @@ const filmDetaylari = {
     releaseDate: "19 Şubat 1999",
     imdbId: "tt0151804"
     },
-    542: {
+541: {
     konu: "Saf ve kafadar iki arkadaş olan Lloyd Christmas ve Harry Dunne'ın, yanlışlıkla ellerinde kalan bir çanta dolusu parayı sahibine geri vermek için Aspen'e doğru çıktıkları, başlarına gelen ardı arkası kesilmeyen absürt ve komik olaylarla dolu yolculuğunu anlatan unutulmaz bir komedi klasiği.",
     genre: ["Komedi", "Macera"],
     cast: "Jim Carrey, Jeff Daniels, Lauren Holly, Mike Starr, Charles Rocket, Teri Garr",
