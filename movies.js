@@ -493,6 +493,29 @@ const filmListesi = [
     { id: 491, title: "I Want Your Sex", poster: "./afisler/iwantyoursex.jpg"},
     { id: 492, title: "Bitter Christmas", poster: "./afisler/bitterchristmas.jpg"},
     { id: 493, title: "A Bronx Tale", poster: "./afisler/abronxtale.jpg"},
+    { id: 494, title: "Insomnia", poster: "./afisler/Insomnia.jpg"},
+    { id: 495, title: "Bringing Out the Dead", poster: "./afisler/BringingOuttheDead.jpg"},
+    { id: 496, title: "E.T. the Extra-Terrestrial", poster: "./afisler/ET.jpg"},
+    { id: 497, title: "Empire of the Sun", poster: "./afisler/EmpireoftheSun.jpg"},
+    { id: 498, title: "Bridge of Spies", poster: "./afisler/BridgeofSpies.jpg"},
+    { id: 499, title: "The Girl with the Dragon Tattoo", poster: "./afisler/TheGirlwiththeDragonTattoo.jpg"},
+    { id: 500, title: "Raging Bull", poster: "./afisler/RagingBull.jpg"},
+    { id: 501, title: "Hugo", poster: "./afisler/Hugo.jpg"},
+    { id: 502, title: "Gangs of New York", poster: "./afisler/GangsofNewYork.jpg"},
+    { id: 503, title: "The King of Comedy", poster: "./afisler/TheKingofComedy.jpg"},
+    { id: 504, title: "Alice Doesn’t Live Here Anymore", poster: "./afisler/AliceDoesntLiveHereAnymore.jpg"},
+    { id: 505, title: "Duel", poster: "./afisler/Duel.jpg"},
+    { id: 506, title: "Minority Report", poster: "./afisler/MinorityReport.jpg"},
+    { id: 507, title: "The Fabelmans", poster: "./afisler/TheFabelmans.jpg"},
+    { id: 508, title: "Jackie Brown", poster: "./afisler/JackieBrown.jpg"},
+    { id: 509, title: "Maelström", poster: "./afisler/Maelström.jig"},
+    { id: 510, title: "Polytechnique", poster: "./afisler/Polytechnique.jpg"},
+    { id: 511, title: "Perfect Blue", poster: "./afisler/PerfectBlue.jpg"},
+    { id: 512, title: "The Nightmare Before Christmas", poster: "./afisler/TheNightmareBeforeChristmas.jpg"},
+    { id: 513, title: "Thelma & Louise", poster: "./afisler/Thelma&Louise.jpg"},
+    { id: 514, title: "Misery", poster: "./afisler/Misery.jpg"},
+    { id: 515, title: "The Iron Giant", poster: "./afisler/TheIronGiant.jpg"},
+
     
     
 
@@ -5430,6 +5453,227 @@ const filmDetaylari = {
     releaseDate: "1 Ekim 1993",
     imdbId: "tt0106489"
     },
+    494: {
+    konu: "Alaska'nın hiç batmayan güneşi altında işlenen gizemli bir cinayeti soruşturmak üzere görevlendirilen deneyimli dedektif Will Dormer, uykusuzluğun zihninde yarattığı çözülmelerle ve zeki katilin kurduğu psikolojik tuzaklarla mücadele etmek zorunda kalır.",
+    genre: ["Gizem", "Gerilim", "Dram", "Suç"],
+    cast: "Al Pacino, Robin Williams, Hilary Swank, Maura Tierney, Martin Donovan, Paul Dooley",
+    director: "Christopher Nolan",
+    imdb: "7.2",
+    duration: "118 Dakika",
+    releaseDate: "24 Mayıs 2002",
+    imdbId: "tt0278504"
+    },
+495: {
+    konu: "New York'un gece vardiyasında çalışan tükenmiş ve vicdan azabı çeken acil yardım ambulansı görevlisi Frank Pierce, kurtaramadığı hastaların hayaletleriyle ve şehrin karanlık yüzüyle mücadele ederken akıl sağlığını korumaya çalışır.",
+    genre: ["Dram", "Gerilim"],
+    cast: "Nicolas Cage, Patricia Arquette, John Goodman, Ving Rhames, Tom Sizerman, Marc Anthony",
+    director: "Martin Scorsese",
+    imdb: "6.9",
+    duration: "121 Dakika",
+    releaseDate: "22 Ekim 1999",
+    imdbId: "tt0163988"
+    },
+496: {
+    konu: "Dünya'da mahsur kalan sevimli bir uzaylı, yalnız bir çocuk olan Elliott ve kardeşleri tarafından saklanır; çocuklar onu evine geri döndürmeye çalışırken devlet ajanlarından korumak için unutulmaz bir maceraya atılırlar.",
+    genre: ["Bilimkurgu", "Macera", "Aile", "Dram"],
+    cast: "Henry Thomas, Drew Barrymore, Dee Wallace, Peter Coyote, Robert MacNaughton",
+    director: "Steven Spielberg",
+    imdb: "7.9",
+    duration: "115 Dakika",
+    releaseDate: "11 Haziran 1982",
+    imdbId: "tt0083866"
+    },
+497: {
+    konu: "İkinci Dünya Savaşı sırasında Şanghay'da ailesinden koparılan ve Japon toplama kampına düşen zengin bir İngiliz çocuk olan Jim'in, hayatta kalma mücadelesini ve savaşın çocuk gözünden nasıl göründüğünü konu alır.",
+    genre: ["Macera", "Dram", "Tarih", "Savaş"],
+    cast: "Christian Bale, John Malkovich, Miranda Richardson, Nigel Havers, Joe Pantoliano",
+    director: "Steven Spielberg",
+    imdb: "7.7",
+    duration: "153 Dakika",
+    releaseDate: "25 Aralık 1987",
+    imdbId: "tt0092965"
+    },
+498: {
+    konu: "Soğuk Savaş'ın en gergin döneminde, sigorta avukatı James B. Donovan, Sovyet casusu Rudolf Abel'ı savunmakla görevlendirilir ve ardından Sovyetler tarafından düşürülen Amerikan casus uçağının pilotu Francis Gary Powers ile takas edilmesi için tehlikeli bir müzakere görevi üstlenir.",
+    genre: ["Tarih", "Dram", "Gerilim"],
+    cast: "Tom Hanks, Mark Rylance, Alan Alda, Amy Ryan, Sebastian Koch, Austin Stowell",
+    director: "Steven Spielberg",
+    imdb: "7.6",
+    duration: "142 Dakika",
+    releaseDate: "16 Ekim 2015",
+    imdbId: "tt3682448"
+    },
+499: {
+    konu: "Kırk yıl önce ortadan kaybolan zengin bir ailenin kızının gizemini çözmek için bir araya gelen gazeteci Mikael Blomkvist ve dahi ama asi hacker Lisbeth Salander, ailenin karanlık sırlarını ve işlenen seri cinayetleri ortaya çıkarırken tehlikeli bir komplonun içine çekilirler.",
+    genre: ["Suç", "Dram", "Gizem", "Gerilim"],
+    cast: "Daniel Craig, Rooney Mara, Christopher Plummer, Stellan Skarsgård, Steven Berkoff, Robin Wright",
+    director: "David Fincher",
+    imdb: "7.8",
+    duration: "158 Dakika",
+    releaseDate: "21 Aralık 2011",
+    imdbId: "tt1568346"
+    },
+500: {
+    konu: "Öfkesi, kıskançlığı ve hırsı sayesinde ringlerde fırtınalar estiren efsanevi boksör Jake LaMotta'nın, hem profesyonel kariyerindeki zirve ve düşüş süreçlerini hem de kendi içsel şeytanları yüzünden ailesiyle ve hayatıyla yaşadığı yıkıcı çatışmaları konu alır.",
+    genre: ["Biyografi", "Dram", "Spor"],
+    cast: "Robert De Niro, Cathy Moriarty, Joe Pesci, Frank Vincent, Nicholas Colasanto",
+    director: "Martin Scorsese",
+    imdb: "8.1",
+    duration: "129 Dakika",
+    releaseDate: "19 Aralık 1980",
+    imdbId: "tt0081398"
+    },
+501: {
+    konu: "1930'ların Paris'inde bir tren istasyonunun duvarları arasında gizlenen, babasından kalan gizemli bir otomatı tamir etmeye çalışan öksüz ve saatçi çocuk Hugo Cabret'nin, sinemanın erken dönemine uzanan sihirli ve macera dolu keşif yolculuğunu anlatır.",
+    genre: ["Macera", "Dram", "Aile", "Fantezi", "Gizem"],
+    cast: "Asa Butterfield, Chloë Grace Moretz, Ben Kingsley, Sacha Baron Cohen, Jude Law, Ray Winstone",
+    director: "Martin Scorsese",
+    imdb: "7.5",
+    duration: "126 Dakika",
+    releaseDate: "23 Kasım 2011",
+    imdbId: "tt0970179"
+    },
+502: {
+    konu: "19. yüzyılın ortalarında New York'un çeteler ve suçla dolu Five Points mahallesinde geçen film, babasının intikamını almak ve şehrin kontrolünü elinde tutan acımacı çete lideri Bill the Butcher'a karşı ayaklanmakla görevli genç Amsterdam Vallon'un destansı adalet ve hayatta kalma mücadelesini konu alır.",
+    genre: ["Suç", "Dram", "Tarih"],
+    cast: "Leonardo DiCaprio, Daniel Day-Lewis, Cameron Diaz, Jim Broadbent, John C. Reilly, Liam Neeson",
+    director: "Martin Scorsese",
+    imdb: "7.5",
+    duration: "167 Dakika",
+    releaseDate: "20 Aralık 2002",
+    imdbId: "tt0217505"
+    },
+503: {
+    konu: "Ünlü bir talk-show sunucusunun programına çıkabilmek ve komedi dünyasında adını duyurabilmek için her şeyi göze alan dengesiz ve hırslı bir komedyen wannabe olan Rupert Pupkin'in, hayranlık ile tehlikeli bir takıntı arasındaki ince çizgide ilerleyen trajikomik ve rahatsız edici hikâyesini anlatır.",
+    genre: ["Komedi", "Dram", "Suç", "Gerilim"],
+    cast: "Robert De Niro, Jerry Lewis, Sandra Bernhard, Diahnne Abbott, Shelley Hack",
+    director: "Martin Scorsese",
+    imdb: "7.8",
+    duration: "109 Dakika",
+    releaseDate: "18 Aralık 1982",
+    imdbId: "tt0085794"
+    },
+504: {
+    konu: "Eşinin ani ölümünün ardından genç oğluyla birlikte hayata tutunmaya ve şarkıcılık hayalini gerçekleştirmeye çalışan dul bir kadının, Amerika'nın güneybatısında geçen neşeli, hüzünlü ve bağımsızlık dolu yolculuğunu konu alır.",
+    genre: ["Dram", "Romantik", "Komedi"],
+    cast: "Ellen Burstyn, Kris Kristofferson, Alfred Lutter, Diane Ladd, Harvey Keitel, Jodie Foster",
+    director: "Martin Scorsese",
+    imdb: "7.3",
+    duration: "112 Dakika",
+    releaseDate: "23 Mayıs 1975",
+    imdbId: "tt0071115"
+    },
+505: {
+    konu: "Çöl otoyolunda seyahat eden sıradan bir sürücünün, arkasındaki gizemli ve psikopat bir kamyon şoförü tarafından hiçbir mantıklı sebep olmaksızın ölümcül bir kovalamacaya ve hayatta kalma mücadelesine sürüklenmesini konu alır.",
+    genre: ["Aksiyon", "Gerilim", "Gizem"],
+    cast: "Dennis Weaver, Jacqueline Scott, Eddie Firestone, Lou Frizzell, Eugene Butler",
+    director: "Steven Spielberg",
+    imdb: "7.6",
+    duration: "90 Dakika",
+    releaseDate: "13 Kasım 1971",
+    imdbId: "tt0067023"
+    },
+506: {
+    konu: "Gelecekte, suçların daha işlenmeden önce özel kehanet yeteneğine sahip 'Öncüler' sayesinde tespit edilip önlendiği bir sistemde suçla mücadele eden bir dedektifin, sistem tarafından henüz işlenmemiş bir cinayetin katili olarak gösterilmesiyle başlayan kaçış ve gerilim dolu masumiyet mücadelesini anlatır.",
+    genre: ["Aksiyon", "Gizem", "Bilimkurgu", "Gerilim"],
+    cast: "Tom Cruise, Max von Sydow, Samantha Morton, Colin Farrell, Neal McDonough, Kathryn Morris",
+    director: "Steven Spielberg",
+    imdb: "7.6",
+    duration: "145 Dakika",
+    releaseDate: "21 Haziran 2002",
+    imdbId: "tt0181689"
+    },
+507: {
+    konu: "2. Dünya Savaşı sonrası Arizona'da büyüyen genç Sammy Fabelmans'ın, sinemaya duyduğu tutkulu aşkı ve ailesinin sırlarını keşfetmesiyle birlikte hayatı film merceğinden anlamlandırma sürecini anlatan otobiyografik bir hikaye.",
+    genre: ["Dram"],
+    cast: "Gabriel LaBelle, Michelle Williams, Paul Dano, Seth Rogen, Judd Hirsch, Mateo Zoryon Francis-Deford",
+    director: "Steven Spielberg",
+    imdb: "7.5",
+    duration: "151 Dakika",
+    releaseDate: "23 Kasım 2022",
+    imdbId: "tt14208870"
+    },
+508: {
+    konu: "Silah kaçakçısı patronu ile federal ajanlar arasında sıkışıp kalan havayolu hostesi Jackie Brown'ın, iki tarafı da alt etmek ve devasa miktarda gizli parayı ele geçirmek için eski bir kefaletçiyle birlikte kurduğu zekice ve tehlikeli planı konu alır.",
+    genre: ["Suç", "Dram", "Gerilim"],
+    cast: "Pam Grier, Samuel L. Jackson, Robert Forster, Bridget Fonda, Michael Keaton, Robert De Niro",
+    director: "Quentin Tarantino",
+    imdb: "7.5",
+    duration: "154 Dakika",
+    releaseDate: "25 Aralık 1997",
+    imdbId: "tt0119396"
+    },
+  509: {
+    konu: "Konuşma yeteneği olan ölen bir köpeğin anlatımıyla başlayan film, trajik bir kaza sonucu hayatı altüst olan ve cinayetle suçlanan genç bir kadının, içsel suçluluk duygusu ve varoluşsal bunalımlar arasında sürüklenirken beklenmedik bir aşkla karşılaşmasını konu alır.",
+    genre: ["Dram", "Komedi", "Romantik", "Fantastik"],
+    cast: "Marie-Josée Croze, Jean-Nicolas Verreault, Paul Ahmarani, Stephanie Morgenstern, Marie-Andrée Corneille",
+    director: "Denis Villeneuve",
+    imdb: "6.7",
+    duration: "87 Dakika",
+    releaseDate: "15 Eylül 2000",
+    imdbId: "tt0220627"
+    },
+510: {
+    konu: "1989 yılında Montreal'deki École Polytechnique'te gerçekleşen ve silahlı bir saldırganın mühendislik öğrencilerinin hayatını hedef aldığı gerçek trajik olayı, hayatta kalan iki öğrencinin gözünden anlatan sarsıcı ve etkileyici bir dram.",
+    genre: ["Dram", "Suç", "Tarih"],
+    cast: "Maxim Gaudette, Karine Vanasse, Sébastien Huberdeau, Evelyne Brochu, Johanne-Marie Tremblay",
+    director: "Denis Villeneuve",
+    imdb: "7.2",
+    duration: "77 Dakika",
+    releaseDate: "6 Şubat 2009",
+    imdbId: "tt1194238"
+    },
+511: {
+    konu: "Pop müzik kariyerini geride bırakıp oyunculuğa adım atan Mima'nın, bir yandan psikolojik gerilim dizisinde oynarken bir yandan da kimliğinin sarsılmasıyla ve hayatını tehdit eden saplantılı bir hayranla (ve kendi dijital ikiziyle) yüzleşmesini anlatan başyapıt niteliğinde bir psikolojik anime.",
+    genre: ["Animasyon", "Suç", "Gizem", "Dram", "Gerilim"],
+    cast: "Junko Iwao, Rica Matsumoto, Shinpachi Tsuji, Masao Imaizumi, Shin'ichirô Miki",
+    director: "Satoshi Kon",
+    imdb: "8.0",
+    duration: "82 Dakika",
+    releaseDate: "28 Şubat 1998",
+    imdbId: "tt0156887"
+    },
+512: {
+    konu: "Cadılar Bayramı Kasabası'nın kralı Jack Skellington'ın, sıradanlıktan sıkılıp Noel Bayramı'nı keşfetmesi ve bu sevimli bayramı kendi kasabasına uyarlamaya çalışırken komik ve kaotik sonuçlara yol açmasını anlatan stop-motion animasyon klasiği.",
+    genre: ["Animasyon", "Aile", "Fantezi", "Müzikal"],
+    cast: "Danny Elfman, Chris Sarandon, Catherine O'Hara, William Hickey, Glenn Shadix, Paul Reubens",
+    director: "Henry Selick",
+    imdb: "7.9",
+    duration: "76 Dakika",
+    releaseDate: "29 Ekim 1993",
+    imdbId: "tt0107688"
+    },
+513: {
+    konu: "Hayatlarının monotonluğundan kaçmak için kısa bir balıkçılık kaçamağına çıkan iki arkadaşın, yolda işledikleri ani bir suçun ardından polisten kaçarken özgürlüğü keşfettikleri ve macera dolu bir feminist direnişe dönüştükleri unutulmaz yol hikâyesi.",
+    genre: ["Macera", "Suç", "Dram"],
+    cast: "Susan Sarandon, Geena Davis, Harvey Keitel, Michael Madsen, Christopher McDonald, Brad Pitt",
+    director: "Ridley Scott",
+    imdb: "7.6",
+    duration: "130 Dakika",
+    releaseDate: "24 Mayıs 1991",
+    imdbId: "tt0103074"
+    },
+514: {
+    konu: "Kaza geçiren ünlü romancı Paul Sheldon'ın, kendisini kurtaran ve dünyanın en büyük hayranı olduğunu söyleyen eski hemşire Annie Wilkes tarafından evinde alıkonulmasını ve yeni kitabını onun isteklerine göre yazmaya zorlandığı gerilim dolu psikolojik hayatta kalma mücadelesini anlatır.",
+    genre: ["Dram", "Gerilim", "Korku"],
+    cast: "James Caan, Kathy Bates, Richard Farnsworth, Frances Sternhagen, Lauren Bacall",
+    director: "Rob Reiner",
+    imdb: "7.8",
+    duration: "107 Dakika",
+    releaseDate: "30 Kasım 1990",
+    imdbId: "tt0100157"
+    },
+515: {
+    konu: "1957 yılında geçen film, küçük bir kasabada yaşayan genç Hogarth Hughes'un uzaydan gelen devasa ama iyi kalpli ve meraklı bir robotla kurduğu dostluğu ve ordu birliklerinin bu yabancı varlığı yok etme çabalarına karşı onu koruma mücadelesini anlatır.",
+    genre: ["Animasyon", "Aksiyon", "Macera", "Bilimkurgu", "Aile", "Dram"],
+    cast: "Jennifer Aniston, Harry Connick Jr., Vin Diesel, Christopher McDonald, John Mahoney, Eli Marienthal",
+    director: "Brad Bird",
+    imdb: "8.1",
+    duration: "86 Dakika",
+    releaseDate: "6 Ağustos 1999",
+    imdbId: "tt0129167"
+    },
+
 
 
 
