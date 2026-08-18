@@ -329,15 +329,17 @@
         }
 
         .video-container {
-            width: 100%;
-            max-width: 1000px;
-            margin: 0 auto 40px;
-            aspect-ratio: 16/9;
-            background: #000;
-            border-radius: 12px;
-            overflow: visible;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-        }
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    aspect-ratio: 16/9;
+    background: #000;
+    border-radius: 12px;
+    overflow: visible;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 1;
+}
 
         .video-container:fullscreen,
         .video-container:-webkit-full-screen,
@@ -349,16 +351,42 @@
            overflow: visible;
         }
 
-       #movie-detail:fullscreen,
+       #movie-detail {
+    display: none;
+    position: fixed;
+    top: 48px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 48px);
+    background: var(--apple-black);
+    z-index: 2000;
+    overflow-y: auto;
+    overflow-x: visible;
+    padding: 40px 5%;
+    -webkit-overflow-scrolling: touch;
+}
+
+#movie-detail,
+.video-container {
+    transform: none !important;
+    filter: none !important;
+    will-change: auto !important;
+    -webkit-transform: none !important;
+}
+
+
        #movie-detail:-webkit-full-screen {
            overflow: visible;
        }
 
         .video-container iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
         .movie-info-header {
             max-width: 1000px;
