@@ -492,7 +492,7 @@ const filmListesi = [
     { id: 490, title: "Do You Love Me", poster: "./afisler/doyouloveme.jpg"},
     { id: 491, title: "I Want Your Sex", poster: "./afisler/iwantyoursex.jpg"},
     { id: 492, title: "Bitter Christmas", poster: "./afisler/bitterchristmas.jpg"},
-    { id: 493, title: "A Bronx Tale", poster: "./afisler/nimrods.jpg"},
+    { id: 493, title: "A Bronx Tale", poster: "./afisler/abronxtale.jpg"},
     
     
 
