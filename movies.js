@@ -522,9 +522,26 @@ const filmListesi = [
     { id: 520, title: "Sleepy Hollow", poster: "./afisler/SleepyHollow.jpg"},
     { id: 521, title: "The Devil’s Advocate", poster: "./afisler/TheDevilsAdvocate.jpg"},
     { id: 522, title: "Rush Hour", poster: "./afisler/RushHour.jpg"},
+    { id: 523, title: "The Fifth Element", poster: "./afisler/TheFifthElement.jpg"},
+{ id: 524, title: "Serenity", poster: "./afisler/Serenity.jpg"},
+{ id: 525, title: "Oblivion", poster: "./afisler/Oblivion.jpg"},
+{ id: 526, title: "Jerry Maguire", poster: "./afisler/JerryMaguire.jpg"},
+{ id: 527, title: "From Dusk Till Dawn", poster: "./afisler/FromDuskTillDawn.jpg"},
+{ id: 528, title: "Speed", poster: "./afisler/Speed.jpg"},
+{ id: 529, title: "Blade", poster: "./afisler/Blade.jpg"},
+{ id: 530, title: "Audition", poster: "./afisler/Audition.jpg"},
+{ id: 531, title: "Anastasia", poster: "./afisler/Anastasia.jpg"},
+{ id: 532, title: "Independence Day", poster: "./afisler/IndependenceDay.jpg"},
+{ id: 533, title: "Natural Born Killers", poster: "./afisler/NaturalBornKillers.jpg"},
+{ id: 534, title: "My Cousin Vinny", poster: "./afisler/MyCousinVinny.jpg"},
+{ id: 535, title: "The Crow", poster: "./afisler/TheCrow.jpg"},
+{ id: 536, title: "Kids", poster: "./afisler/Kids.jpg"},
+{ id: 537, title: "Gia", poster: "./afisler/Gia.jpg"},
+{ id: 538, title: "Candyman", poster: "./afisler/Candyman.jpg"},
+{ id: 539, title: "Donnie Brasco", poster: "./afisler/DonnieBrasco.jpg"},
+{ id: 540, title: "Office Space", poster: "./afisler/OfficeSpace.jpg"},
 
-    
-    
+
 
 ];
 
@@ -5750,6 +5767,187 @@ const filmDetaylari = {
     releaseDate: "18 Eylül 1998",
     imdbId: "tt0120812"
     },
+    523: {
+    konu: "23. yüzyılda her 500 yılda bir evreni tehdit eden karanlık güçle mücadele etmek için dünyayı kurtarabilecek tek anahtar olan gizemli bir kadının (Leeloo) ve eski bir asker olan taksi şoförü Korben Dallas'ın yollarının kesişmesiyle başlayan renkli, eğlenceli ve aksiyon dolu bir uzay macerası.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu", "Romantik"],
+    cast: "Bruce Willis, Milla Jovovich, Gary Oldman, Ian Holm, Chris Tucker, Luke Perry",
+    director: "Luc Besson",
+    imdb: "7.6",
+    duration: "126 Dakika",
+    releaseDate: "9 Mayıs 1997",
+    imdbId: "tt0119116"
+    },
+524: {
+    konu: "Geleceğin karanlık evreninde, kanun kaçağı bir uzay gemisi mürettebatının, galaksiyi yöneten baskıcı otoritenin elinden kaçan ve zihinsel güçleri olan gizemli bir kızı korumaya çalışırken atıldıkları tehlikeli ve aksiyon dolu macerayı anlatır.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu", "Gizem", "Gerilim"],
+    cast: "Nathan Fillion, Gina Torres, Alan Tudyk, Morena Baccarin, Adam Baldwin, Jewel Staite, Summer Glau, Ron Glass, Chiwetel Ejiofor",
+    director: "Joss Whedon",
+    imdb: "7.8",
+    duration: "119 Dakika",
+    releaseDate: "30 Eylül 2005",
+    imdbId: "tt0379786"
+    },
+525: {
+    konu: "Yeryüzünün uzaylı istilası sonucu yaşanamaz hale gelip terk edildiği bir gelecekte, insansız hava araçlarının güvenliğini sağlamakla görevli tamirci Jack Harper'ın, düşen bir gemide bulduğu gizemli bir kadınla birlikte gezegenin ve kendi geçmişinin ardındaki çarpık gerçeği keşfetmesini anlatan etkileyici bir bilim kurgu filmi.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu", "Gizem", "Gizem"],
+    cast: "Tom Cruise, Morgan Freeman, Olga Kurylenko, Andrea Riseborough, Nikolaj Coster-Waldau, Melissa Leo",
+    director: "Joseph Kosinski",
+    imdb: "7.0",
+    duration: "124 Dakika",
+    releaseDate: "19 Nisan 2013",
+    imdbId: "tt1483013"
+    },
+526: {
+    konu: "Spor menajerliğinde büyük bir başarı yakalamışken ani bir vicdan muhasebesi yaşayarak yazdığı dürüstlük odaklı misyon bildirgesi yüzünden işten kovulan Jerry Maguire'ın, elinde kalan tek sadık sporcu ve kendisine inanan tek muhasebe çalışanıyla birlikte sıfırdan zirveye tırmanma mücadelesini anlatan ilham verici bir romantik dram.",
+    genre: ["Komedi", "Dram", "Romantik", "Spor"],
+    cast: "Tom Cruise, Cuba Gooding Jr., Renée Zellweger, Kelly Preston, Jerry O'Connell, Jay Mohr",
+    director: "Cameron Crowe",
+    imdb: "7.3",
+    duration: "139 Dakika",
+    releaseDate: "13 Aralık 1996",
+    imdbId: "tt0116695"
+    },
+527: {
+    konu: "FBI tarafından aranan tehlikeli Gecko kardeşlerin, peşlerindeki kanun adamlarını atlatıp Meksika'ya kaçmaya çalışırken yolda rehin aldıkları bir baba ve iki çocuğuyla birlikte girdikleri ıssız bir striptiz kulübünün aslında kana susamış vampirlerin yuvası olduğunu keşfetmelerini anlatan aksiyon dolu eğlenceli bir korku filmi.",
+    genre: ["Aksiyon", "Suç", "Korku", "Gerilim"],
+    cast: "George Clooney, Quentin Tarantino, Harvey Keitel, Juliette Lewis, Salma Hayek, Danny Trejo",
+    director: "Robert Rodriguez",
+    imdb: "7.2",
+    duration: "108 Dakika",
+    releaseDate: "19 Ocak 1996",
+    imdbId: "tt0116367"
+    },
+528: {
+    konu: "Los Angeles'ta, hızını saatte 50 milin altına düşürürse patlayacak bir bombanın yerleştirildiği şehir otobüsünü kurtarmaya çalışan cesur bir SWAT polisinin, zeki bir suçluyla girişdiği zamanla yarış ve hayatta kalma mücadelesini anlatan nefes kesici bir aksiyon filmi.",
+    genre: ["Aksiyon", "Macera", "Suç", "Gerilim"],
+    cast: "Keanu Reeves, Dennis Hopper, Sandra Bullock, Joe Morton, Jeff Daniels, Alan Ruck",
+    director: "Jan de Bont",
+    imdb: "7.3",
+    duration: "116 Dakika",
+    releaseDate: "10 Haziran 1994",
+    imdbId: "tt0111257"
+    },
+529: {
+    konu: "Annesi hamileyken bir vampir tarafından ısırıldığı için yarı insan yarı vampir olarak doğan Blade'in, süper insan güçlerini vampir dünyasını yok etmek ve insanlığı korumak için kullanan intikam dolu savaşını anlatan stilize bir aksiyon ve korku filmi.",
+    genre: ["Aksiyon", "Korku", "Bilim Kurgu", "Fantastik"],
+    cast: "Wesley Snipes, Stephen Dorff, Kris Kristofferson, N'Bushe Wright, Donal Logue, Udo Kier",
+    director: "Stephen Norrington",
+    imdb: "7.1",
+    duration: "120 Dakika",
+    releaseDate: "21 Ağustos 1998",
+    imdbId: "tt0120611"
+    },
+530: {
+    konu: "Eşini yıllar önce kaybeden orta yaşlı bir dulun, arkadaşının düzenlediği sahte bir seçme aracılığıyla hayatının kadını olabilecek genç ve gizemli bir kadınla tanışması ve sonrasında bu kadının dehşet verici karanlık yüzünü keşfetmesiyle kabusa dönen sarsıcı bir Japon psikolojik gerilim ve korku filmi.",
+    genre: ["Drama", "Korku", "Gizem", "Romantik", "Gerilim"],
+    cast: "Ryo Ishibashi, Eihi Shiina, Tetsu Sawaki, Jun Kunimura, Renji Ishibashi",
+    director: "Takashi Miike",
+    imdb: "7.1",
+    duration: "115 Dakika",
+    releaseDate: "2 Ekim 1999",
+    imdbId: "tt0235198"
+    },
+531: {
+    konu: "Rus Çarlığı'nın yıkıldığı dönemde ailesinden koparılan ve hafızasını kaybeden genç bir yetim olan Anastasia'nın, Paris'e gidip büyük büyükannesiyle yeniden bir araya gelme ve kraliyet soyunu keşfetme yolculuğunda eşlik eden iki dolandırıcıyla birlikte yaşadığı büyüleyici animasyon macerası.",
+    genre: ["Animasyon", "Macera", "Aile", "Fantastik", "Müzikal", "Romantik"],
+    cast: "Meg Ryan, John Cusack, Kelsey Grammer, Christopher Lloyd, Hank Azaria, Bernadette Peters, Angela Lansbury",
+    director: "Don Bluth, Gary Goldman",
+    imdb: "7.2",
+    duration: "94 Dakika",
+    releaseDate: "21 Kasım 1997",
+    imdbId: "tt0118617"
+    },
+533: {
+    konu: "4 Temmuz Bağımsızlık Günü kutlamaları yaklaşırken dünyaya saldıran devasa uzay gemilerinin yok edici istilasına karşı, insanlığın hayatta kalabilmek ve dünyayı kurtarmak için birlik olup başlattığı umut dolu ve destansı karşı koyuşu anlatan aksiyon dolu bir bilim kurgu filmi.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu", "Felaket"],
+    cast: "Will Smith, Bill Pullman, Jeff Goldblum, Mary McDonnell, Judd Hirsch, Margaret Colin, Vivica A. Fox, Randy Quaid",
+    director: "Roland Emmerich",
+    imdb: "7.0",
+    duration: "145 Dakika",
+    releaseDate: "3 Temmuz 1996",
+    imdbId: "tt0116629"
+    },
+534: {
+    konu: "Travmatik geçmişleri olan ve birbirlerine delicesine aşık olan Mickey ve Mallory Knox çiftinin, acımasızca işledikleri cinayetlerle medyanın manipülatif ve sansasyonel gücü sayesinde birer halk kahramanına ve popüler kültür ikonuna dönüşmelerini anlatan sarsıcı ve eleştirel bir suç filmi.",
+    genre: ["Suç", "Dram", "Romantik", "Gerilim"],
+    cast: "Woody Harrelson, Juliette Lewis, Robert Downey Jr., Tommy Lee Jones, Tom Sizemore, Rodney Dangerfield",
+    director: "Oliver Stone",
+    imdb: "7.2",
+    duration: "119 Dakika",
+    releaseDate: "26 Ağustos 1994",
+    imdbId: "tt0110632"
+    },
+535: {
+    konu: "Güneydoğu'da bir kasabada işlemedikleri bir cinayet suçundan hapse atılan iki üniversite öğrencisini kurtarmak için, hayatında ilk defa mahkemeye çıkacak olan, heyecanlı ve alışılmadık avukat kuzenleri Vinny Gambini ile sevgilisinin yardımıyla katıldıkları eğlenceli ve zeka dolu hukuk mücadelesini anlatır.",
+    genre: ["Komedi", "Suç", "Romantik"],
+    cast: "Joe Pesci, Marisa Tomei, Fred Gwynne, Lane Smith, Bruce McGill, Mitchell Whitfield",
+    director: "Jonathan Lynn",
+    imdb: "7.6",
+    duration: "120 Dakika",
+    releaseDate: "13 Mart 1992",
+    imdbId: "tt0104952"
+    },
+536: {
+    konu: "Cadılar Bayramı arifesinde acımasızca öldürülen genç bir müzisyen olan Eric Draven'ın, intikam almak ve sevgilisinin katillerinden hesap sorabilmek için gizemli bir karga tarafından mezarından diriltilerek karanlık ve gotik bir intikam meleğine dönüşmesini anlayan kült bir aksiyon ve fantastik film.",
+    genre: ["Aksiyon", "Fantastik", "Suç", "Dram"],
+    cast: "Brandon Lee, Michael Wincott, Ernie Hudson, Rochelle Davis, Bai Ling, Sofia Shinas",
+    director: "Alex Proyas",
+    imdb: "7.5",
+    duration: "102 Dakika",
+    releaseDate: "13 Mayıs 1994",
+    imdbId: "tt0109506"
+    },
+537: {
+    konu: "New York'ta yaşayan bir grup ergenin, AIDS ve uyuşturucu gibi tehlikeli gerçeklerden habersiz bir şekilde bir gün boyunca yaşadıkları sorumsuzlukları, cinsellik arayışlarını ve sokaklardaki tasasız ama karanlık hayatlarını sarsıcı bir dürüstlükle anlatan bağımsız bir dram.",
+    genre: ["Dram"],
+    cast: "Leo Fitzpatrick, Justin Pierce, Chloë Sevigny, Rosario Dawson, Jon Abrahams, Harold Hunter",
+    director: "Larry Clark",
+    imdb: "7.0",
+    duration: "91 Dakika",
+    releaseDate: "1 Eylül 1995",
+    imdbId: "tt0113540"
+    },
+538: {
+    konu: "Dünyanın ilk süper modellerinden biri olarak kabul edilen Gia Carangi'nin, zirveye giden yolda yaşadığı büyük başarıları, yalnızlığı, şöhretin getirdiği yıkımı ve uyuşturucu bağımlılığı yüzünden trajik bir şekilde sönen kısa ve sarsıcı hayat hikayesini anlatan etkileyici bir biyografik dram.",
+    genre: ["Biyografi", "Dram", "Romantik"],
+    cast: "Angelina Jolie, Elizabeth Mitchell, Eric Michael Cole, Faye Dunaway, Mercedes Ruehl, Scott Cohen",
+    director: "Michael Cristofer",
+    imdb: "6.9",
+    duration: "120 Dakika",
+    releaseDate: "31 Ocak 1998",
+    imdbId: "tt0123865"
+    },
+539: {
+    konu: "Chicago'nun banliyölerindeki bir toplu konut bölgesinde geçen efsanelere dayanan kentsel mitleri araştıran bir yüksek lisans öğrencisinin, aynanın karşısında adı beş kez söylendiğinde kancalı eliyle geri dönen korkunç bir intikam ruhu olan Candyman'in kana susamış lanetini gerçeğe dönüştürmesini anlatan ürpertici bir korku klasiği.",
+    genre: ["Korku", "Gizem", "Gerilim"],
+    cast: "Virginia Madsen, Tony Todd, Xander Berkeley, Kasi Lemmons, Vanessa Williams, DeJuan Guy",
+    director: "Bernard Rose",
+    imdb: "6.8",
+    duration: "99 Dakika",
+    releaseDate: "16 Ekim 1992",
+    imdbId: "tt0103919"
+    },
+540: {
+    konu: "1970'lerde bir FBI ajanı olan Joseph D. Pistone'un, mob teşkilatına sızmak için Donnie Brasco adını alarak mafya tetikçisi 'Leftty' Ruggiero ile kurduğu tehlikeli dostluğu ve iki dünya arasında sıkışıp kalışını anlatan gerilim dolu usta işi bir suç filmi.",
+    genre: ["Biyografi", "Suç", "Dram"],
+    cast: "Johnny Depp, Al Pacino, Michael Madsen, Bruno Kirby, James Russo, Anne Heche",
+    director: "Mike Newell",
+    imdb: "7.7",
+    duration: "127 Dakika",
+    releaseDate: "28 Şubat 1997",
+    imdbId: "tt0119008"
+    },
+541: {
+    konu: "Teknoloji şirketindeki tekdüze ve ruhsuz işinden nefret eden Peter Gibbons'ın, hipnototerapi seansında yaşadığı ani bir değişimle tüm kuralları ve patronunun baskılarını bir kenara bırakıp hayatını yeniden ele alışını anlatan kült bir iş yeri komedisi.",
+    genre: ["Komedi", "Suç"],
+    cast: "Ron Livingston, Jennifer Aniston, David Herman, Ajay Naidu, Diedrich Bader, Stephen Root, Gary Cole",
+    director: "Mike Judge",
+    imdb: "7.6",
+    duration: "89 Dakika",
+    releaseDate: "19 Şubat 1999",
+    imdbId: "tt0151804"
+    },
+
 
 
 
