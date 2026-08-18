@@ -472,6 +472,27 @@ const filmListesi = [
     { id: 470, title: "Leviticus", poster: "./afisler/leviticus.jpg"},
     { id: 471, title: "The Aviator", poster: "./afisler/theaviator.jpg"},
     { id: 472, title: "The Crying Game", poster: "./afisler/thecryinggame.jpg"},
+    { id: 473, title: "The Menu", poster: "./afisler/themenu.jpg"},
+    { id: 474, title: "Silent Light", poster: "./afisler/silentlight.jpg"},
+    { id: 475, title: "Hors Satan", poster: "./afisler/horssatan.jpg"},
+    { id: 476, title: "About Endlessness", poster: "./afisler/aboutendlessness.jpg"},
+    { id: 477, title: "The Turin Horse", poster: "./afisler/theturinhorse.jpg"},
+    { id: 478, title: "Zama", poster: "./afisler/zama.jpg"},
+    { id: 479, title: "War Horse", poster: "./afisler/warhorse.jpg"},
+    { id: 480, title: "Himizu", poster: "./afisler/himizu.jpg"},
+    { id: 481, title: "Kusursuzlar", poster: "./afisler/kusursuzlar.jpg"},
+    { id: 482, title: "The Death of Robin Hood", poster: "./afisler/thedeathofrobinhood.jpg"},
+    { id: 483, title: "The Last House", poster: "./afisler/thelasthouse.jpg"},
+    { id: 484, title: "Nimrods", poster: "./afisler/nimrods.jpg"},
+    { id: 485, title: "Practical Magic", poster: "./afisler/practicalmagic.jpg"},
+    { id: 486, title: "Ice Cream Man", poster: "./afisler/icecreamman.jpg"},
+    { id: 487, title: "Filipiñana", poster: "./afisler/filipinana.jpg"},
+    { id: 488, title: "Two Seasons, Two Strangers", poster: "./afisler/twoseasonstwostrangers.jpg"},
+    { id: 489, title: "The Currents", poster: "./afisler/thecurrents.jpg"},
+    { id: 490, title: "Do You Love Me", poster: "./afisler/doyouloveme.jpg"},
+    { id: 491, title: "I Want Your Sex", poster: "./afisler/iwantyoursex.jpg"},
+    { id: 492, title: "Bitter Christmas", poster: "./afisler/bitterchristmas.jpg"},
+    { id: 493, title: "A Bronx Tale", poster: "./afisler/nimrods.jpg"},
     
     
 
@@ -1852,7 +1873,7 @@ const filmDetaylari = {
     138: {
         konu: "Büyük bir sel felaketi nedeniyle yerinden edilmiş yalnız bir kedi, çeşitli türlerin bulunduğu bir teknede sığınak bulur ve değişen bir dünyaya uyum sağlamanın zorluklarıyla birlikte mücadele etmek zorundadır.",
         genre: ["Animasyon", "Macera", "Fantastik"],
-        cast: "Seslendirme içermez",
+        cast: "-",
         director: "Gints Zilbalodis",
         imdb: "7.9",
         duration: "85 Dakika",
@@ -5058,7 +5079,7 @@ const filmDetaylari = {
         duration: "122 Dakika",
         releaseDate: "9 Kasım 1951",
         imdbId: "tt0043924"
-        },
+    },
     459: {
         konu: "Truva Savaşı'nın ardından efsanevi İthaka Kralı Odysseus, evine dönmek için tehlikeli ve uzun bir yolculuğa çıkar. Yolculuğu boyunca Kyklops Polyphemos, Sirenler ve cadı Kirke gibi mitolojik varlıklarla yüzleşirken bir yandan da eşi Penelope ve oğlu Telemakhos'a kavuşmayı hayal eder.",
         genre: ["Aksiyon", "Macera","Tarih"],
@@ -5159,7 +5180,7 @@ const filmDetaylari = {
     releaseDate: "19 Mayıs 1989",
     imdbId: "tt0097372"
 },
-    469: {
+469: {
     konu: "Joe ve Angela'nın evliliği pamuk ipliğine bağlı. Gizemli üst kat komşularını akşam yemeğine davet ettiklerinde, gece beklenmedik yerlere doğru sürüklenir.",
     genre: ["Komedi", "Dram", "Romantik"],
     cast: "Seth Rogen, Olivia Wilde, Penélope Cruz, Edward Norton",
@@ -5169,7 +5190,7 @@ const filmDetaylari = {
     releaseDate: "10 Temmuz 2026",
     imdbId: "tt14173636"
 },
-    470: {
+470: {
     konu: "İki genç erkek, en çok arzuladıkları kişi olan birbirlerinin şeklini alan şiddet dolu bir varlıktan kaçmak zorundadır.",
     genre: ["Korku", "Romantik", "Gizem"],
     cast: "Joe Bird, Stacy Clausen, Mia Wasikowska, Jeremy Blewitt",
@@ -5179,7 +5200,7 @@ const filmDetaylari = {
     releaseDate: "19 Haziran 2026",
     imdbId: "tt39143902"
 },
-    471: {
+471: {
     konu: "Film yapımcısı ve havacılık öncüsü Howard Hughes'un 1920'lerin sonlarından 1940'ların ortasına kadar olan yıllarını anlatan biyografik dram. Hughes, bu dönemde başarılı bir film yapımcısı ve havacılık milyarderi olurken giderek ağırlaşan obsesif kompulsif bozukluğuyla da mücadele eder.",
     genre: ["Biyografi", "Dram"],
     cast: "Leonardo DiCaprio, Cate Blanchett, Kate Beckinsale, John C. Reilly, Alec Baldwin, Alan Alda, Ian Holm, Danny Huston, Gwen Stefani, Jude Law, Adam Scott, Willem Dafoe",
@@ -5189,7 +5210,7 @@ const filmDetaylari = {
     releaseDate: "25 Aralık 2004",
     imdbId: "tt0338751"
 },
-472: {
+    472: {
     konu: "IRA üyesi Fergus, gözetimindeki kaçırılmış İngiliz askeri Jody ile beklenmedik bir bağ kurar. Jody'nin ölümünün ardından Fergus, onun sevgilisi Dil'i Londra'da bulmak için söz verir. Ancak eski IRA bağlantıları peşini bırakmaz ve Dil ile gelişen ilişki, kimlik ve sadakat üzerine derin sorular doğurur.",
     genre: ["Suç", "Dram", "Gerilim"],
     cast: "Stephen Rea, Jaye Davidson, Forest Whitaker, Miranda Richardson, Adrian Dunbar, Ralph Brown, Jim Broadbent",
@@ -5199,7 +5220,218 @@ const filmDetaylari = {
     releaseDate: "19 Şubat 1993",
     imdbId: "tt0104036"
 },
-    
+    473: {
+    konu: "Uzaktaki özel bir ada adasında yer alan seçkin bir restorana giden genç bir çift, ünlü bir şefin hazırladığı şaşırtıcı ve sürprizlerle dolu lüks menüyü tatmak üzere yola çıkar. Ancak bu olağanüstü yemek deneyimi, şefin ve ekibinin hazırladığı korkunç sürprizlerle herkes için tehlikeli bir hayatta kalma mücadelesine dönüşecektir.",
+    genre: ["Korku", "Komedi", "Gerilim", "Gizem"],
+    cast: "Ralph Fiennes, Anya Taylor-Joy, Nicholas Hoult, Hong Chau, Janet McTeer, Paul Adelstein, John Leguizamo",
+    director: "Mark Mylod",
+    imdb: "7.1",
+    duration: "107 Dakika",
+    releaseDate: "18 Kasım 2022",
+    imdbId: "tt9764362"
+},
+474: {
+    konu: "Meksika'daki muhafazakâr bir Mennonit topluluğunda geçen film, evli ve çocuklu Johan'ın başka bir kadına âşık olmasıyla yaşadığı derin ahlaki ve ruhsal ikilemi ele alır. Johan, hem dini inançları hem de ailesine karşı sorumlulukları ile kalbinin sesi arasında kalırken, doğanın sessizliği bu trajik çatışmaya eşlik eder.",
+    genre: ["Dram", "Romantik"],
+    cast: "Cornelio Wall, Maria Pankratz, Miriam Toews, Peter Wall, Jacobo Klassen",
+    director: "Carlos Reygadas",
+    imdb: "7.2",
+    duration: "136 Dakika",
+    releaseDate: "22 Mayıs 2007",
+    imdbId: "tt0841925"
+},
+475: {
+    konu: "Fransa'nın kuzeyindeki vahşi ve ıssız sahil kasabasında geçen film, geçmişi belirsiz gizemli bir yabancı ile yerel genç bir kadının yollarının kesişmesini konu alır. Sözlerin az, doğanın ve sessizliğin baskın olduğu bu ilişkide, karakterler inanç, şiddet, merhamet ve kurtuluş kavramlarını sorgulatan sıradışı bir bağ kurarlar.",
+    genre: ["Dram"],
+    cast: "David Dewaele, Alexandra Leclère, Christophe Van de Ghuchte, Evelyne Didi",
+    director: "Bruno Dumont",
+    imdb: "6.4",
+    duration: "110 Dakika",
+    releaseDate: "18 Ocak 2013",
+    imdbId: "tt1666168"
+    },
+476: {
+    konu: "İnsan varoluşunun güzelliğini, zalimliğini, ihtişamını ve sıradanlığını düşsel ve akışkan bir perspektiften ele alan film; bir papazın inanç krizinden yıkık bir şehre, ağlayan bir babadan dans eden insanlara kadar hayatın geniş ve hüzünlü mozaiğini gözler önüne serer.",
+    genre: ["Dram", "Komedi", "Fantastik"],
+    cast: "Martin Serner, Jessica Louthander, Tatiana Delaunay, Anders Hellström, Jan Eje Norén",
+    director: "Roy Andersson",
+    imdb: "6.8",
+    duration: "78 Dakika",
+    releaseDate: "30 Nisan 2021",
+    imdbId: "tt6817944"
+    },
+477: {
+    konu: "Friedrich Nietzsche'nin Turin'de bir atı kırbaçlanmaktan kurtarmak için sarılmasıyla başlayan olayın sonrasını ele alan film, ıssız bir çiftlikte yaşayan yaşlı bir adam ile kızı ve yaşlı bir atın monoton, kasvetli ve kaçınılmaz sona doğru giden günlük yaşamlarını mercek altına alır.",
+    genre: ["Dram"],
+    cast: "János Derzsi, Erika Bók, Mihály Kormos, Ricsi",
+    director: "Béla Tarr, Ágnes Hranitzky",
+    imdb: "7.7",
+    duration: "155 Dakika",
+    releaseDate: "31 Mart 2011",
+    imdbId: "tt1316540"
+    },
+478: {
+    konu: "18. yüzyılın sonlarında, Güney Amerika'daki bir İspanyol kolonisinde geçen film, Kral'dan gelecek tayin emrini beklemekten tükenen ve yavaş yavaş gerçeklik algısını yitiren yüzbaşı Don Diego de Zama'nın trajik ve sürgün dolu hikayesini anlatır.",
+    genre: ["Dram", "Tarih"],
+    cast: "Daniel Giménez Cacho, Lola Dueñas, Matheus Nachtergaele, Juan Minujín, Rafael Spregelburd",
+    director: "Lucrecia Martel",
+    imdb: "6.7",
+    duration: "115 Dakika",
+    releaseDate: "28 Eylül 2017",
+    imdbId: "tt3409848"
+    },
+479: {
+    konu: "I. Dünya Savaşı'nın patlak vermesiyle birlikte genç Albert'in sevdiği atı Joey orduya satılır. Albert, cephelere kadar uzanan bu zorlu ve tehlikeli süreçte, dostunu bulabilmek için orduya katılır ve savaşın yıkıcı ortamında destansı bir hayatta kalma mücadelesine atılır.",
+    genre: ["Dram", "Macera", "Savaş"],
+    cast: "Jeremy Irvine, Emily Watson, David Thewlis, Benedict Cumberbatch, Tom Hiddleston",
+    director: "Steven Spielberg",
+    imdb: "7.2",
+    duration: "146 Dakika",
+    releaseDate: "25 Aralık 2011",
+    imdbId: "tt1568911"
+    },
+480: {
+    konu: "Büyük bir deprem ve tsunami felaketinin ardından yıkıma uğrayan Japonya'da geçen film, sıradan bir hayat sürmek isteyen ancak ailevi şiddet ve trajedilerle sarsılan 14 yaşında bir ortaokul öğrencisinin ve onunla yolları kesişen sorunlu bir kızın karanlık, umutsuz ve öfke dolu hikayesini anlatır.",
+    genre: ["Dram", "Suç"],
+    cast: "Shôta Sometani, Fumi Nikaidô, Denden, Mitsuru Fukikoshi, Asami Kado",
+    director: "Sion Sono",
+    imdb: "7.1",
+    duration: "129 Dakika",
+    releaseDate: "14 Ocak 2012",
+    imdbId: "tt1900893"
+    },
+481: {
+    konu: "Yaz tatilini geçirmek için Bodrum'daki yazlık evlerine giden iki kız kardeş Lale ve Deniz'in yıllardır bastırdıkları sırları, kırgınlıkları ve aralarındaki karmaşık güç ilişkileri, evde geçirdikleri sakin günlerin yerini gerilim ve psikolojik yüzleşmelere bırakmasıyla su yüzüne çıkar.",
+    genre: ["Dram"],
+    cast: "İpek Türktan, Esra Bezen Bilgin, İbrahim Selim, Mehmet Ali Nuroğlu",
+    director: "Ramin Matin",
+    imdb: "6.2",
+    duration: "95 Dakika",
+    releaseDate: "3 Ocak 2014",
+    imdbId: "tt2394021"
+    },
+482: {
+    konu: "Geçmişindeki suçlar ve şiddet dolu hayatıyla yüzleşmek zorunda kalan yaşlı ve yaralı bir Robin Hood, hayatının son demlerinde acımasız gerçeklerle ve kaderiyle hesaplaşırken karanlık ve acı dolu bir hayatta kalma mücadelesine girişir.",
+    genre: ["Dram", "Aksiyon", "Macera"],
+    cast: "Hugh Jackman, Jodie Comer, Bill Skarsgård, Katie Breen, Fintan Shevlin, Michael Hanna, Andrew McCracken, Alfie Lawless, Faith Delaney, Noah Jupe, Clive Russell",
+    director: "Michael Sarnoski",
+    imdb: "6.0",
+    duration: "140 Dakika",
+    releaseDate: "19 Temmuz 2026",
+    imdbId: "tt32273171"
+    },
+483: {
+    konu: "Gizemli ve felaket benzeri bir doğa olayının ardından evlerine sıkışıp kalan bir aile, dış dünyadaki tehlikelerden korunmak ve ellerindeki azalan kaynaklarla hayatta kalabilmek için zorlu bir mücadele verir.",
+    genre: ["Bilim Kurgu", "Korku", "Gerilim", "Gizem"],
+    cast: "Greta Lee, Wagner Moura, Riley Chung, Emma Ho, Noah Alexander Sosnowski, Gabriel Barbosa",
+    director: "Louis Leterrier",
+    imdb: "5.5",
+    duration: "112 Dakika",
+    releaseDate: "7 Ağustos 2026",
+    imdbId: "tt32268156"
+    },
+484: {
+    konu: "Kendi müzik gruplarının yılbaşı gecesinde Los Angeles'ta Green Day'in ön grubu olarak sahne alacağına yanlış bir şekilde inanan üç genç, Kansas City'den yola çıkarak çılgın ve kaotik bir road trip maceralarına atılırlar.",
+    genre: ["Komedi", "Müzikal"],
+    cast: "Mason Thames, Kylr Coffman, Ryan Foust, Mckenna Grace, Billie Joe Armstrong, Mike Dirnt, Tré Cool, Jenna Fischer",
+    director: "Lee Kirk",
+    imdb: "7.1",
+    duration: "107 Dakika",
+    releaseDate: "14 Ağustos 2026",
+    imdbId: "tt34895535"
+    },
+485: {
+    konu: "Yüzyıllardır cadılıkla suçlanan ve üzerlerinde aile laneti bulunan Owens ailesinin iki kız kardeşi Sally ve Gillian, büyü yapma yetenekleriyle ve aşk hayatlarındaki bahtsızlıklarla başa çıkmaya çalışırken, Gillian'ın sevgilisinin ani ölümüyle kendilerini doğaüstü ve gizemli olayların ortasında bulurlar.",
+    genre: ["Komedi", "Dram", "Fantastik", "Romantik"],
+    cast: "Sandra Bullock, Nicole Kidman, Stockard Channing, Dianne Wiest, Aidan Quinn, Goran Visnjic",
+    director: "Griffin Dunne",
+    imdb: "6.4",
+    duration: "104 Dakika",
+    releaseDate: "16 Ekim 1998",
+    imdbId: "tt0120791"
+    },
+486: {
+    konu: "Sakin ve huzurlu bir yaz kasabası, gizemli bir dondurmacının çocuklara servis ettiği tatlı ikramların dehşet verici sonuçlar doğurmasıyla birlikte kaosa ve deliye dönen bir kabusa sürüklenir.",
+    genre: ["Korku", "Gerilim"],
+    cast: "Charlie Zeltzer, Sarah Abbot, Eli Roth, Ari Millen, Benjamin Byron Davis, Karen Cliche, Dylan Hawco, Kiori Mirza Waldman, Darrin Baker, Carina Battrick",
+    director: "Eli Roth",
+    imdb: "3.9",
+    duration: "86 Dakika",
+    releaseDate: "7 Ağustos 2026",
+    imdbId: "tt36893729"
+    },
+487: {
+    konu: "Genç Isabel'in, çalıştığı kulüpteki Doktor Palanca'ya duyduğu ilgi, kulübün dış görünüşünün altında yatan şiddeti ortaya çıkardıkça ve geçmişten gelen rahatsız edici bağlantılarını keşfettikçe karanlık bir hal alır.",
+    genre: ["Dram"],
+    cast: "Ruby Ruiz, Dino Pastrano, Jude Sandiego, Angeli Bayani",
+    director: "Rafael Manuel",
+    imdb: "6.5",
+    duration: "100 Dakika",
+    releaseDate: "26 Ağustos 2026",
+    imdbId: "tt38268539"
+    },
+488: {
+    konu: "Yaratıcı bir tıkanıklık yaşayan senarist Li'nin, yazdığı yaz ve kış temalı iki farklı hikâye etrafında hayatı, sinemayı, yalnızlığı ve insan ilişkilerini sorguladığı; yazın sahil kasabasında geçen romantik bir kaçamak ile kışın karlı bir köyde tuhaf bir hancıyla yollarının kesişmesini konu alan duygu dolu bir yolculuk.",
+    genre: ["Dram"],
+    cast: "Shim Eun-kyung, Yuumi Kawai, Mansaku Takada, Shinichi Tsutsumi, Shirô Sano",
+    director: "Shô Miyake",
+    imdb: "6.8",
+    duration: "89 Dakika",
+    releaseDate: "7 Kasım 2025",
+    imdbId: "tt37538491"
+    },
+489: {
+    konu: "İsviçre'deki bir iş seyahati sırasında buz gibi bir gölete atlayarak ani bir kararla ölümcül bir adım atan ve hayatta kalan başarılı moda tasarımcısı Lina, Buenos Aires'teki evine döndüğünde eski hayatına, ailesine ve kariyerine uyum sağlamakta büyük zorluk çeker. İçsel bir dönüşüm geçiren ve geçmişin hayaletleriyle yüzleşen Lina, sessiz ve derin bir psikolojik çözülme sürecine girer.",
+    genre: ["Dram", "Gizem"],
+    cast: "Isabel Aimé González Sola, Esteban Bigliardi, Claudia Sánchez, Jazmín Carballo, Ernestina Gatti",
+    director: "Milagros Mumenthaler",
+    imdb: "6.1",
+    duration: "104 Dakika",
+    releaseDate: "13 Kasım 2025",
+    imdbId: "tt35746682"
+    },
+490: {
+    konu: "Lübnan'ın 70 yıllık görsel-işitsel hafızasında arşiv görüntüleri, ev videoları ve fotoğraflarla örülü kişisel ve eğlenceli bir yolculuk; Beyrut'un toplumsal psikolojisini, neşe ve samimiyeti, yıkım ve kaybı kitlelerin ve sanatçıların gözünden yeniden inşa ediyor.",
+    genre: ["Belgesel", "Tarih"],
+    cast: ["-"],
+    director: "Lana Daher",
+    imdb: "7.7",
+    duration: "76 Dakika",
+    releaseDate: "7 Mart 2026",
+    imdbId: "tt12484760"
+    },
+491: {
+    konu: "Sanat dünyasının karmaşık ve kışkırtıcı ilişkileri arasında geçen film, genç bir sanatçının ikonik bir küratörün asistanı olarak işe başlamasıyla birlikte aralarındaki tutkulu, tehlikeli ve sınırları zorlayan yakınlaşmanın doğurduğu psikolojik gerilimi ve entrikaları konu alır.",
+    genre: ["Gerilim", "Romantik"],
+    cast: "Olivia Wilde, Cooper Hoffman, Ray Nicholson, Charli XCX, Dasha Nekrasova, Mason Gooding, Greta Lee",
+    director: "Gregg Araki",
+    imdb: "6.4",
+    duration: "90 Dakika",
+    releaseDate: "31 Temmuz 2026",
+    imdbId: "tt32332915"
+    },
+492: {
+    konu: "2004 yılında bir reklam yönetmeni çalkantılı bir Noel hafta sonu geçirir. 2026'da ise bir film yapımcısı onun hikayesini senaryoya dönüştürürken gerçeklik, kurgu ve kendisine en yakın insanlar arasındaki çizgileri bulanıklaştırır.",
+    genre: ["Dram", "Komedi"],
+    cast: ["Bárbara Lennie, Leonardo Sbaraglia, Aitana Sánchez-Gijón, Victoria Luengo, Patrick Criado, Milena Smit, Quim Gutiérrez, Rossy de Palma, Carmen Machi, Gloria Muñoz"],
+    director: "Pedro Almodóvar",
+    imdb: "6.3",
+    duration: "111 Dakika",
+    releaseDate: "20 Mart 2026",
+    imdbId: "tt28088049"
+    },
+493: {
+    konu: "1960'ların Bronx mahallesinde geçen film, dürüst bir otobüs şoförü olan babası ile mahallenin saygı duyulan güçlü mafya babası Sonny arasında kalan genç Calogero'nun, sadakat, suç ve hayat dersleri arasında bocalayarak büyüme hikayesini anlatır.",
+    genre: ["Suç", "Dram"],
+    cast: "Robert De Niro, Chazz Palminteri, Lillo Brancato, Francis Capra, Taral Hicks",
+    director: "Robert De Niro",
+    imdb: "7.8",
+    duration: "121 Dakika",
+    releaseDate: "1 Ekim 1993",
+    imdbId: "tt0106489"
+    },
+
+
 
 
 
