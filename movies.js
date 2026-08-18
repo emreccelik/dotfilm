@@ -5130,35 +5130,35 @@ const filmDetaylari = {
         releaseDate: "31 Temmuz 2026",
         imdbId: "tt22084616"
     },
-461: {
-    konu: "Afrikalı-Amerikalı aktivist ve lider Malcolm X'in hayatının dramatize edilmiş hikayesi: suç hayatından, hapishanede İslam'a geçişine, Siyahların Milleti bünyesindeki liderliğine ve sonunda örgütle kopuşuna kadar uzanan zorlu yolculuğu.",
-    genre: ["Biyografi", "Dram", "Tarih"],
-    cast: "Denzel Washington, Angela Bassett, Albert Hall, Al Freeman Jr., Delroy Lindo, Spike Lee, Theresa Randle, Kate Vernon, Lonette McKee",
-    director: "Spike Lee",
-    imdb: "7.7",
-    duration: "202 Dakika",
-    releaseDate: "18 Kasım 1992",
-    imdbId: "tt0104797"
-},
-462: {
-    konu: "Bir Hollywood stüdyosu yöneticisi, kendisine ölüm tehditleri gönderen bir senaristin peşine düşer. Ancak bu kovalamaca, onu beklemediği bir suç sarmalının içine çeker. Robert Altman'ın Hollywood'u keskin bir dille yerden yere vurduğu siyah komedi.",
-    genre: ["Komedi", "Suç", "Dram"],
-    cast: "Tim Robbins, Greta Scacchi, Fred Ward, Whoopi Goldberg, Peter Gallagher, Brion James, Cynthia Stevenson, Vincent D'Onofrio, Dean Stockwell, Richard E. Grant",
-    director: "Robert Altman",
-    imdb: "7.5",
-    duration: "124 Dakika",
-    releaseDate: "10 Nisan 1992",
-    imdbId: "tt0105151"
-},
-463: {
-    konu: "12 yıl boyunca aynı oyuncularla çekilen bu film, Mason adlı bir çocuğun 6 yaşından üniversiteye başladığı 18 yaşına kadar büyüyüşünü, ailesiyle ilişkilerini ve hayata dair keşiflerini gerçek zamanlı olarak takip eder.",
-    genre: ["Dram"],
-    cast: "Ellar Coltrane, Patricia Arquette, Ethan Hawke, Lorelei Linklater, Libby Villari, Marco Perella, Brad Hawkins, Jenni Tooley",
-    director: "Richard Linklater",
-    imdb: "7.9",
-    duration: "165 Dakika",
-    releaseDate: "11 Temmuz 2014",
-    imdbId: "tt1065073"
+    461: {
+       konu: "Afrikalı-Amerikalı aktivist ve lider Malcolm X'in hayatının dramatize edilmiş hikayesi: suç hayatından, hapishanede İslam'a geçişine, Siyahların Milleti bünyesindeki liderliğine ve sonunda örgütle kopuşuna kadar uzanan zorlu yolculuğu.",
+       genre: ["Biyografi", "Dram", "Tarih"],
+       cast: "Denzel Washington, Angela Bassett, Albert Hall, Al Freeman Jr., Delroy Lindo, Spike Lee, Theresa Randle, Kate Vernon, Lonette McKee",
+       director: "Spike Lee",
+       imdb: "7.7",
+       duration: "202 Dakika",
+       releaseDate: "18 Kasım 1992",
+       imdbId: "tt0104797"
+    },
+    462: {
+       konu: "Bir Hollywood stüdyosu yöneticisi, kendisine ölüm tehditleri gönderen bir senaristin peşine düşer. Ancak bu kovalamaca, onu beklemediği bir suç sarmalının içine çeker. Robert Altman'ın Hollywood'u keskin bir dille yerden yere vurduğu siyah komedi.",
+       genre: ["Komedi", "Suç", "Dram"],
+       cast: "Tim Robbins, Greta Scacchi, Fred Ward, Whoopi Goldberg, Peter Gallagher, Brion James, Cynthia Stevenson, Vincent D'Onofrio, Dean Stockwell, Richard E. Grant",
+       director: "Robert Altman",
+       imdb: "7.5",
+       duration: "124 Dakika",
+       releaseDate: "10 Nisan 1992",
+       imdbId: "tt0105151"
+     },
+     463: {
+       konu: "12 yıl boyunca aynı oyuncularla çekilen bu film, Mason adlı bir çocuğun 6 yaşından üniversiteye başladığı 18 yaşına kadar büyüyüşünü, ailesiyle ilişkilerini ve hayata dair keşiflerini gerçek zamanlı olarak takip eder.",
+       genre: ["Dram"],
+       cast: "Ellar Coltrane, Patricia Arquette, Ethan Hawke, Lorelei Linklater, Libby Villari, Marco Perella, Brad Hawkins, Jenni Tooley",
+       director: "Richard Linklater",
+       imdb: "7.9",
+       duration: "165 Dakika",
+       releaseDate: "11 Temmuz 2014",
+       imdbId: "tt1065073"
 },
 464: {
     konu: "Los Angeles'ta uyuşturucu çalan ve birçok kişiyi öldüren üç suçlu, küçük bir Arkansas kasabasına doğru yola çıkar. Kasabanın neşeli ama deneyimsiz şerifi, iki LA dedektifiyle güçlerini birleştirerek beklenmedik bir hesaplaşmaya hazırlanır.",
