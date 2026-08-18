@@ -508,7 +508,7 @@ const filmListesi = [
     { id: 506, title: "Minority Report", poster: "./afisler/MinorityReport.jpg"},
     { id: 507, title: "The Fabelmans", poster: "./afisler/TheFabelmans.jpg"},
     { id: 508, title: "Jackie Brown", poster: "./afisler/JackieBrown.jpg"},
-    { id: 509, title: "Maelström", poster: "./afisler/Maelström.jig"},
+    { id: 509, title: "Maelström", poster: "./afisler/Maelström.jpg"},
     { id: 510, title: "Polytechnique", poster: "./afisler/Polytechnique.jpg"},
     { id: 511, title: "Perfect Blue", poster: "./afisler/PerfectBlue.jpg"},
     { id: 512, title: "The Nightmare Before Christmas", poster: "./afisler/TheNightmareBeforeChristmas.jpg"},
