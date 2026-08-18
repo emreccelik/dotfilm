@@ -523,23 +523,33 @@ const filmListesi = [
     { id: 521, title: "The Devil’s Advocate", poster: "./afisler/TheDevilsAdvocate.jpg"},
     { id: 522, title: "Rush Hour", poster: "./afisler/RushHour.jpg"},
     { id: 523, title: "The Fifth Element", poster: "./afisler/TheFifthElement.jpg"},
-{ id: 524, title: "Serenity", poster: "./afisler/Serenity.jpg"},
-{ id: 525, title: "Oblivion", poster: "./afisler/Oblivion.jpg"},
-{ id: 526, title: "Jerry Maguire", poster: "./afisler/JerryMaguire.jpg"},
-{ id: 527, title: "From Dusk Till Dawn", poster: "./afisler/FromDuskTillDawn.jpg"},
-{ id: 528, title: "Speed", poster: "./afisler/Speed.jpg"},
-{ id: 529, title: "Blade", poster: "./afisler/Blade.jpg"},
-{ id: 530, title: "Audition", poster: "./afisler/Audition.jpg"},
-{ id: 531, title: "Anastasia", poster: "./afisler/Anastasia.jpg"},
-{ id: 532, title: "Independence Day", poster: "./afisler/IndependenceDay.jpg"},
-{ id: 533, title: "Natural Born Killers", poster: "./afisler/NaturalBornKillers.jpg"},
-{ id: 534, title: "My Cousin Vinny", poster: "./afisler/MyCousinVinny.jpg"},
-{ id: 535, title: "The Crow", poster: "./afisler/TheCrow.jpg"},
-{ id: 536, title: "Kids", poster: "./afisler/Kids.jpg"},
-{ id: 537, title: "Gia", poster: "./afisler/Gia.jpg"},
-{ id: 538, title: "Candyman", poster: "./afisler/Candyman.jpg"},
-{ id: 539, title: "Donnie Brasco", poster: "./afisler/DonnieBrasco.jpg"},
-{ id: 540, title: "Office Space", poster: "./afisler/OfficeSpace.jpg"},
+    { id: 524, title: "Serenity", poster: "./afisler/Serenity.jpg"},
+    { id: 525, title: "Oblivion", poster: "./afisler/Oblivion.jpg"},
+    { id: 526, title: "Jerry Maguire", poster: "./afisler/JerryMaguire.jpg"},
+    { id: 527, title: "From Dusk Till Dawn", poster: "./afisler/FromDuskTillDawn.jpg"},
+    { id: 528, title: "Speed", poster: "./afisler/Speed.jpg"},
+    { id: 529, title: "Blade", poster: "./afisler/Blade.jpg"},
+    { id: 530, title: "Audition", poster: "./afisler/Audition.jpg"},
+    { id: 531, title: "Anastasia", poster: "./afisler/Anastasia.jpg"},
+    { id: 532, title: "Independence Day", poster: "./afisler/IndependenceDay.jpg"},
+    { id: 533, title: "Natural Born Killers", poster: "./afisler/NaturalBornKillers.jpg"},
+    { id: 534, title: "My Cousin Vinny", poster: "./afisler/MyCousinVinny.jpg"},
+    { id: 535, title: "The Crow", poster: "./afisler/TheCrow.jpg"},
+    { id: 536, title: "Kids", poster: "./afisler/Kids.jpg"},
+    { id: 537, title: "Gia", poster: "./afisler/Gia.jpg"},
+    { id: 538, title: "Candyman", poster: "./afisler/Candyman.jpg"},
+    { id: 539, title: "Donnie Brasco", poster: "./afisler/DonnieBrasco.jpg"},
+    { id: 540, title: "Office Space", poster: "./afisler/OfficeSpace.jpg"},
+    { id: 541, title: "Dumb and Dumber", poster: "./afisler/DumbandDumber.jpg"},
+    { id: 542, title: "Liar Liar", poster: "./afisler/LiarLiar.jpg"},
+    { id: 543, title: "Basic Instinct", poster: "./afisler/BasicInstinct.jpg"},
+    { id: 544, title: "Total Recall", poster: "./afisler/TotalRecall.jpg"},
+    { id: 545, title: "Beau Travail", poster: "./afisler/BeauTravail.jpg"},
+    { id: 546, title: "Showgirls", poster: "./afisler/Showgirls.jpg"},
+    { id: 547, title: "My Best Friend’s Wedding", poster: "./afisler/MyBestFriendsWedding.jpg"},
+    { id: 548, title: "The Breakfast Club", poster: "./afisler/TheBreakfastClub.jpg"},
+    { id: 549, title: "Die Hard", poster: "./afisler/DieHard.jpg"},
+
 
 
 
@@ -5947,6 +5957,98 @@ const filmDetaylari = {
     releaseDate: "19 Şubat 1999",
     imdbId: "tt0151804"
     },
+    542: {
+    konu: "Saf ve kafadar iki arkadaş olan Lloyd Christmas ve Harry Dunne'ın, yanlışlıkla ellerinde kalan bir çanta dolusu parayı sahibine geri vermek için Aspen'e doğru çıktıkları, başlarına gelen ardı arkası kesilmeyen absürt ve komik olaylarla dolu yolculuğunu anlatan unutulmaz bir komedi klasiği.",
+    genre: ["Komedi", "Macera"],
+    cast: "Jim Carrey, Jeff Daniels, Lauren Holly, Mike Starr, Charles Rocket, Teri Garr",
+    director: "Peter Farrelly",
+    imdb: "7.3",
+    duration: "107 Dakika",
+    releaseDate: "16 Aralık 1994",
+    imdbId: "tt0109686"
+    },
+543: {
+    konu: "Kariyeri uğruna sürekli yalan söyleyen hırslı avukat Fletcher Reede'in, oğlunun doğum günü dileğiyle 24 saat boyunca yalnızca doğruyu söylemek zorunda kalması ve bu durumun mahkemede ve hayatında yarattığı gülünç ve absürt karmaşayı anlatan eğlenceli bir komedi.",
+    genre: ["Komedi", "Fantastik"],
+    cast: "Jim Carrey, Maura Tierney, Justin Cooper, Cary Elwes, Jennifer Tilly, Amanda Donohoe, Jason Bernard",
+    director: "Tom Shadyac",
+    imdb: "6.9",
+    duration: "86 Dakika",
+    releaseDate: "21 Mart 1997",
+    imdbId: "tt0119528"
+    },
+544: {
+    konu: "San Francisco'da işlenen vahşi bir cinayeti araştıran dedektif Nick Curran'ın, baş şüpheli olan, zeki ve cazibeli yazar Catherine Tramell'ın büyüleyici ve tehlikeli çekim kapısına kapılarak sürüklendiği ölümcül tutku ve gerilim dolu soruşturmasını anlatan kült bir erotik gerilim filmi.",
+    genre: ["Gizem", "Romantik", "Gerilim"],
+    cast: "Michael Douglas, Sharon Stone, George Dzundza, Jeanne Tripplehorn, Denis Arndt, Leilani Sarelle",
+    director: "Paul Verhoeven",
+    imdb: "7.1",
+    duration: "127 Dakika",
+    releaseDate: "20 Mart 1992",
+    imdbId: "tt0103772"
+    },
+545: {
+    konu: "2084 yılında yaşayan ve sürekli Mars seyahatleri rüyası gören inşaat işçisi Douglas Quaid'in, anı implantı sunan Rekall şirketine gitmesiyle hafızasının silindiğini ve kendisini gizli bir ajan olarak bulduğu, gerçeklik algısını altüst eden bilim kurgu ve aksiyon klasiği.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu", "Gizem", "Gerilim"],
+    cast: "Arnold Schwarzenegger, Rachel Ticotin, Sharon Stone, Ronny Cox, Michael Ironside, Mel Johnson Jr.",
+    director: "Paul Verhoeven",
+    imdb: "7.5",
+    duration: "113 Dakika",
+    releaseDate: "1 Haziran 1990",
+    imdbId: "tt0100802"
+    },
+546: {
+    konu: "Doğu Afrika'daki Cibuti'de görev yapan Fransız Yabancı Lejyonu askerlerinin çölde geçen disiplinli, monoton ve fiziksel rutinlerini, kıdemli bir astsubayın bir askere duyduğu kıskançlık ve saplantılı hayranlığın birliğin dengesini altüst etmesiyle gelişen dramı anlatan büyüleyici ve estetik bir başyapıt.",
+    genre: ["Dram"],
+    cast: "Denis Lavant, Michel Subor, Grégoire Colin, Richard Courcet",
+    director: "Claire Denis",
+    imdb: "7.3",
+    duration: "92 Dakika",
+    releaseDate: "4 Eylül 1999",
+    imdbId: "tt0209933"
+    },
+547: {
+    konu: "Las Vegas'ta büyük bir yıldız olma hayaliyle yanıp tutuşan genç ve hırslı bir dansçı olan Nomi Malone'un, ihtişamlı ama bir o kadar da acımasız şov dünyasının karanlık yüzüne, entrikalarına ve rekabetine adım atışını anlatan cesur ve kült bir dram.",
+    genre: ["Dram"],
+    cast: "Elizabeth Berkley, Kyle MacLachlan, Gina Gershon, Glenn Plummer, Robert Davi, Alan Rachins",
+    director: "Paul Verhoeven",
+    imdb: "5.2",
+    duration: "131 Dakika",
+    releaseDate: "22 Eylül 1995",
+    imdbId: "tt0114436"
+    },
+548: {
+    konu: "Yıllar önce birbirlerine eğer belirli bir yaşa kadar evlenmezlerse evleneceklerine dair söz veren iki yakın arkadaştan Julianne'in, en yakın arkadaşının başka bir kadınla evleneceğini öğrendiğinde nikahı bozmak ve onu kendine aşık etmek için planlar yapmaya başlamasını anlatan eğlenceli ve romantik bir komedi.",
+    genre: ["Komedi", "Romantik"],
+    cast: "Julia Roberts, Dermot Mulroney, Cameron Diaz, Rupert Everett, Philip Bosco, M. Emmet Walsh",
+    director: "P.J. Hogan",
+    imdb: "6.4",
+    duration: "105 Dakika",
+    releaseDate: "20 Haziran 1997",
+    imdbId: "tt0119738"
+    },
+549: {
+    konu: "Cumartesi günü okulda ceza çekmek üzere bir araya gelen, tamamen farklı sosyal sınıflara ve stereotiplere sahip beş lise öğrencisinin, gün boyunca yaşadıkları derinlemesine sohbetlerle önyargılarını kırıp birbirlerini ve kendilerini keşfetmelerini anlatan zamansız bir gençlik dramı.",
+    genre: ["Komedi", "Dram"],
+    cast: "Emilio Estevez, Anthony Michael Hall, Judd Nelson, Molly Ringwald, Ally Sheedy, Paul Gleason, John Kapelos",
+    director: "John Hughes",
+    imdb: "7.8",
+    duration: "97 Dakika",
+    releaseDate: "15 Şubat 1985",
+    imdbId: "tt0088847"
+    },
+550: {
+    konu: "Noel tatilini geçirmek ve karısıyla barışmak için Los Angeles'a gelen New Yorklu polis memuru John McClane'in, karısının çalıştığı gökdeleni ele geçiren Hans Gruber liderliğindeki uluslararası terörist grubuna karşı tek başına verdiği gerilim dolu hayatta kalma mücadelesini anlatan efsanevi bir aksiyon klasiği.",
+    genre: ["Aksiyon", "Gerilim"],
+    cast: "Bruce Willis, Alan Rickman, Bonnie Bedelia, Reginald VelJohnson, Paul Gleason, William Atherton, Alexander Godunov",
+    director: "John McTiernan",
+    imdb: "8.2",
+    duration: "132 Dakika",
+    releaseDate: "20 Temmuz 1988",
+    imdbId: "tt0095016"
+    },
+
+    
 
 
 
