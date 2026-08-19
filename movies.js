@@ -575,6 +575,29 @@ const filmListesi = [
     { id: 573, title: "Solaris", poster: "./afisler/Solaris.jpg"},
     { id: 574, title: "Stop Making Sense", poster: "./afisler/StopMakingSense.jpg"},
     { id: 575, title: "The Elephant Man", poster: "./afisler/TheElephantMan.jpg"},
+    { id: 576, title: "Possession", poster: "./afisler/Possession.jpg"},
+    { id: 577, title: "Dirty Dancing", poster: "./afisler/DirtyDancing.jpg"},
+    { id: 578, title: "Akira", poster: "./afisler/Akira.jpg"},
+    { id: 579, title: "Batman", poster: "./afisler/Batman.jpg"},
+    { id: 580, title: "Gremlins", poster: "./afisler/Gremlins.jpg"},
+    { id: 581, title: "The Karate Kid", poster: "./afisler/TheKarateKid.jpg"},
+    { id: 582, title: "Who Framed Roger Rabbit", poster: "./afisler/WhoFramedRogerRabbit.jpg"},
+    { id: 583, title: "They Live", poster: "./afisler/TheyLive.jpg"},
+    { id: 584, title: "First Blood", poster: "./afisler/FirstBlood.jpg"},
+    { id: 585, title: "Thief", poster: "./afisler/Thief.jpg"},
+    { id: 586, title: "Blow Out", poster: "./afisler/BlowOut.jpg"},
+    { id: 587, title: "The Sacrifice", poster: "./afisler/TheSacrifice.jpg"},
+    { id: 588, title: "Footloose", poster: "./afisler/Footloose.jpg"},
+    { id: 589, title: "Spaceballs", poster: "./afisler/Spaceballs.jpg"},
+    { id: 590, title: "Companion", poster: "./afisler/Companion.jpg"},
+    { id: 591, title: "Barbarian", poster: "./afisler/Barbarian.jpg"},
+    { id: 592, title: "Priscilla", poster: "./afisler/Priscilla.jpg"},
+    { id: 593, title: "Trap", poster: "./afisler/Trap.jpg"},
+    { id: 594, title: "The Northman", poster: "./afisler/TheNorthman.jpg"},
+    { id: 595, title: "Triangle of Sadness", poster: "./afisler/TriangleofSadness.jpg"},
+    { id: 596, title: "Free Guy", poster: "./afisler/FreeGuy.jpg"},
+    { id: 597, title: "The Idea of You", poster: "./afisler/TheIdeaofYou.jpg"},
+    { id: 598, title: "Hit Man", poster: "./afisler/HitMan.jpg"},
 
 
 
@@ -6342,6 +6365,236 @@ const filmDetaylari = {
     duration: "124 Dakika",
     releaseDate: "10 Ekim 1980",
     imdbId: "tt0080678"
+    },
+576: {
+    konu: "Berlin'de yaşayan bir çiftin evliliklerinin çatırdaması ve boşanma süreciyle birlikte kadının sergilediği giderek tuhaf, agresif ve akıl almaz derecede korkunç davranışlarının arkasındaki gerçeği keşfetmeye çalışan bir adamın yaşadığı psikolojik kabusu anlatan rahatsız edici ve sıra dışı bir korku ve dram filmi.",
+    genre: ["Dram", "Korku", "Gizem", "Gerilim"],
+    cast: "Isabelle Adjani, Sam Neill, Margit Carstensen, Heinz Bennent, Michael Gogin, Shaun Lawton",
+    director: "Andrzej Zulawski",
+    imdb: "7.2",
+    duration: "124 Dakika",
+    releaseDate: "25 Mayıs 1981",
+    imdbId: "tt0082933"
+    },
+577: {
+    konu: "1963 yazında ailesiyle birlikte gittiği bir tatil köyünde, kampın yakışıklı ve yetenekli dans eğitmeniyle tanışan genç bir kızın, dans dersleriyle birlikte hem büyüme hikayesini hem de aralarında filizlenen tutkulu ve unutulmaz aşkı anlatan klasik bir romantik müzikal.",
+    genre: ["Dram", "Müzik", "Romantik"],
+    cast: "Patrick Swayze, Jennifer Grey, Jerry Orbach, Cynthia Rhodes, Jack Weston, Jane Brucker, Kelly Bishop",
+    director: "Emile Ardolino",
+    imdb: "7.1",
+    duration: "100 Dakika",
+    releaseDate: "21 Ağustos 1987",
+    imdbId: "tt0092890"
+    },
+578: {
+    konu: "Nükleer bir felaketin ardından yeniden inşa edilen Neo-Tokyo'da geçen; motorcu çetesine liderlik eden bir gencin, gizli bir askeri deney sonucunda devasa ve kontrol edilemez telekinetik güçler kazanması ve çocukluk arkadaşının onu durdurmaya çalışırken megalomanlığa sürüklenen dostuyla karşı karşıya gelmesini anlatan çığır açıcı bir cyberpunk anime başyapıtı.",
+    genre: ["Animasyon", "Aksiyon", "Bilim Kurgu", "Dram"],
+    cast: "Mitsuo Iwata, Nozomu Sasaki, Mami Koyama, Taro Ishida, Tessho Genda, Mizuho Suzuki",
+    director: "Katsuhiro Otomo",
+    imdb: "8.0",
+    duration: "124 Dakika",
+    releaseDate: "16 Temmuz 1988",
+    imdbId: "tt0094625"
+    },
+579: {
+    konu: "Suç ve yolsuzluğun kasıp kavurduğu Gotham City'de, adaleti kendi ellerine alan gizemli kanun koruyucusu Batman'in, şehrin kontrolünü ele geçirmeye çalışan yüzü kimyasallarla deforme olmuş cani suç dehası Joker'e karşı verdiği karanlık ve görkemli mücadeleyi anlatan ikonik süper kahraman filmi.",
+    genre: ["Aksiyon", "Macera"],
+    cast: "Michael Keaton, Jack Nicholson, Kim Basinger, Robert Wuhl, Pat Hingle, Billy Dee Williams, Michael Gough",
+    director: "Tim Burton",
+    imdb: "7.5",
+    duration: "126 Dakika",
+    releaseDate: "23 Haziran 1989",
+    imdbId: "tt0096895"
+    },
+580: {
+    konu: "Noel hediyesi olarak babasının egzotik bir dükkândan aldığı sevimli ve tuhaf yaratığı evine getiren bir genç, ona bakarken uyması gereken temel kuralları ihlal ettiğinde kasabayı kasıp kavuran küçük, yaramaz ve yıkıcı canavarların ortaya çıkmasına neden olan eğlenceli ve gerilim dolu fantastik bir komedi klasiği.",
+    genre: ["Komedi", "Fantastik", "Korku"],
+    cast: "Zach Galligan, Phoebe Cates, Hoyt Axton, Frances Lee McCain, Keye Luke, Judge Reinhold, Dick Miller",
+    director: "Joe Dante",
+    imdb: "7.3",
+    duration: "106 Dakika",
+    releaseDate: "8 Haziran 1984",
+    imdbId: "tt0087363"
+    },
+581: {
+    konu: "Yeni taşındığı kasabada yerel bir karate çetesinin sürekli zorbalığına uğrayan genç Daniel LaRusso'nun, yaşadığı apartmanın mütevazı ve bilge tamircisi Mr. Miyagi'den karate dersleri alarak hem içsel huzuru bulmasını hem de turnuvada rakipleriyle yüzleşmek için hazırlanmasını anlatan ilham verici bir klasik spor dramı.",
+    genre: ["Aksiyon", "Aile", "Dram", "Sport"],
+    cast: "Ralph Macchio, Noriyuki 'Pat' Morita, Elisabeth Shue, Martin Kove, William Zabka, Randee Heller",
+    director: "John G. Avildsen",
+    imdb: "7.4",
+    duration: "126 Dakika",
+    releaseDate: "22 Haziran 1984",
+    imdbId: "tt0087538"
+    },
+582: {
+    konu: "1947 Hollywood'unda, çizgi film karakterlerinin gerçek insanlarla birlikte yaşadığı bir dünyada geçen; karısı Jessica Rabbit'in cinayetle suçlandığı bir şantaj skandalının ortasında kalan saf tavırlarıyla tanınan çizgi film yıldızı Roger Rabbit'in, çizerlerden nefret eden alkolik ve önyargılı bir dedektiften yardım isteyerek gerçeği ortaya çıkarmaya çalıştığı eğlenceli ve yenilikçi bir suç komedisi.",
+    genre: ["Animasyon", "Macera", "Komedi", "Suç", "Fantastik", "Gizem"],
+    cast: "Bob Hoskins, Christopher Lloyd, Charles Fleischer, Kathleen Turner, Joanna Cassidy, Stubby Kaye, Alan Tilvern",
+    director: "Robert Zemeckis",
+    imdb: "7.7",
+    duration: "104 Dakika",
+    releaseDate: "22 Haziran 1988",
+    imdbId: "tt0096438"
+    },
+583: {
+    konu: "İşsiz bir inşaat işçisinin, tesadüfen bulduğu özel bir güneş gözlüğü sayesinde toplumun büyük bir kısmının aslında uzaylı istilacılar tarafından yönetilen, subliminal mesajlarla uyutulmuş bir distopyada yaşadığını fark etmesi üzerine, insanlığı bu gerçeğe uyandırmak için başlattığı umutsuz ve aksiyon dolu bir mücadeleyi anlatan kült bir bilim kurgu ve toplumsal eleştiri filmi.",
+    genre: ["Aksiyon", "Korku", "Bilim Kurgu", "Gerilim"],
+    cast: "Roddy Piper, Keith David, Meg Foster, George 'Buck' Flower, Peter Jason, Raymond St. Jacques",
+    director: "John Carpenter",
+    imdb: "7.2",
+    duration: "94 Dakika",
+    releaseDate: "4 Kasım 1988",
+    imdbId: "tt0096256"
+    },
+584: {
+    konu: "Vietnam Savaşı'nın travmalarını hâlâ yaşayan eski bir Özel Kuvvetler askeri olan John Rambo'nun, küçük bir kasabanın kibirli ve zalim şerifinin haksız suçlamaları ve tacizleriyle karşılaştıktan sonra, ormanda hayatta kalma ve gerilla taktikleriyle kasaba polisine ve ulusal muhafızlara karşı tek başına verdiği nefes kesici bir hayatta kalma ve intikam mücadelesini anlatan ikonik aksiyon filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Sylvester Stallone, Richard Crenna, Brian Dennehy, Bill McKinney, Jack Starrett, Michael Talbott",
+    director: "Ted Kotref",
+    imdb: "7.7",
+    duration: "93 Dakika",
+    releaseDate: "22 Ekim 1982",
+    imdbId: "tt0083944"
+    },
+585: {
+    konu: "Chicago'da geçen; geçmişindeki zorluklara rağmen kendi kurallarıyla yaşayan, profesyonel ve mahir bir mücevher hırsızının, hayatını düzene sokup normal bir aile kurmak istemesi ancak büyük bir soygun için anlaşma yaptığı tehlikeli bir mafya patronu yüzünden işlerin sarpa sarmasıyla verdiği acımasız mücadeleyi anlatan yönetmen Michael Mann imzalı şık ve gerilim dolu neo-noir suç klasiği.",
+    genre: ["Suç", "Dram", "Gerilim"],
+    cast: "James Caan, Tuesday Weld, Willie Nelson, Jim Belushi, Robert Prosky, Tom Signorelli, Dennis Farina",
+    director: "Michael Mann",
+    imdb: "7.4",
+    duration: "123 Dakika",
+    releaseDate: "27 Mart 1981",
+    imdbId: "tt0083190"
+    },
+586: {
+    konu: "Bir film ses teknisyeninin, bir gece tesadüfen kaydettiği bir trafik kazası sesinde, aslında bir suikastın gerçekleştiğine dair kanıtlar duyması ve bu gerçeği ortaya çıkarmaya çalışırken kendini politik bir komplonun, tehlikeli bir katilin ve paranoid bir kovalamacanın ortasında bulmasını anlatan gerilim dolu usta işi bir Brian De Palma neo-noir klasiği.",
+    genre: ["Suç", "Gizem", "Gerilim"],
+    cast: "John Travolta, Nancy Allen, John Lithgow, Dennis Franz, Peter Boyden, Curt May",
+    director: "Brian De Palma",
+    imdb: "7.4",
+    duration: "108 Dakika",
+    releaseDate: "24 Temmuz 1981",
+    imdbId: "tt0082085"
+    },
+587: {
+    konu: "Nükleer bir felaketin yaklaşmakta olduğu bir dünyada, inançlı bir entelektüelin insanlığı kurtarmak adına tanrıyla yaptığı zorlu ve fedakârca bir pazarlığı konu alan, Andrei Tarkovsky'nin yönettiği derinlikli, şiirsel ve spiritüel bir veda niteliğindeki başyapıt.",
+    genre: ["Dram"],
+    cast: "Erland Josephson, Susan Fleetwood, Allan Edwall, Guðrún Gísladóttir, Sven Wollter, Valérie Mairesse",
+    director: "Andrei Tarkovsky",
+    imdb: "7.8",
+    duration: "149 Dakika",
+    releaseDate: "9 Mayıs 1986",
+    imdbId: "tt0091670"
+    },
+588: {
+    konu: "Büyük bir şehirden muhafazakâr ve küçük bir kasabaya taşınan genç bir adamın, kasabada dans etmenin ve yüksek sesli müzik dinlemenin yasak olduğunu öğrenmesi üzerine, diğer gençlerle birlikte bu katı kurala başkaldırarak özgürlüklerini ve yaşam sevinçlerini geri kazanma mücadelesini anlatan enerjik ve müzik dolu bir gençlik klasiği.",
+    genre: ["Dram", "Müzik", "Romantik"],
+    cast: "Kevin Bacon, Lori Singer, John Lithgow, Dianne Wiest, Chris Penn, Sarah Jessica Parker, John Laughlin",
+    director: "Herbert Ross",
+    imdb: "6.7",
+    duration: "107 Dakika",
+    releaseDate: "17 Şubat 1984",
+    imdbId: "tt0087277"
+    },
+589: {
+    konu: "Bilim kurgu sinemasının ikonik yapımlarını, özellikle de Star Wars evrenini tiye alan; galaksinin kötü kalpli liderlerinin hava rezervlerini çalmaya çalışan derme çatma bir uzay ekibinin, beceriksiz bir prensesi kurtarmak ve absürt maceralara atılmak zorunda kalmasını anlatan Mel Brooks imzalı komik ve eğlenceli bir parodi klasiği.",
+    genre: ["Macera", "Komedi", "Sci-Fi"],
+    cast: "Mel Brooks, John Candy, Rick Moranis, Bill Pullman, Daphne Zuniga, Joan Rivers, Dick Van Patten",
+    director: "Mel Brooks",
+    imdb: "7.1",
+    duration: "96 Dakika",
+    releaseDate: "24 Temmuz 1987",
+    imdbId: "tt0094012"
+    },
+590: {
+    konu: "Yakın bir gelecekte, yapay zekaya sahip ileri teknoloji ürünü bir insan benzeri refakatçinin, karmaşık ilişkiler ve insan doğasının karanlık yönleriyle sınandığı gerilim dolu sıra dışı bir bilim kurgu hikayesi.",
+    genre: ["Bilim Kurgu", "Gerilim"],
+    cast: "Sophie Thatcher, Jack Quaid, Lukas Gage, Megan Suri, Harvey Guillén, Rupert Friend",
+    director: "Drew Hancock",
+    imdb: "6.9",
+    duration: "97 Dakika",
+    releaseDate: "31 Ocak 2025",
+    imdbId: "tt26584495"
+    },
+591: {
+    konu: "Gece yarısı yağmur altında gittiği kiralık eve vardığında evin yanlışlıkla başka biriyle çift rezerve edildiğini fark eden genç bir kadının, istemeye istemeye aynı evde konaklayan tuhaf ama kibar yabancıyla kalmayı kabul etmesinin ardından, evde keşfettiği gizli bir kapıyla birlikte kendini hayatta kalma mücadelesi verdiği dehşet verici bir kâbusun ortasında bulmasını anlatan gerilim dolu modern bir korku filmi.",
+    genre: ["Korku", "Gizem", "Gerilim"],
+    cast: "Georgina Campbell, Bill Skarsgård, Justin Long, Matthew Patrick Davis, Richard Brake, Jaymes Butler",
+    director: "Zach Cregger",
+    imdb: "7.0",
+    duration: "102 Dakika",
+    releaseDate: "9 Eylül 2022",
+    imdbId: "tt15791034"
+    },
+592: {
+    konu: "Elvis Presley ile çalkantılı ve genç yaşta başlayan ilişkisini, rock 'n' roll kralının gölgesinde kalan hayatını, yalnızlığını ve kendi kimliğini bulma mücadelesini Priscilla Presley'nin gözünden anlatan Sofia Coppola imzalı etkileyici bir biyografik dram filmi.",
+    genre: ["Biyografi", "Dram", "Romantik"],
+    cast: "Cailee Spaeny, Jacob Elordi, Ari Cohen, Dagmara Domińczyk, Tim Post, Luke Humphrey",
+    director: "Sofia Coppola",
+    imdb: "6.4",
+    duration: "113 Dakika",
+    releaseDate: "3 Kasım 2023",
+    imdbId: "tt22041854"
+    },
+593: {
+    konu: "Bir baba ve ergenlik çağındaki kızı, popüler bir müzik konserine katıldıklarında etkinliğin aslında seri katili yakalamak için kurulmuş devasa ve gizli bir polis kapanı olduğunu fark ederler; babanın ise asıl sırrı, aradıkları o katilin bizzat kendisi olmasıdır. Durumun ciddileşmesiyle birlikte katil baba, polisin çemberinden kaçmak ve kimliğini gizlemek için zekice bir kedi-fare oyununa girişir.",
+    genre: ["Suç", "Gizem", "Gerilim"],
+    cast: "Josh Hartnett, Ariel Donoghue, Saleka Night Shyamalan, Hayley Mills, Alison Pill, Jonathan Langdon",
+    director: "M. Night Shyamalan",
+    imdb: "5.8",
+    duration: "105 Dakika",
+    releaseDate: "2 Ağustos 2024",
+    imdbId: "tt26753003"
+    },
+594: {
+    konu: "10. yüzyılda İzlanda'da geçen; babası hain amcası tarafından katledilen ve annesi kaçırılan genç bir Viking prensinin, yıllar sonra intikamını almak ve adaletini sağlamak için yemin ettiği topraklara dönerek kana bulanmış destansı ve vahşi mücadelesini anlatan Robert Eggers imzalı görsel bir şölen.",
+    genre: ["Aksiyon", "Macera", "Dram", "Fantastik", "Tarih"],
+    cast: "Alexander Skarsgård, Nicole Kidman, Claes Bang, Anya Taylor-Joy, Ethan Hawke, Willem Dafoe, Björk",
+    director: "Robert Eggers",
+    imdb: "7.0",
+    duration: "137 Dakika",
+    releaseDate: "22 Nisan 2022",
+    imdbId: "tt11138512"
+    },
+595: {
+    konu: "Modellik yapan ünlü bir çiftin, ultra zengin yolcuların bulunduğu lüks bir yat turuna davet edilmesiyle başlayan; ancak yatın fırtınada batması ve hayatta kalanların ıssız bir adada mahsur kalmasıyla birlikte toplumsal hiyerarşinin, sınıf rollerinin ve güç dengelerinin tamamen tersine döndüğü keskin ve absürt bir kara mizah.",
+    genre: ["Komedi", "Dram"],
+    cast: "Harris Dickinson, Charlbi Dean, Woody Harrelson, Dolly de Leon, Zlatko Burić, Sunnyi Melles",
+    director: "Ruben Östlund",
+    imdb: "7.2",
+    duration: "147 Dakika",
+    releaseDate: "18 Eylül 2022",
+    imdbId: "tt7322224"
+    },
+596: {
+    konu: "Açık dünyaya sahip popüler bir video oyununda arka planda sıradan bir banka memuru olarak yaşayan NPC (yapay zeka karakteri), bir gün oyunun kodlarındaki bir aksaklık ve hayatının aşkı olan oyuncuyla karşılaşması sayesinde aslında bir simülasyonun içinde olduğunu fark etmesiyle, kendi kaderini yazmak ve dünyayı kurtarmak için oyunun kahramanı olmaya karar vermesini anlatan eğlenceli ve aksiyon dolu bir bilim kurgu komedisi.",
+    genre: ["Aksiyon", "Macera", "Komedi", "Bilim Kurgu"],
+    cast: "Ryan Reynolds, Jodie Comer, Lil Rel Howery, Utkarsh Ambudkar, Joe Keery, Taika Waititi",
+    director: "Shawn Levy",
+    imdb: "7.1",
+    duration: "115 Dakika",
+    releaseDate: "13 Ağustos 2021",
+    imdbId: "tt6264654"
+    },
+597: {
+    konu: "40 yaşındaki boşanmış bir annenin, 16 yaşındaki kızı için Coachella müzik festivaline gitmesi ve burada dünyanın en popüler müzik grubunun 24 yaşındaki yakışıklı solistiyle beklenmedik, tutkulu ve hayatını değiştirecek bir aşk yaşamasını anlatan samimi ve romantik bir dram filmi.",
+    genre: ["Komedi", "Dram", "Romantik"],
+    cast: "Anne Hathaway, Nicholas Galitzine, Ella Rubin, Reid Scott, Annie Mumolo, Perry Mattfeld",
+    director: "Michael Showalter",
+    imdb: "6.3",
+    duration: "115 Dakika",
+    releaseDate: "2 Mayıs 2024",
+    imdbId: "tt9466114"
+    },
+598: {
+    konu: "New Orleans'ta polis için sahte bir kiralık katil kılığına girerek suçluları suç üstü yakalatan sıradan bir üniversite profesörünün, cazibeli bir kadın müşterisine aşık olmasıyla birlikte kendi yarattığı karakterin ardında kaybolmasını ve ikilinin tehlikeli, komik ve tutkulu bir kedi-fare oyununa girişmesini anlatan eğlenceli ve akıllı bir Richard Linklater komedi-gerilim filmi.",
+    genre: ["Komedi", "Suç", "Romantik"],
+    cast: "Glen Powell, Adria Arjona, Austin Amelio, Retta, Sanjay Rao, Evan Holtzman",
+    director: "Richard Linklater",
+    imdb: "6.8",
+    duration: "115 Dakika",
+    releaseDate: "7 Haziran 2024",
+    imdbId: "tt20215968"
     },
 
 
