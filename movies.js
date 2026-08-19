@@ -549,6 +549,18 @@ const filmListesi = [
     { id: 547, title: "My Best Friend’s Wedding", poster: "./afisler/MyBestFriendsWedding.jpg"},
     { id: 548, title: "The Breakfast Club", poster: "./afisler/TheBreakfastClub.jpg"},
     { id: 549, title: "Die Hard", poster: "./afisler/DieHard.jpg"},
+    { id: 550, title: "Juno", poster: "./afisler/Juno.jpg"},
+    { id: 551, title: "Ponyo", poster: "./afisler/Ponyo.jpg"},
+    { id: 552, title: "School of Rock", poster: "./afisler/SchoolofRock.jpg"},
+    { id: 553, title: "Punch-Drunk Love", poster: "./afisler/PunchDrunkLove.jpg"},
+    { id: 554, title: "The Holiday", poster: "./afisler/TheHoliday.jpg"},
+    { id: 555, title: "She’s the Man", poster: "./afisler/ShestheMan.jpg"},
+    { id: 556, title: "The Proposal", poster: "./afisler/TheProposal.jpg"},
+    { id: 557, title: "Cast Away", poster: "./afisler/CastAway.jpg"},
+    { id: 558, title: "A Beautiful Mind", poster: "./afisler/ABeautifulMind.jpg"},
+    { id: 559, title: "Snatch", poster: "./afisler/Snatch.jpg"},
+    { id: 560, title: "Thirteen", poster: "./afisler/Thirteen.jpg"},
+    { id: 561, title: "The Piano Teacher", poster: "./afisler/ThePianoTeacher.jpg"},
 
 
 
@@ -6047,6 +6059,128 @@ const filmDetaylari = {
     releaseDate: "20 Temmuz 1988",
     imdbId: "tt0095016"
     },
+550: {
+    konu: "Beklenmedik bir hamilelikle karşı karşıya kalan zeki ve hazırcevap lise öğrencisi Juno MacGuff'ın, bebeği evlat edinecek kusursuz bir aile bulma süreciyle birlikte olgunlaşmasını, mizahi ve samimi bir dille anlatan sıcak bir komedi-dram.",
+    genre: ["Komedi", "Dram"],
+    cast: "Elliot Page, Michael Cera, Jennifer Garner, Jason Bateman, Allison Janney, J.K. Simmons",
+    director: "Jason Reitman",
+    imdb: "7.4",
+    duration: "96 Dakika",
+    releaseDate: "25 Aralık 2007",
+    imdbId: "tt0467406"
+    },
+551: {
+    konu: "Deniz tanrıçası bir babanın ve insan olmak isteyen büyüleyici bir deniz kızı prensesinin, sahilde yaşayan beş yaşındaki küçük bir çocukla kurduğu masalsı dostluğu ve doğanın dengesini altüst eden sevimli maceralarını anlatan büyüleyici bir Studio Ghibli animasyonu.",
+    genre: ["Animasyon", "Macera", "Aile", "Fantastik", "Romantik"],
+    cast: "Yuria Nara, Hiroki Doi, Tomoko Yamaguchi, Rumi Hiiragi, Yûki Amami, George Tokoro, Tomoko Yamaguchi, Kazushige Nagashima",
+    director: "Hayao Miyazaki",
+    imdb: "7.6",
+    duration: "101 Dakika",
+    releaseDate: "14 Ağustos 2009",
+    imdbId: "tt0876563"
+    },
+552: {
+    konu: "Grubundan kovulan hayalperest ve asi gitarist Dewey Finn'in, maddi sıkıntılar yüzünden kimliğini gizleyerek prestijli bir yatılı okulda müzik öğretmeni olarak işe başlaması ve disiplinli öğrencilerini gizlice bir rock grubuna dönüştürerek yarışmaya hazırlamasını anlatan eğlenceli bir müzikal komedi.",
+    genre: ["Komedi", "Müzik"],
+    cast: "Jack Black, Joan Cusack, Mike White, Sarah Silverman, Miranda Cosgrove, Lucas Papaelias",
+    director: "Richard Linklater",
+    imdb: "7.2",
+    duration: "109 Dakika",
+    releaseDate: "3 Ekim 2003",
+    imdbId: "tt0332379"
+    },
+553: {
+    konu: "Hayatının kontrolünü elinde tutmakta zorlanan, öfke nöbetleri geçiren ve tuhaf işler yapan yalnız bir adam olan Barry Egan'ın, hayatına giren gizemli ve sıcakkanlı bir kadın sayesinde beklenmedik bir aşk ve macera dalgasına kapılışını anlatan sıradışı ve etkileyici bir romantik dram.",
+    genre: ["Komedi", "Dram", "Romantik"],
+    cast: "Adam Sandler, Emily Watson, Philip Seymour Hoffman, Luis Guzmán, Mary Lynn Rajskub",
+    director: "Paul Thomas Anderson",
+    imdb: "7.3",
+    duration: "95 Dakika",
+    releaseDate: "1 Kasım 2002",
+    imdbId: "tt0272338"
+    },
+554: {
+    konu: "Aşk hayatlarında hayal kırıklığı yaşayan ve tamamen farklı dünyalarda yaşayan iki kadının, Noel tatilinde internet üzerinden evlerini karşılıklı olarak değiştirip okyanusun iki farklı yakasında kendilerini yeniden keşfettikleri ve sürpriz aşklarla tanıştıkları sıcak bir romantik komedi.",
+    genre: ["Komedi", "Romantik"],
+    cast: "Cameron Diaz, Kate Winslet, Jude Law, Jack Black, Eli Wallach, Edward Burns, Rufus Sewell",
+    director: "Nancy Meyers",
+    imdb: "7.0",
+    duration: "136 Dakika",
+    releaseDate: "8 Aralık 2006",
+    imdbId: "tt0457939"
+    },
+555: {
+    konu: "Kapanan okulunun futbol takımında oynamasına izin verilmeyen yetenekli sporcu Viola Hastings'in, ikiz kardeşi Sebastian'ın yerine erkek kılığında yatılı bir okula giderek hem futbol takımına girmesini hem de karmaşık ve komik bir aşk üçgeninin ortasında kalmasını anlatan eğlenceli bir gençlik komedisi.",
+    genre: ["Komedi", "Romantik", "Spor"],
+    cast: "Amanda Bynes, Channing Tatum, Laura Ramsey, Vinnie Jones, David Cross, Robert Hoffman, Alexandra Breckenridge",
+    director: "Andy Fickman",
+    imdb: "6.4",
+    duration: "105 Dakika",
+    releaseDate: "17 Mart 2006",
+    imdbId: "tt0454945"
+    },
+556: {
+    konu: "ABD'de kalabilmek için sınır dışı edilme tehlikesiyle karşı karşıya kalan zorba ve soğuk nevale bir kitap editörünün, asistanı ile ani bir evlilik planı yapması ve ikilinin ailesini ikna etmek için Alaska'ya gitmesiyle aralarında gelişen eğlenceli ve romantik olayları anlatan neşeli bir romantik komedi.",
+    genre: ["Komedi", "Romantik", "Dram"],
+    cast: "Sandra Bullock, Ryan Reynolds, Mary Steenburgen, Craig T. Nelson, Betty White, Denis O'Hare",
+    director: "Anne Fletcher",
+    imdb: "6.8",
+    duration: "108 Dakika",
+    releaseDate: "19 Haziran 2009",
+    imdbId: "tt1041829"
+    },
+557: {
+    konu: "Uçağının okyanusa düşmesi sonucu yalnız bir adada mahsur kalan FedEx sistem analisti Chuck Noland'ın, yıllar süren bu zorlu tecrit boyunca hem fiziksel hem de zihinsel olarak hayatta kalma mücadelesini ve insan doğasının dayanıklılığını anlatan etkileyici bir dram.",
+    genre: ["Macera", "Dram", "Romantik"],
+    cast: "Tom Hanks, Helen Hunt, Nick Searcy, Chris Noth, Lari White, Paul Sanchez",
+    director: "Robert Zemeckis",
+    imdb: "7.8",
+    duration: "143 Dakika",
+    releaseDate: "22 Aralık 2000",
+    imdbId: "tt0162222"
+    },
+558: {
+    konu: "Harika bir matematik dehası olan John Nash'in akademik dünyada yükselişini, hayatını altüst eden şizofreni teşhisiyle mücadelesini ve eşinin desteğiyle bu zorlu hastalığı yenerek Nobel Ödülü'ne uzanan ilham verici hayat hikayesini anlatan etkileyici bir biyografik dram.",
+    genre: ["Biyografi", "Dram"],
+    cast: "Russell Crowe, Ed Harris, Jennifer Connelly, Paul Bettany, Adam Goldberg, Josh Lucas, Christopher Plummer",
+    director: "Ron Howard",
+    imdb: "8.2",
+    duration: "135 Dakika",
+    releaseDate: "13 Aralık 2001",
+    imdbId: "tt0268978"
+    },
+559: {
+    konu: "Çalınan paha biçilemez bir elmasın peşine düşen hırsızların, boks organizatörleri toptancılarının, gangsterlerin ve mafya babalarının yollarının kesiştiği, suç dünyasının karmaşasını ve absürtlüklerini hızlı bir tempoda anlatan kült bir suç ve komedi filmi.",
+    genre: ["Suç", "Komedi"],
+    cast: "Jason Statham, Brad Pitt, Benicio del Toro, Dennis Farina, Vinnie Jones, Stephen Graham, Jason Flemyng, Alan Ford, Mickey Dee, Lennie James",
+    director: "Guy Ritchie",
+    imdb: "8.2",
+    duration: "102 Dakika",
+    releaseDate: "23 Ağustos 2000",
+    imdbId: "tt0208092"
+    },
+560: {
+    konu: "Masumiyetten ergenliğin karmaşık, asi ve tehlikeli sularına hızla geçiş yapan 13 yaşındaki Tracy'nin, okulun popüler kızı Evie ile tanışmasıyla uyuşturucu, suç ve cinsellikle dolu çalkantılı bir dünyaya sürüklenişini ve bu durumun annesiyle olan ilişkisini sarsmasını anlatan sarsıcı ve gerçekçi bir dram.",
+    genre: ["Dram"],
+    cast: "Evan Rachel Wood, Nikki Reed, Holly Hunter, Jeremy Sisto, Brady Corbet, Deborah Kara Unger",
+    director: "Catherine Hardwicke",
+    imdb: "6.8",
+    duration: "100 Dakika",
+    releaseDate: "19 Eylül 2003",
+    imdbId: "tt0328538"
+    },
+561: {
+    konu: "Viyana'da prestijli bir konservatuvarda piyano öğretmenliği yapan soğuk ve baskıcı bir anneyle yaşayan Erika Kohut'un, kendi içindeki karanlık ve mazoşist arzularla, kendisine aşık olan genç ve yetenekli bir öğrencinin başlattığı tehlikeli ilişkiyi anlatan sarsıcı ve rahatsız edici bir psikolojik dram.",
+    genre: ["Dram", "Müzik", "Romantik"],
+    cast: "Isabelle Huppert, Annie Girardot, Benoît Magimel, Anna Sigalevitch, Susanne Lothar",
+    director: "Michael Haneke",
+    imdb: "7.5",
+    duration: "131 Dakika",
+    releaseDate: "31 Ağustos 2001",
+    imdbId: "tt0254686"
+    },
+
+    
 
     
 
