@@ -561,6 +561,20 @@ const filmListesi = [
     { id: 559, title: "Snatch", poster: "./afisler/Snatch.jpg"},
     { id: 560, title: "Thirteen", poster: "./afisler/Thirteen.jpg"},
     { id: 561, title: "The Piano Teacher", poster: "./afisler/ThePianoTeacher.jpg"},
+    { id: 562, title: "The 40 Year Old Virgin", poster: "./afisler/The40YearOldVirgin.jpg"},
+    { id: 563, title: "He’s Just Not That Into You", poster: "./afisler/HesJustNotThatIntoYou.jpg"},
+    { id: 564, title: "8 Mile", poster: "./afisler/8Mile.jpg"},
+    { id: 565, title: "The Mist", poster: "./afisler/TheMist.jpg"},
+    { id: 566, title: "The Ring", poster: "./afisler/TheRing.jpg"},
+    { id: 567, title: "Vanilla Sky", poster: "./afisler/VanillaSky.jpg"},
+    { id: 568, title: "Watchmen", poster: "./afisler/Watchmen.jpg"},
+    { id: 569, title: "Bolt", poster: "./afisler/Bolt.jpg"},
+    { id: 570, title: "Closer", poster: "./afisler/Closer.jpg"},
+    { id: 571, title: "A Woman Under the Influence", poster: "./afisler/AWomanUndertheInfluence.jpg"},
+    { id: 572, title: "Sorcerer", poster: "./afisler/Sorcerer.jpg"},
+    { id: 573, title: "Solaris", poster: "./afisler/Solaris.jpg"},
+    { id: 574, title: "Stop Making Sense", poster: "./afisler/StopMakingSense.jpg"},
+    { id: 575, title: "The Elephant Man", poster: "./afisler/TheElephantMan.jpg"},
 
 
 
@@ -6179,6 +6193,158 @@ const filmDetaylari = {
     releaseDate: "31 Ağustos 2001",
     imdbId: "tt0254686"
     },
+562: {
+    konu: "Kırk yaşına girmesine rağmen hâlâ bekâr olan ve cinsel deneyimi bulunmayan neşeli bir elektronik mağazası çalışanının, iş arkadaşları tarafından bu durumu öğrenilmesi ve ardından kendisini bu konuda 'ateşleme' çabalarıyla gelişen komik olayları anlatan eğlenceli bir romantik komedi.",
+    genre: ["Komedi", "Romantik"],
+    cast: "Steve Carell, Catherine Keener, Paul Rudd, Seth Rogen, Romany Malco, Elizabeth Banks, Leslie Mann",
+    director: "Judd Apatow",
+    imdb: "7.1",
+    duration: "116 Dakika",
+    releaseDate: "19 Ağustos 2005",
+    imdbId: "tt0405422"
+    },
+563: {
+    konu: "Baltimore'da yaşayan bir grup karakterin karmaşık aşk hayatlarını, flört etme çabalarını, yanlış anlaşılmalarını ve ilişkilerdeki 'o sinyalleri' doğru okuma mücadelesini romantik ve gerçekçi bir bakış açısıyla anlatan eğlenceli bir romantik komedi.",
+    genre: ["Komedi", "Dram", "Romantik"],
+    cast: "Ginnifer Goodwin, Jennifer Aniston, Ben Affleck, Drew Barrymore, Jennifer Connelly, Scarlett Johansson, Bradley Cooper",
+    director: "Ken Kwapis",
+    imdb: "6.4",
+    duration: "129 Dakika",
+    releaseDate: "6 Şubat 2009",
+    imdbId: "tt1001508"
+    },
+564: {
+    konu: "Detroit'in 8 Nolu otoyoluyla ayrılmış yoksul ve tehlikeli mahallelerinde yaşayan, kişisel ve ekonomik sorunlarıyla boğuşurken hip-hop müziğiyle hayata tutunmaya çalışan genç bir rapçinin, kendi sesini bulma ve yer altı rap savaşlarında kendini kanıtlama mücadelesini anlatan güçlü bir biyografik dram.",
+    genre: ["Biyografi", "Dram", "Müzik"],
+    cast: "Eminem, Brittany Murphy, Kim Basinger, Mekhi Phifer, Michael Shannon, Anthony Mackie, Eugene Byrd",
+    director: "Curtis Hanson",
+    imdb: "7.2",
+    duration: "110 Dakika",
+    releaseDate: "8 Kasım 2002",
+    imdbId: "tt0298203"
+    },
+565: {
+    konu: "Küçük bir kasabayı ani ve gizemli bir sis tabakasının sarılmasının ardından bir süpermarkete mahsur kalan bir grup kasaba sakininin, sisin içindeki ölümcül ve korkunç yaratıklara karşı hem dışarıdaki tehlikeyle hem de kendi aralarındaki artan panik ve çatışmalarla verdiği gerilim dolu hayatta kalma mücadelesini anlatan sarsıcı bir korku filmi.",
+    genre: ["Korku", "Bilim Kurgu", "Dram", "Gerilim"],
+    cast: "Thomas Jane, Marcia Gay Holden, Laurie Holden, Andre Braugher, Toby Jones, William Sadler, Jeffrey DeMunn",
+    director: "Frank Darabont",
+    imdb: "7.1",
+    duration: "126 Dakika",
+    releaseDate: "21 Kasım 2007",
+    imdbId: "tt0884328"
+    },
+565: {
+    konu: "Küçük bir kasabayı ani ve gizemli bir sis tabakasının sarılmasının ardından bir süpermarkete mahsur kalan bir grup kasaba sakininin, sisin içindeki ölümcül ve korkunç yaratıklara karşı hem dışarıdaki tehlikeyle hem de kendi aralarındaki artan panik ve çatışmalarla verdiği gerilim dolu hayatta kalma mücadelesini anlatan sarsıcı bir korku filmi.",
+    genre: ["Korku", "Bilim Kurgu", "Dram", "Gerilim"],
+    cast: "Thomas Jane, Marcia Gay Holden, Laurie Holden, Andre Braugher, Toby Jones, William Sadler, Jeffrey DeMunn",
+    director: "Frank Darabont",
+    imdb: "7.1",
+    duration: "126 Dakika",
+    releaseDate: "21 Kasım 2007",
+    imdbId: "tt0884328"
+    },
+566: {
+    konu: "İzleyen herkesin yedi gün içinde öleceğine dair bir şehir efsanesi olan gizemli bir video kasetin sırrını çözmeye çalışan gazeteci Rachel Keller'ın, kendi hayatı ve oğlu da bu lanetin hedefi haline geldiğinde zamanla yarışarak gerçeği ortaya çıkarma çabasını anlatan gerilim dolu kült bir korku filmi.",
+    genre: ["Korku", "Gizem", "Gerilim"],
+    cast: "Naomi Watts, Martin Henderson, David Dorfman, Brian Cox, Jane Alexander, Shannon Cochran",
+    director: "Gore Verbinski",
+    imdb: "7.1",
+    duration: "115 Dakika",
+    releaseDate: "18 Ekim 2002",
+    imdbId: "tt0298130"
+    },
+567: {
+    konu: "Yakışıklı, zengin ve çapkın bir yayıncı olan David Aames'in, geçirdiği korkunç bir trafik kazası sonrası yüzünün deforme olmasıyla altüst olan hayatını, gerçek ile rüya arasındaki çizgilerin silikleştiği gizemli ve psikolojik olaylar zincirini anlatan etkileyici bir bilim kurgu dramı.",
+    genre: ["Fantastik", "Gizem", "Romantik", "Bilim Kurgu", "Gerilim"],
+    cast: "Tom Cruise, Penélope Cruz, Cameron Diaz, Kurt Russell, Jason Lee, Noah Taylor, Tilda Swinton",
+    director: "Cameron Crowe",
+    imdb: "6.9",
+    duration: "136 Dakika",
+    releaseDate: "14 Aralık 2001",
+    imdbId: "tt0259711"
+    },
+568: {
+    konu: "Alternatif bir 1985 yılında, süper kahramanların kanun dışı ilan edildiği ve soğuk savaşın nükleer bir felaketin eşiğine geldiği bir dönemde, emekli olmuş gizemli bir kahramanın öldürülmesiyle bir araya gelen eski ekibin, insanlığın kaderini etkileyecek karanlık bir komployu ortaya çıkarma çabasını anlatan görkemli bir süper kahraman ve gizem filmi.",
+    genre: ["Aksiyon", "Gizem", "Bilim Kurgu", "Dram"],
+    cast: "Jackie Earle Haley, Patrick Wilson, Malin Akerman, Billy Crudup, Matthew Goode, Jeffrey Dean Morgan, Carla Gugino",
+    director: "Zack Snyder",
+    imdb: "7.6",
+    duration: "162 Dakika",
+    releaseDate: "6 Mart 2009",
+    imdbId: "tt0409459"
+    },
+569: {
+    konu: "Hayatını bir süper kahraman dizisinin setinde özel güçlere sahip olduğuna inanılarak geçiren ve bir gün yanlışlıkla gerçek dünyaya, New York'a düşen Bolt adlı beyaz bir köpeğin, sadık dostlarıyla birlikte stüdyoya ve sahibi Penny'ye geri dönebilmek için atıldığı eğlenceli ve macera dolu yolculuğunu anlatan sıcak bir animasyon.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile"],
+    cast: "John Travolta, Miley Cyrus, Susie Essman, Mark Walton, Malcolm McDowell, James Patrick Stuart",
+    director: "Chris Williams, Byron Howard",
+    imdb: "6.8",
+    duration: "96 Dakika",
+    releaseDate: "21 Kasım 2008",
+    imdbId: "tt0397892"
+    },
+570: {
+    konu: "Londra'da geçen; iki erkek ve iki kadının yollarının kesişmesiyle başlayan, ihanet, kıskançlık, tutku ve yalanlar etrafında dönen karmaşık ve sarsıcı ilişkiler ağını gözler önüne seren etkileyici bir romantik dram.",
+    genre: ["Dram", "Romantik"],
+    cast: "Natalie Portman, Jude Law, Clive Owen, Julia Roberts, Nick Hobbs, Colin Stinton",
+    director: "Mike Nichols",
+    imdb: "7.1",
+    duration: "104 Dakika",
+    releaseDate: "3 Aralık 2004",
+    imdbId: "tt0376541"
+    },
+571: {
+    konu: "Zihinsel sorunlarla boğuşan ve geleneksel ev kadınlığı rollerine uyum sağlamakta zorlanan Mabel Longhetti'nin, ailesi ve eşi tarafından anlaşılmaya çalışılırken yaşadığı duygusal iniş çıkışları, kırılganlığı ve ruhsal sarsıntıları çarpıcı bir şekilde gözler önüne seren başyapıt niteliğinde bir dram.",
+    genre: ["Dram"],
+    cast: "Gena Rowlands, Peter Falk, Fred Draper, Lady Rowlands, Katherine Cassavetes, Matthew Laborteaux",
+    director: "John Cassavetes",
+    imdb: "8.0",
+    duration: "155 Dakika",
+    releaseDate: "18 Kasım 1974",
+    imdbId: "tt0072417"
+    },
+572: {
+    konu: "Güney Amerika'nın tehlikeli ve izole bir kasabasında mahsur kalan, farklı geçmişlere sahip dört çaresiz adamın, patlamaya hazır eski dinamit varilciliğini taşıyan iki hurda kamyonla dağlık ve zorlu yollardan geçerek ölümcül bir petrol kuyusu yangınına ulaşmaya çalıştıkları, gerilim dolu unutulmaz bir macera ve dram filmi.",
+    genre: ["Macera", "Dram", "Gerilim"],
+    cast: "Roy Scheider, Bruno Cremer, Francisco Rabal, Amidou, Ramon Bieri, Peter Capell",
+    director: "William Friedkin",
+    imdb: "7.7",
+    duration: "121 Dakika",
+    releaseDate: "24 Haziran 1977",
+    imdbId: "tt0076740"
+    },
+573: {
+    konu: "Dünya'dan çok uzaktaki gizemli bir gezegenin yörüngesinde bulunan bir uzay istasyonundaki bilim insanlarının yaşadığı tuhaf olayları ve akıl sağlığı sorunlarını araştırmak üzere görevlendirilen bir psikiyatristin, istasyona vardığında ölmüş olan karısının canlı bir kopyasıyla karşılaşmasıyla gerçeklik algısının sarsılmasını anlatan derin ve felsefi bir bilim kurgu başyapıtı.",
+    genre: ["Dram", "Gizem", "Bilim Kurgu"],
+    cast: "Natalya Bondarchuk, Donatas Banionis, Jüri Järvet, Vladislav Dvorzhetsky, Nikolai Grinko, Olga Barnet",
+    director: "Andrei Tarkovsky",
+    imdb: "7.9",
+    duration: "167 Dakika",
+    releaseDate: "5 Şubat 1972",
+    imdbId: "tt0069293"
+    },
+574: {
+    konu: "Amerikalı rock grubu Talking Heads'in 1983 yılının Aralık ayında Hollywood'daki Pantages Theatre'da gerçekleştirdiği unutulmaz konser performansını ve grubun sahne enerjisini sinema tarihine geçen yaratıcı bir görsel dille aktaran eşsiz bir müzikal belgesel.",
+    genre: ["Belgesel", "Müzik"],
+    cast: "David Byrne, Tina Weymouth, Chris Frantz, Jerry Harrison, Bernie Worrell, Alex Weir, Steve Scales, Lynn Mabry, Edna Holt",
+    director: "Jonathan Demme",
+    imdb: "8.7",
+    duration: "88 Dakika",
+    releaseDate: "29 Mart 1985",
+    imdbId: "tt0088178"
+    },
+575: {
+    konu: "19. yüzyıl Londra'sında, vücudundaki aşırı deformasyonlar nedeniyle bir ucube sergisinde gösteri eşyası olarak kullanılan Joseph Merrick adlı talihsiz bir adamın, şefkatli bir cerrah tarafından kurtarılmasından sonra insanlığın en karanlık ve en parlak yönleriyle karşılaşmasını anlatan etkileyici ve sarsıcı bir biyografik dram.",
+    genre: ["Biyografi", "Dram"],
+    cast: "Anthony Hopkins, John Hurt, Anne Bancroft, John Gielgud, Wendy Hiller, Michael Hordern, Hannah Gordon",
+    director: "David Lynch",
+    imdb: "8.2",
+    duration: "124 Dakika",
+    releaseDate: "10 Ekim 1980",
+    imdbId: "tt0080678"
+    },
+
+
 
     
 
