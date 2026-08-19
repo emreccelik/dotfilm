@@ -688,7 +688,7 @@ const filmDetaylari = {
     },
     9: {
         konu: "Acımasız bir hocanın gözetiminde, yetenekli genç bir davulcu, insanlığını bile feda etme pahasına mükemmelliğe ulaşmaya başlar.",
-        genre: ["Dram", "Müzik"],
+        genre: ["Dram", "Müzikal"],
         cast: "Miles Teller, J.K. Simmons, Paul Reiser, Melissa Benoist, Austin Stowell, Nate Lang, Jayson Blair, Kavita Patil, Chris Mulkey, Damon Gupton,",
         director: "Damien Chazelle",
         imdb: "8.5",
@@ -2358,7 +2358,7 @@ const filmDetaylari = {
     },
     176: {
         konu: "Dünyanın gelmiş geçmiş en etkili sanatçılarından biri olan Michael Jackson'ın ve müzik dışındaki hayatının öyküsü. Jackson Five'ın lideri olarak olağanüstü yeteneğinin keşfedilmesinden, yaratıcı hırsı dünyanın en büyük eğlence sanatçısı olma yolunda amansız bir arayışa iten vizyoner bir sanatçıya dönüşmesine kadar olan yolculuğu, hem sahne dışındaki hayatını hem de erken solo kariyerinden en ikonik performanslarından bazılarını vurguluyor.",
-        genre: ["Biyografi", "Dram", "Müzik"],
+        genre: ["Biyografi", "Dram", "Müzikal"],
         cast: "Jaafar Jackson, Colman Domingo, Nia Long, Miles Teller, Juliano Krue Valdi, Laura Harrier",
         director: "Antoine Fuqua",
         imdb: "7.5",
@@ -6118,7 +6118,7 @@ const filmDetaylari = {
     },
 552: {
     konu: "Grubundan kovulan hayalperest ve asi gitarist Dewey Finn'in, maddi sıkıntılar yüzünden kimliğini gizleyerek prestijli bir yatılı okulda müzik öğretmeni olarak işe başlaması ve disiplinli öğrencilerini gizlice bir rock grubuna dönüştürerek yarışmaya hazırlamasını anlatan eğlenceli bir müzikal komedi.",
-    genre: ["Komedi", "Müzik"],
+    genre: ["Komedi", "Müzikal"],
     cast: "Jack Black, Joan Cusack, Mike White, Sarah Silverman, Miranda Cosgrove, Lucas Papaelias",
     director: "Richard Linklater",
     imdb: "7.2",
@@ -6208,7 +6208,7 @@ const filmDetaylari = {
     },
 561: {
     konu: "Viyana'da prestijli bir konservatuvarda piyano öğretmenliği yapan soğuk ve baskıcı bir anneyle yaşayan Erika Kohut'un, kendi içindeki karanlık ve mazoşist arzularla, kendisine aşık olan genç ve yetenekli bir öğrencinin başlattığı tehlikeli ilişkiyi anlatan sarsıcı ve rahatsız edici bir psikolojik dram.",
-    genre: ["Dram", "Müzik", "Romantik"],
+    genre: ["Dram", "Müzikal", "Romantik"],
     cast: "Isabelle Huppert, Annie Girardot, Benoît Magimel, Anna Sigalevitch, Susanne Lothar",
     director: "Michael Haneke",
     imdb: "7.5",
@@ -6238,7 +6238,7 @@ const filmDetaylari = {
     },
 564: {
     konu: "Detroit'in 8 Nolu otoyoluyla ayrılmış yoksul ve tehlikeli mahallelerinde yaşayan, kişisel ve ekonomik sorunlarıyla boğuşurken hip-hop müziğiyle hayata tutunmaya çalışan genç bir rapçinin, kendi sesini bulma ve yer altı rap savaşlarında kendini kanıtlama mücadelesini anlatan güçlü bir biyografik dram.",
-    genre: ["Biyografi", "Dram", "Müzik"],
+    genre: ["Biyografi", "Dram", "Müzikal"],
     cast: "Eminem, Brittany Murphy, Kim Basinger, Mekhi Phifer, Michael Shannon, Anthony Mackie, Eugene Byrd",
     director: "Curtis Hanson",
     imdb: "7.2",
@@ -6348,7 +6348,7 @@ const filmDetaylari = {
     },
 574: {
     konu: "Amerikalı rock grubu Talking Heads'in 1983 yılının Aralık ayında Hollywood'daki Pantages Theatre'da gerçekleştirdiği unutulmaz konser performansını ve grubun sahne enerjisini sinema tarihine geçen yaratıcı bir görsel dille aktaran eşsiz bir müzikal belgesel.",
-    genre: ["Belgesel", "Müzik"],
+    genre: ["Belgesel", "Müzikal"],
     cast: "David Byrne, Tina Weymouth, Chris Frantz, Jerry Harrison, Bernie Worrell, Alex Weir, Steve Scales, Lynn Mabry, Edna Holt",
     director: "Jonathan Demme",
     imdb: "8.7",
@@ -6378,7 +6378,7 @@ const filmDetaylari = {
     },
 577: {
     konu: "1963 yazında ailesiyle birlikte gittiği bir tatil köyünde, kampın yakışıklı ve yetenekli dans eğitmeniyle tanışan genç bir kızın, dans dersleriyle birlikte hem büyüme hikayesini hem de aralarında filizlenen tutkulu ve unutulmaz aşkı anlatan klasik bir romantik müzikal.",
-    genre: ["Dram", "Müzik", "Romantik"],
+    genre: ["Dram", "Müzikal", "Romantik"],
     cast: "Patrick Swayze, Jennifer Grey, Jerry Orbach, Cynthia Rhodes, Jack Weston, Jane Brucker, Kelly Bishop",
     director: "Emile Ardolino",
     imdb: "7.1",
@@ -6488,7 +6488,7 @@ const filmDetaylari = {
     },
 588: {
     konu: "Büyük bir şehirden muhafazakâr ve küçük bir kasabaya taşınan genç bir adamın, kasabada dans etmenin ve yüksek sesli müzik dinlemenin yasak olduğunu öğrenmesi üzerine, diğer gençlerle birlikte bu katı kurala başkaldırarak özgürlüklerini ve yaşam sevinçlerini geri kazanma mücadelesini anlatan enerjik ve müzik dolu bir gençlik klasiği.",
-    genre: ["Dram", "Müzik", "Romantik"],
+    genre: ["Dram", "Müzikal", "Romantik"],
     cast: "Kevin Bacon, Lori Singer, John Lithgow, Dianne Wiest, Chris Penn, Sarah Jessica Parker, John Laughlin",
     director: "Herbert Ross",
     imdb: "6.7",
