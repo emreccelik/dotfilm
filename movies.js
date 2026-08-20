@@ -598,6 +598,32 @@ const filmListesi = [
     { id: 596, title: "Free Guy", poster: "./afisler/FreeGuy.jpg"},
     { id: 597, title: "The Idea of You", poster: "./afisler/TheIdeaofYou.jpg"},
     { id: 598, title: "Hit Man", poster: "./afisler/HitMan.jpg"},
+    { id: 599, title: "Chungking Express", poster: "./afisler/ChungkingExpress.jpg"},
+    { id: 600, title: "Inland Empire", poster: "./afisler/InlandEmpire.jpg"},
+    { id: 601, title: "Toy Story", poster: "./afisler/ToyStory.jpg"},
+    { id: 602, title: "Toy Story 2", poster: "./afisler/ToyStory2.jpg"},
+    { id: 603, title: "Toy Story 3", poster: "./afisler/ToyStory3.jpg"},
+    { id: 604, title: "Toy Story 4", poster: "./afisler/ToyStory4.jpg"},
+    { id: 605, title: "Shrek", poster: "./afisler/Shrek.jpg"},
+    { id: 606, title: "Shrek 2", poster: "./afisler/Shrek2.jpg"},
+    { id: 607, title: "Shrek the Third", poster: "./afisler/ShrektheThird.jpg"},
+    { id: 608, title: "Shrek Forever After", poster: "./afisler/ShrekForeverAfter.jpg"},
+    { id: 609, title: "The Incredibles", poster: "./afisler/theincredibles.jpg"},
+    { id: 610, title: "Incredibles 2", poster: "./afisler/theincredibles2.jpg"},
+    { id: 611, title: "Fantastic Mr. Fox", poster: "./afisler/FantasticMrFox.jpg"},
+    { id: 612, title: "Inside Out", poster: "./afisler/InsideOut.jpg"},
+    { id: 613, title: "Inside Out 2", poster: "./afisler/InsideOut2.jpg"},
+    { id: 614, title: "The Fast and the Furious", poster: "./afisler/TheFastandtheFurious.jpg"},
+    { id: 615, title: "2 Fast 2 Furious", poster: "./afisler/2Fast2Furious.jpg"},
+    { id: 616, title: "Tokyo Drift", poster: "./afisler/TokyoDrift.jpg"},
+    { id: 617, title: "Fast and Furious", poster: "./afisler/FastandFurious.jpg"},
+    { id: 618, title: "Fast Five", poster: "./afisler/FastFive.jpg"},
+    { id: 619, title: "Fast and Furious 6", poster: "./afisler/FastandFurious6.jpg"},
+    { id: 620, title: "Furious 7", poster: "./afisler/Furious7.jpg"},
+    { id: 621, title: "The Fate of the Furious", poster: "./afisler/TheFateoftheFurious.jpg"},
+    { id: 622, title: "Hobbs and Shaw", poster: "./afisler/HobbsandShaw.jpg"},
+    { id: 623, title: "F9: The Fast Saga", poster: "./afisler/F9.jpg"},
+    { id: 624, title: "Fast X", poster: "./afisler/FastX.jpg"},
 
 
 
@@ -6596,6 +6622,267 @@ const filmDetaylari = {
     releaseDate: "7 Haziran 2024",
     imdbId: "tt20215968"
     },
+599: {
+    konu: "Hong Kong'un neon ışıkları altında geçen, kalpleri kırık iki farklı polisin yollarının gece kulüpleri ve büfeler aracılığıyla kesişmesini anlatan; kayıp aşkın, yalnızlığın ve melankolinin sinematik bir şiiri olan Wong Kar-wai imzalı büyüleyici bir modern başyapıt.",
+    genre: ["Komedi", "Dram", "Gizem", "Romantik"],
+    cast: "Tony Leung Chiu-wai, Faye Wong, Brigitte Lin, Takeshi Kaneshiro, Valerie Chow",
+    director: "Wong Kar-wai",
+    imdb: "7.9",
+    duration: "102 Dakika",
+    releaseDate: "14 Temmuz 1994",
+    imdbId: "tt0109424"
+    },
+600: {
+    konu: "Hollywood'da yeni bir film çekmeye çalışan bir aktrisin, projenin lanetli olabileceğine dair fısıltılar ve esrarengiz olaylar arasında gerçeklik algısını yitirerek, zaman, mekan ve kimlik kavramlarının birbirine girdiği tekinsiz ve kabus dolu bir labirentte kaybolmasını anlatan David Lynch imzalı deneysel ve hipnotik bir başyapıt.",
+    genre: ["Gizem", "Dram", "Korku", "Gerilim"],
+    cast: "Laura Dern, Jeremy Irons, Justin Theroux, Harry Dean Stanton, Karolina Gruszka, Jan Hietala",
+    director: "David Lynch",
+    imdb: "6.8",
+    duration: "180 Dakika",
+    releaseDate: "6 Eylül 2006",
+    imdbId: "tt0460829"
+    },
+601: {
+    konu: "İnsanlar etrafta yokken gizlice canlanan ve kendi aralarında yaşayan oyuncakların dünyasını konu alan; yeni ve göz alıcı bir oyuncak olan Buzz Lightyear'ın gruba katılmasıyla birlikte eski favori oyuncak olan kovboy Woody'nin yaşadığı kıskançlığı, ikilinin evden uzakta atıldıkları maceraları ve dostluğun gücünü anlatan çığır açıcı bir animasyon klasiği.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile", "Fantastik"],
+    cast: "Tom Hanks, Tim Allen, Don Rickles, Jim Varney, Wallace Shawn, John Ratzenberger, Annie Potts",
+    director: "John Lasseter",
+    imdb: "8.3",
+    duration: "81 Dakika",
+    releaseDate: "22 Kasım 1995",
+    imdbId: "tt0114709"
+    },
+602: {
+    konu: "Woody'nin hırslı bir oyuncak koleksiyoncusu tarafından çalınmasının ardından, Buzz Lightyear ve diğer oyuncak dostlarının onu kurtarmak ve eve geri getirmek için heyecan dolu, tehlikeli ve komik bir kurtarma operasyonuna girişmesini anlatan Pixar imzalı unutulmaz bir devam filmi.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile", "Fantastik"],
+    cast: "Tom Hanks, Tim Allen, Joan Cusack, Kelsey Grammer, Don Rickles, Jim Varney, Wallace Shawn",
+    director: "John Lasseter, Ash Brannon, Lee Unkrich",
+    imdb: "7.9",
+    duration: "92 Dakika",
+    releaseDate: "24 Kasım 1999",
+    imdbId: "tt0120363"
+    },
+603: {
+    konu: "Artık büyüyen ve üniversiteye gitmeye hazırlanan Andy'nin eski oyuncaklarını bir kreşe bağışlamasıyla başlayan; oyuncakların başta yeni bir yuva sandığı bu yerin aslında kontrolcü oyuncakların yönettiği tehlikeli bir hapishaneye dönüşmesi üzerine, Andy'ye sadık kalmaya çalışan kahramanlarımızın dostluk, vefa ve veda temaları işleyen duygu dolu kaçış macerası.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile", "Dram"],
+    cast: "Tom Hanks, Tim Allen, Joan Cusack, Ned Beatty, Don Rickles, Michael Keaton, Wallace Shawn",
+    director: "Lee Unkrich",
+    imdb: "8.3",
+    duration: "103 Dakika",
+    releaseDate: "18 Haziran 2010",
+    imdbId: "tt0435761"
+    },
+604: {
+    konu: "Küçük Bonnie'nin yeni sahibi olduğu ve kaşıktan yapılmış sevimli ama varoluşsal krizler geçiren Forky'yi korumaya çalışan Woody'nin, yeni bir yolculuk sırasında eski dostu Bo Peep ile yollarının kesişmesiyle birlikte oyuncak olarak kendi amacını ve yerini sorguladığı, macera ve duygu yüklü Pixar yapımı.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile", "Fantastik"],
+    cast: "Tom Hanks, Tim Allen, Annie Potts, Tony Hale, Keegan-Michael Key, Jordan Peele, Christina Hendricks",
+    director: "Josh Cooley",
+    imdb: "7.6",
+    duration: "100 Dakika",
+    releaseDate: "21 Haziran 2019",
+    imdbId: "tt1979376"
+    },
+605: {
+    konu: "Bataklığında huzur içinde yaşayan devasa yeşil dev Shrek'in, Lord Farquaad tarafından sürgün edilen tüm masal kahramanlarının bataklığını istila etmesiyle huzurunun kaçması; bataklığını geri almak için geveze bir eşekle birlikte çıktığı macera dolu yolculukta güzel prenses Fiona'yı kurtarmaya çalışırken bekâr hayatının ve kalbinin tamamen değişmesini anlatan eğlenceli ve ikonik bir animasyon klasiği.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile", "Fantastik"],
+    cast: "Mike Myers, Eddie Murphy, Cameron Diaz, John Lithgow, Vincent Cassel, Jim Cummings",
+    director: "Andrew Adamson, Vicky Jenson",
+    imdb: "7.9",
+    duration: "90 Dakika",
+    releaseDate: "18 Mayıs 2001",
+    imdbId: "tt0126029"
+    },
+606: {
+    konu: "Evlendikten sonra Fiona'nın anne ve babasının krallığı Uzak Ülke'ye (Far Far Away) davet edilen Shrek ve Eşek'in, peri masalı diyarlarında geçen bu yeni ve macera dolu ziyarette kraliyet ailesinin önyargılarıyla, kurnaz Peri Teyze'nin planlarıyla ve Shrek'in eski insan haline dönüşmesiyle sınandığı eğlenceli animasyon devam filmi.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile", "Fantastik"],
+    cast: "Mike Myers, Eddie Murphy, Cameron Diaz, Julie Andrews, John Cleese, Antonio Banderas, Rupert Everett",
+    director: "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+    imdb: "7.4",
+    duration: "93 Dakika",
+    releaseDate: "19 Mayıs 2004",
+    imdbId: "tt0298148"
+    },
+607: {
+    konu: "Kral Harold'ın hastalanıp tahttan ayrılmasıyla birlikte Uzak Ülke'nin kralı olma baskısıyla karşı karşıya kalan Shrek'in, uygun bir kral adayı bulmak için Eşek ve Çizmeli Kedi ile birlikte maceraya atılması; bu sırada kurnaz Prens Charming'in masal kahramanlarıyla birlikte krallığı ele geçirmek için darbe planı yapmasını anlatan eğlenceli animasyon serisinin üçüncü filmi.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile", "Fantastik"],
+    cast: "Mike Myers, Eddie Murphy, Cameron Diaz, Antonio Banderas, Rupert Everett, Justin Timberlake, Julie Andrews",
+    director: "Chris Miller, Raman Hui",
+    imdb: "6.1",
+    duration: "93 Dakika",
+    releaseDate: "18 Mayıs 2007",
+    imdbId: "tt0413267"
+    },
+608: {
+    konu: "Evli ve babalık sorumluluklarıyla boğuşan Shrek'in eski özgür günlerini özlemesi üzerine kurnaz Rumpelstiltskin ile yaptığı tehlikeli bir anlaşma sonucunda kendisini her şeyin ve herkesin yabancısı olduğu alternatif bir evrende bulması; bu kabustan uyanmak ve gerçek hayatını, eşini ve dostlarını geri kazanmak için zamana karşı amansız bir mücadele vermesini anlatan serinin dördüncü filmi.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile", "Fantastik"],
+    cast: "Mike Myers, Eddie Murphy, Cameron Diaz, Antonio Banderas, Julie Andrews, John Cleese, Walt Dohrn",
+    director: "Mike Mitchell",
+    imdb: "6.4",
+    duration: "93 Dakika",
+    releaseDate: "21 Mayıs 2010",
+    imdbId: "tt0892791"
+    },
+609: {
+    konu: "Gündüzleri sıradan bir banliyö hayatı yaşayıp çocuklarını gizlice büyütmeye çalışan, ancak hükümet tarafından yasaklandıkları için süper güçlerini kullanmaktan men edilen bir aile süper kahramanın, babanın gizli bir görev için çağrılmasıyla birlikte tüm ailenin dünyayı kurtarmak için kostümlerini yeniden giydiği Pixar imzalı aksiyon dolu animasyon şaheseri.",
+    genre: ["Animasyon", "Aksiyon", "Macera", "Komedi", "Aile"],
+    cast: "Craig T. Nelson, Holly Hunter, Sarah Vowell, Samuel L. Jackson, Jason Lee, Elizabeth Peña",
+    director: "Brad Bird",
+    imdb: "8.0",
+    duration: "115 Dakika",
+    releaseDate: "5 Kasım 2004",
+    imdbId: "tt0317705"
+    },
+610: {
+    konu: "Süper kahramanların yasadışı ilan edildiği bir dönemde, ailenin annesi Helen'in (Elastigirl) süper kahramanları yeniden yasallaştırmak ve kamuoyunun desteğini kazanmak için büyük bir halkla ilişkiler kampanyasının yüzü olması; bu sırada babası Bob'un evde bebek Jack-Jack'in kontrol edilemeyen yeni güçleriyle başa çıkarak ev işleriyle boğuştuğu ve ailenin yeni bir kötünün planlarını durdurmak için tekrar güçlerini birleştirdiği eğlenceli Pixar devam filmi.",
+    genre: ["Animasyon", "Aksiyon", "Macera", "Komedi", "Aile"],
+    cast: "Craig T. Nelson, Holly Hunter, Sarah Vowell, Huck Milner, Samuel L. Jackson, Bob Odenkirk, Catherine Keener",
+    director: "Brad Bird",
+    imdb: "7.5",
+    duration: "118 Dakika",
+    releaseDate: "15 Haziran 2018",
+    imdbId: "tt3606756"
+    },
+611: {
+    konu: "Yeraltındaki tehlikeli çiftlik hayatından vazgeçip ailesiyle birlikte huzurlu bir ağaç evine yerleşen vahşi ve kurnaz bir tilkinin, eski hırsızlık tutkusuna yenik düşerek bölgenin en zalim üç çiftçisinin ambarlarını soyma planı yapması; bu durumun çiftçilerin intikam hırsıyla ailenin yaşam alanını kuşatmasına yol açması üzerine Mr. Fox'un diğer hayvan dostlarıyla birlikte zekice bir direniş başlatmasını anlatan Wes Anderson imzalı stop-motion animasyon başyapıtı.",
+    genre: ["Animasyon", "Macera", "Komedi", "Suç", "Aile"],
+    cast: "George Clooney, Meryl Streep, Jason Schwartzman, Bill Murray, Willem Dafoe, Owen Wilson",
+    director: "Wes Anderson",
+    imdb: "7.9",
+    duration: "87 Dakika",
+    releaseDate: "25 Kasım 2009",
+    imdbId: "tt0432283"
+    },
+612: {
+    konu: "Genç bir kız olan Riley'nin zihninin içinde yaşayan ve onun duygularını yönlendiren Neşe, Üzüntü, Öfke, Korku ve İğrentme adlı beş temel duygunun, Riley'nin yeni bir şehre taşınmasıyla birlikte kontrol merkezinde yaşadığı kargaşayı ve dengeyi yeniden kurmak için zihnin derinliklerinde çıktıkları macera dolu içsel yolculuğu anlatan Pixar klasiği.",
+    genre: ["Animasyon", "Macera", "Komedi", "Dram", "Aile", "Fantastik"],
+    cast: "Amy Poehler, Phyllis Smith, Richard Kind, Bill Hader, Lewis Black, Mindy Kaling, Kaitlyn Dias",
+    director: "Pete Docter",
+    imdb: "8.1",
+    duration: "95 Dakika",
+    releaseDate: "19 Haziran 2015",
+    imdbId: "tt2096673"
+    },
+613: {
+    konu: "Artık ergenlik çağına giren Riley'nin zihninde kontrol merkezinin ani bir tadilatla yıkılması sonucu Kaygı, Utanç, Ennui ve İptila gibi yepyeni ergenlik duygularının sahneye çıkması; Neşe ve diğer eski duyguların, Riley'nin kimliğini korumak ve kişiliğinin değişmesini önlemek için zihnin ücra köşelerinde verdikleri eğlenceli ve duygusal mücadeleyi anlatan Pixar yapımı başarılı devam filmi.",
+    genre: ["Animasyon", "Macera", "Komedi", "Dram", "Aile", "Fantastik"],
+    cast: "Amy Poehler, Maya Hawke, Kensington Tallman, Liza Lapira, Tony Hale, Lewis Black, Phyllis Smith",
+    director: "Kelsey Mann",
+    imdb: "7.5",
+    duration: "96 Dakika",
+    releaseDate: "14 Haziran 2024",
+    imdbId: "tt22022452"
+    },
+614: {
+    konu: "Los Angeles sokaklarında düzenlenen tehlikeli ve yasadışı sokak yarışı dünyasına gizli polis olarak sızan Dominic Toretto liderliğindeki bir çetenin, lise kamyonu soygunlarının arkasındaki isim olup olmadığını araştırırken Brian O'Conner'ın bu adrenalin dolu dünyaya ve Toretto'nun aile kavramına kapılmasını anlatan yüksek oktanlı aksiyon filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Vin Diesel, Paul Walker, Michelle Rodriguez, Jordana Brewster, Rick Yune, Chad Lindberg",
+    director: "Rob Cohen",
+    imdb: "6.8",
+    duration: "106 Dakika",
+    releaseDate: "22 Haziran 2001",
+    imdbId: "tt0232500"
+    },
+615: {
+    konu: "Miami'de geçen bu ikinci filmde, eski polis Brian O'Conner'ın suç geçmişini sildirmek amacıyla çocukluk arkadaşı Roman Pearce ile birlikte tehlikeli bir uyuşturucu baronunu yakalamak için gizli bir göreve atılmasını ve ikilinin modifiyeli araçlarıyla katıldıkları yüksek hızlı kovalamacaları anlatan tempolu aksiyon filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Paul Walker, Tyrese Gibson, Eva Mendes, Cole Hauser, Ludacris, James Remar",
+    director: "John Singleton",
+    imdb: "6.0",
+    duration: "107 Dakika",
+    releaseDate: "6 Haziran 2003",
+    imdbId: "tt0322259"
+    },
+616: {
+    konu: "Yasadışı sokak yarışları yüzünden hapis cezasıyla karşı karşıya kalınca Tokyo'daki babasının yanına gönderilen asi genç Sean Boswell'in, Japonya'nın yer altı drift yarışları dünyasıyla tanışması ve bu tehlikeli kültürde var olabilmek için keskin virajlarda ustalaşarak onur mücadelesi vermesini anlatan yüksek hızlı serinin üçüncü filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Lucas Black, Zachery Ty Bryan, Shad Moss (Bow Wow), Brian Tee, Sung Kang, Nathalie Kelley",
+    director: "Justin Lin",
+    imdb: "6.1",
+    duration: "104 Dakika",
+    releaseDate: "16 Haziran 2006",
+    imdbId: "tt0463985"
+    },
+617: {
+    konu: "FBI ajanı Brian O'Conner ile suç dünyasının aranan ismi Dominic Toretto'nun, ortak bir düşman olan acımasız uyuşturucu baronu Arturo Braga'yı yakalamak ve Letty'nin ölümünün intikamını almak için yıllar sonra yeniden bir araya gelerek Meksika sınırındaki tehlikeli tünellerde verdikleri yüksek oktanlı mücadeleyi anlatan serinin dördüncü filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Vin Diesel, Paul Walker, Michelle Rodriguez, Jordana Brewster, John Ortiz, Laz Alonso, Gal Gadot",
+    director: "Justin Lin",
+    imdb: "6.5",
+    duration: "107 Dakika",
+    releaseDate: "3 Nisan 2009",
+    imdbId: "tt1013752"
+    },
+618: {
+    konu: "Hapishaneden kaçırılan Dominic Toretto'yu kurtardıktan sonra Rio de Janeiro'ya kaçan Dom, Brian ve Mia'nın, ülkenin zalim iş adamı Reyes'i soyarak özgürlüklerini satın almak ve ezeli rakip ajan Luke Hobbs'un takibinden kurtulmak için dünyanın dört bir yanından usta isimleri topladıkları devasa bir soygun planını hayata geçirdikleri serinin en yüksek tempolu ve dönüm noktası niteliğindeki beşinci filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Vin Diesel, Paul Walker, Jordana Brewster, Tyrese Gibson, Ludacris, Dwayne Johnson, Sung Kang",
+    director: "Justin Lin",
+    imdb: "7.3",
+    duration: "130 Dakika",
+    releaseDate: "29 Nisan 2011",
+    imdbId: "tt1596343"
+    },
+619: {
+    konu: "Dünyanın dört bir yanında kazandıkları servetlerle gizlenen Dom ve ekibinin, uluslararası düzeyde paralı askerlik yapan ve öldü sandıkları Letty'nin de içinde bulunduğu acımasız Owen Shaw'u durdurmak amacıyla ajan Luke Hobbs'un teklifiyle saf tutarak Londra sokaklarında ve devasa uçak pistlerinde verdikleri nefes kesen mücadeleyi anlatan serinin altıncı filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Vin Diesel, Paul Walker, Dwayne Johnson, Jordana Brewster, Michelle Rodriguez, Tyrese Gibson, Ludacris, Luke Evans",
+    director: "Justin Lin",
+    imdb: "7.0",
+    duration: "130 Dakika",
+    releaseDate: "24 Mayıs 2013",
+    imdbId: "tt1905041"
+    },
+620: {
+    konu: "Önceki maceralarında alt ettikleri Owen Shaw'un intikamını almak için peşlerine düşen son derece tehlikeli ve soğukkanlı katil Deckard Shaw'a karşı, ailelerini korumak ve gizli bir hükümet ajanı için çalınan güçlü bir takip cihazını ele geçirmek amacıyla dünyanın dört bir yanında soluk soluğa bir yarışa giren Dom ve ekibinin, Paul Walker'a veda niteliği taşıyan duygusal ve aksiyon dolu yedinci filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Vin Diesel, Paul Walker, Dwayne Johnson, Michelle Rodriguez, Tyrese Gibson, Ludacris, Jason Statham, Kurt Russell",
+    director: "James Wan",
+    imdb: "7.1",
+    duration: "137 Dakika",
+    releaseDate: "3 Nisan 2015",
+    imdbId: "tt2820852"
+    },
+621: {
+    konu: "Huzurlu bir evlilik ve hayat sürdüren Dominic Toretto'nun, Cipher adında gizemli ve siber terörist bir kadın tarafından şantaja uğrayarak ihanet etmek zorunda kalması; ailesini ve arkadaşlarını korumak için kendi ekibine karşı savaşmak zorunda kalan Dom'u durdurmak ve Cipher'ın nükleer felaket planını engellemek için ekibin acımasız düşmanları Deckard Shaw ile iş birliği yapmak zorunda kaldığı serinin sekizinci filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Vin Diesel, Dwayne Johnson, Jason Statham, Michelle Rodriguez, Tyrese Gibson, Ludacris, Charlize Theron, Kurt Russell",
+    director: "F. Gary Gray",
+    imdb: "6.6",
+    duration: "136 Dakika",
+    releaseDate: "14 Nisan 2017",
+    imdbId: "tt4630562"
+    },
+622: {
+    konu: "Ana serinin aksine, asi federal ajan Luke Hobbs ile yasa dışı kanun adamı Deckard Shaw'un, dünyayı biyolojik bir tehditle yok etmeye çalışan genetik olarak güçlendirilmiş siber genetik terörist Brixton Lore'u durdurmak ve Shaw'un gizemli kız kardeşi Hattie'yi korumak için istemeye istemeye güçlerini birleştirdikleri, yüksek tempolu ve mizah dolu eğlenceli spin-off filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Dwayne Johnson, Jason Statham, Idris Elba, Vanessa Kirby, Helen Mirren, Eiza González",
+    director: "David Leitch",
+    imdb: "6.4",
+    duration: "137 Dakika",
+    releaseDate: "2 Ağustos 2019",
+    imdbId: "tt6806448"
+    },
+623: {
+    konu: "Sakin ve gözlerden uzak bir hayat süren Dominic Toretto'nun geçmişinden gelen, usta bir hırsız, suikastçı ve yüksek performanslı bir sürücü olan terk edilmiş kardeşi Jakob'ın acımasız siber terörist Cipher ile iş birliği yaparak ortaya çıkmasıyla, Dom ve ekibinin dünyayı tehdit eden bu tehlikeli komployu durdurmak ve aile bağlarıyla yüzleşmek için yeniden bir araya geldiği serinin dokuzuncu filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Vin Diesel, Michelle Rodriguez, Tyrese Gibson, Ludacris, John Cena, Nathalie Emmanuel, Jordana Brewster, Sung Kang, Charlize Theron",
+    director: "Justin Lin",
+    imdb: "5.2",
+    duration: "143 Dakika",
+    releaseDate: "25 Haziran 2021",
+    imdbId: "tt5433138"
+    },
+624: {
+    konu: "Dominic Toretto ve ekibinin, yıllar önce Rio de Janeiro'da etkisiz hale getirdikleri uyuşturucu baronu Hernan Reyes'in oğlu Dante Reyes'in intikam hırsıyla hedefi haline gelmesi; Dante'nin, Dom'un en zayıf noktası olan oğlu Brian'ı ve tüm ailesini yok etmek için dünyanın dört bir yanında kurduğu tehlikeli tuzaklar karşısında ekibin hayatta kalma mücadelesi verdiği yüksek tempolu serinin onuncu filmi.",
+    genre: ["Aksiyon", "Suç", "Gerilim"],
+    cast: "Vin Diesel, Michelle Rodriguez, Tyrese Gibson, Ludacris, Jason Momoa, Nathalie Emmanuel, Jordana Brewster, John Cena, Jason Statham, Charlize Theron",
+    director: "Louis Leterrier",
+    imdb: "5.7",
+    duration: "141 Dakika",
+    releaseDate: "19 Mayıs 2023",
+    imdbId: "tt5433140"
+    },
+
 
 
 
