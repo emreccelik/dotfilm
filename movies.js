@@ -606,7 +606,7 @@ const filmListesi = [
     { id: 604, title: "Toy Story 4", poster: "./afisler/ToyStory4.jpg"},
     { id: 605, title: "Shrek", poster: "./afisler/Shrek.jpg"},
     { id: 606, title: "Shrek 2", poster: "./afisler/Shrek2.jpg"},
-    { id: 607, title: "Shrek the Third", poster: "./afisler/ShrektheThird.jpg"},
+    { id: 607, title: "Shrek the Third", poster: "./afisler/ShrekTheThird.jpg"},
     { id: 608, title: "Shrek Forever After", poster: "./afisler/ShrekForeverAfter.jpg"},
     { id: 609, title: "The Incredibles", poster: "./afisler/theincredibles.jpg"},
     { id: 610, title: "Incredibles 2", poster: "./afisler/theincredibles2.jpg"},
