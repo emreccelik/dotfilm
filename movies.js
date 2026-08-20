@@ -632,6 +632,23 @@ const filmListesi = [
     { id: 630, title: "Mission: Impossible – Fallout", poster: "./afisler/MissionImpossibleFallout.jpg"},
     { id: 631, title: "Mission: Impossible – Dead Reckoning Part One", poster: "./afisler/DeadReckoningPartOne.jpg"},
     { id: 632, title: "Mission: Impossible – The Final Reckoning", poster: "./afisler/TheFinalReckoning.jpg"},
+    { id: 633, title: "Back to the Future", poster: "./afisler/BacktotheFuture1.jpg"},
+    { id: 634, title: "Back to the Future Part II", poster: "./afisler/BacktotheFuture2.jpg"},
+    { id: 635, title: "Back to the Future Part III", poster: "./afisler/BacktotheFuture3.jpg"},
+    { id: 636, title: "Up", poster: "./afisler/up.jpg"},
+    { id: 637, title: "The Fantastic 4: First Steps", poster: "./afisler/TheFantastic4FirstSteps.jpg"},
+    { id: 638, title: "Star Wars", poster: "./afisler/StarWars.jpg"},
+    { id: 639, title: "The Empire Strikes Back", poster: "./afisler/TheEmpireStrikesBack.jpg"},
+    { id: 640, title: "Return of the Jedi", poster: "./afisler/ReturnoftheJedi.jpg"},
+    { id: 641, title: "Star Wars: Episode I – The Phantom Menace", poster: "./afisler/ThePhantomMenace.jpg"},
+    { id: 642, title: "Star Wars: Episode II – Attack of the Clones", poster: "./afisler/AttackoftheClones.jpg"},
+    { id: 643, title: "Star Wars: Episode III – Revenge of the Sith", poster: "./afisler/RevengeoftheSith.jpg"},
+    { id: 644, title: "Star Wars: The Force Awakens", poster: "./afisler/TheForceAwakens.jpg"},
+    { id: 645, title: "Rogue One: A Star Wars Story", poster: "./afisler/RogueOneAStarWarsStory.jpg"},
+    { id: 646, title: "Star Wars: The Last Jedi", poster: "./afisler/TheLastJedi.jpg"},
+    { id: 647, title: "Solo: A Star Wars Story", poster: "./afisler/SoloAStarWarsStory.jpg"},
+    { id: 648, title: "Star Wars: The Rise of Skywalker", poster: "./afisler/TheRiseofSkywalker.jpg"},
+    { id: 649, title: "The Mandalorian and Grogu", poster: "./afisler/TheMandalorianandGrogu.jpg"},
 
 
 
@@ -6970,6 +6987,177 @@ const filmDetaylari = {
     releaseDate: "23 Mayıs 2025",
     imdbId: "tt9603208"
     },
+633: {
+    konu: "Lise öğrencisi Marty McFly'ın, çılgın bilim insanı Dr. Emmett Brown'ın modifiye edilmiş bir DeLorean zaman makinesiyle yanlışlıkla 1955 yılına gitmesi; orada kendi anne ve babasının lisede tanışmasını tehlikeye atarak var oluşunu riske atması ve geleceğe, yani kendi zamanına geri dönebilmek için genç Doc'tan yardım alarak zamana karşı eğlenceli bir yarış verdiği unutulmaz bilim kurgu klasiği.",
+    genre: ["Macera", "Komedi", "Bilim Kurgu"],
+    cast: "Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover, Thomas F. Wilson",
+    director: "Robert Zemeckis",
+    imdb: "8.5",
+    duration: "116 Dakika",
+    releaseDate: "3 Temmuz 1985",
+    imdbId: "tt0088763"
+    },
+634: {
+    konu: "Dr. Emmett Brown'ın Marty McFly ve sevgilisi Jennifer'ı da yanına alarak zaman makinesiyle 2015 yılına uçtuğu; Marty'nin gelecekteki çocuklarını kurtarmaya çalışırken yaşanan aksaklıklar ve yaşlı Biff Tannen'ın zaman çizgisini değiştirerek Hill Valley'i karanlık bir kabusa çevirmesi nedeniyle Marty ve Doc'un 1955 yılına geri dönüp tarihi düzeltmek zorunda kaldığı tempolu devam filmi.",
+    genre: ["Macera", "Komedi", "Bilim Kurgu"],
+    cast: "Michael J. Fox, Christopher Lloyd, Lea Thompson, Thomas F. Wilson, Elisabeth Shue",
+    director: "Robert Zemeckis",
+    imdb: "7.8",
+    duration: "108 Dakika",
+    releaseDate: "22 Kasım 1989",
+    imdbId: "tt0096874"
+    },
+635: {
+    konu: "Zaman makinesinin arızalanması sonucu 1855 yılının Vahşi Batı döneminde mahsur kalan Dr. Emmett Brown'ı kurtarmak için DeLorean ile geçmişe giden Marty McFly'ın, yerli halkla karşılaşmalar, kasaba kabadayılarıyla düellolar ve zaman makinesini çalıştıracak yakıt bulma çabaları arasında hem Doc'un yerel bir okula aşık olmasıyla girdiği ikilemi çözmeye çalıştığı hem de geleceğe dönüş biletini aradığı serinin western soslu eğlenceli final filmi.",
+    genre: ["Macera", "Komedi", "Bilim Kurgu"],
+    cast: "Michael J. Fox, Christopher Lloyd, Mary Steenburgen, Thomas F. Wilson, Lea Thompson",
+    director: "Robert Zemeckis",
+    imdb: "7.4",
+    duration: "118 Dakika",
+    releaseDate: "25 Mayıs 1990",
+    imdbId: "tt0099088"
+    },
+636: {
+    konu: "Eşinin hayallerini gerçekleştirmek ve evini dev baloncuklarla South America'daki Cennet Şelaleleri'ne taşımak için evine binlerce balon bağlayarak seyahat etmeye başlayan yaşlı dul Carl Fredricksen'ın, istemeden yanına aldığı fazlasıyla neşeli ve kaşif ruhlu bir izci çocuk olan Russell ile birlikte vahşi doğada yaşadığı dokunaklı, macera ve mizah dolu Pixar animasyon klasiği.",
+    genre: ["Animasyon", "Macera", "Komedi", "Dram"],
+    cast: "Ed Asner, Jordan Nagai, John Ratzenberger, Christopher Plummer, Bob Peterson",
+    director: "Pete Docter, Bob Peterson",
+    imdb: "8.3",
+    duration: "96 Dakika",
+    releaseDate: "29 Mayıs 2009",
+    imdbId: "tt1049413"
+    },
+637: {
+    konu: "1960'lardan ilham alan retro-fütüristik bir dünyada geçen filmde, Marvel'ın İlk Ailesi olan Reed Richards, Sue Storm, Johnny Storm ve Ben Grimm'in, hem kahramanlık görevleri ile aile bağlarını dengelemeye çalışmasını hem de gezegeni yutmak isteyen kudretli uzay tanrısı Galactus ile onun gizemli habercisi Silver Surfer'a karşı dünyayı savunmak için verdikleri zorlu mücadeleyi anlatan Marvel Sinematik Evreni filmi.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu"],
+    cast: "Pedro Pascal, Vanessa Kirby, Ebon Moss-Bachrach, Joseph Quinn, Julia Garner, Ralph Ineson, Natasha Lyonne, Paul Walter Hauser",
+    director: "Matt Shakman",
+    imdb: "6.8",
+    duration: "115 Dakika",
+    releaseDate: "25 Temmuz 2025",
+    imdbId: "tt10676052"
+    },
+638: {
+    konu: "Galaktik İmparatorluk'un zalim kontrolüne karşı başkaldıran Asi İttifakı'na katılan genç çiftçi Luke Skywalker'ın, Prenses Leia'yı kurtarmak, bilge Jedi Ustası Obi-Wan Kenobi'den Güç'ün yollarını öğrenmek ve galaksinin korkulu rüyası Ölüm Yıldızı'nı yok etmek için Han Solo ve sadık müttefikleriyle birlikte epik bir uzay macerasına atıldığı unutulmaz orijinal Star Wars filmi.",
+    genre: ["Aksiyon", "Macera", "Fantastik", "Bilim Kurgu"],
+    cast: "Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness, Peter Cushing, Anthony Daniels, Kenny Baker, Peter Mayhew, David Prowse",
+    director: "George Lucas",
+    imdb: "8.6",
+    duration: "121 Dakika",
+    releaseDate: "25 Mayıs 1977",
+    imdbId: "tt0076759"
+    },
+639: {
+    konu: "Ölüm Yıldızı'nın imha edilmesinin ardından İmparatorluk güçleri tarafından galaksinin ucuna kadar takip edilen Asi İttifakı'nın, Hoth'un buz gezegenindeki gizli üslerinden baskınla kaçmak zorunda kalması; bu sırada Luke Skywalker'ın efsanevi Jedi Üstadı Yoda'dan güç eğitimi alırken, arkadaşları Han Solo ve Leia Organa'nın Darth Vader tarafından köşeye sıkıştırıldığı ve sinema tarihinin en büyük twistlerinden birinin yaşandığı Star Wars serisinin başyapıtı.",
+    genre: ["Aksiyon", "Macera", "Fantastik", "Bilim Kurgu"],
+    cast: "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels, David Prowse, Peter Mayhew, Kenny Baker, Frank Oz",
+    director: "Irvin Kershner",
+    imdb: "8.7",
+    duration: "124 Dakika",
+    releaseDate: "18 Haziran 1980",
+    imdbId: "tt0080684"
+    },
+640: {
+    konu: "Asi İttifakı'nın, ilkimidir ve imparatorluğun inşa ettiği ikinci ve daha güçlü Ölüm Yıldızı'nı yok etmek için son bir büyük saldırı planladığı; Luke Skywalker'ın ise hem İmparator Palpatine'in tuzaklarıyla hem de babası Darth Vader'ın içindeki iyiliği ortaya çıkarıp onu karanlık taraftan kurtarmak için verdiği son ve en epik içsel mücadelesini anlatan orijinal üçlemenin unutulmaz final filmi.",
+    genre: ["Aksiyon", "Macera", "Fantastik", "Bilim Kurgu"],
+    cast: "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels, David Prowse, Peter Mayhew, Sebastian Shaw, Ian McDiarmid",
+    director: "Richard Marquand",
+    imdb: "8.3",
+    duration: "131 Dakika",
+    releaseDate: "25 Mayıs 1983",
+    imdbId: "tt0086190"
+    },
+641: {
+    konu: "Ticaret Federasyonu'nun Naboo gezegenini ablukaya alması üzerine Barış ve Adalet Elçileri olarak görevlendirilen Jedi Şövalyesi Qui-Gon Jinn ve çırağı Obi-Wan Kenobi'nin, kraliçe Padmé Amidala'yı korurken yollarının çöllerle kaplı Tatooine gezegeninde fevkalade yetenekli ve gelecekte galaksinin kaderini değiştirecek olan küçük köle çocuk Anakin Skywalker ile kesiştiği, serinin kronolojik olarak ilk halkası.",
+    genre: ["Aksiyon", "Macera", "Fantastik", "Bilim Kurgu"],
+    cast: "Liam Neeson, Ewan McGregor, Natalie Portman, Jake Lloyd, Ian McDiarmid, Pernilla August, Ahmed Best, Ray Park, Anthony Daniels, Kenny Baker, Frank Oz",
+    director: "George Lucas",
+    imdb: "6.5",
+    duration: "136 Dakika",
+    releaseDate: "19 Mayıs 1999",
+    imdbId: "tt0120915"
+    },
+642: {
+    konu: "Naboo Kraliçesi ve Senatör Padmé Amidala'ya düzenlenen suikast girişiminin ardından Anakin Skywalker'ın onu korumakla görevlendirildiği ve ikili arasında yasak bir aşkın filizlendiği; Obi-Wan Kenobi'nin ise galaksinin dört bir yanında gizli bir klon ordusunun üretildiğini keşfetmesiyle Klon Savaşları'nın fitilini ateşleyen, Cumhuriyet'in sonunun başlangıcını anlatan prequel üçlemesinin ikinci filmi.",
+    genre: ["Aksiyon", "Macera", "Fantastik", "Bilim Kurgu"],
+    cast: "Ewan McGregor, Natalie Portman, Hayden Christensen, Ian McDiarmid, Samuel L. Jackson, Christopher Lee, Anthony Daniels, Kenny Baker, Frank Oz",
+    director: "George Lucas",
+    imdb: "6.6",
+    duration: "142 Dakika",
+    releaseDate: "16 Mayıs 2002",
+    imdbId: "tt0121765"
+    },
+643: {
+    konu: "Klon Savaşları'nın doruk noktasında, Cumhuriyet'in çöküşe geçtiği ve Jedi Konseyi ile Şansölye Palpatine arasındaki gerilimin zirve yaptığı dönemde; Anakin Skywalker'ın eşi Padmé'yi ölümden kurtarma arzusu ve gücün karanlık tarafının cazibesine kapılmasıyla Darth Vader'a dönüşmesini, Jedi Düzeni'nin yok olmasını ve galaksinin karanlık bir imparatorluğun egemenliği altına girmesini anlatan dramatik ve sarsıcı üçlemenin final filmi.",
+    genre: ["Aksiyon", "Macera", "Fantastik", "Bilim Kurgu"],
+    cast: "Ewan McGregor, Natalie Portman, Hayden Christensen, Ian McDiarmid, Samuel L. Jackson, Jimmy Smits, Frank Oz, Anthony Daniels, Kenny Baker, Peter Mayhew",
+    director: "George Lucas",
+    imdb: "7.7",
+    duration: "140 Dakika",
+    releaseDate: "19 Mayıs 2005",
+    imdbId: "tt0121766"
+    },
+644: {
+    konu: "İmparatorluğun yıkılışından on yıllar sonra, kaybolan Luke Skywalker'ı bulmak için Güç'e duyarlı genç bir çöpçü olan Rey ile eski bir fırtına askeri Finn'in, Direniş güçleriyle birleşerek yeni ortaya çıkan tehditkar 'İlk Düzen'e (The First Order) ve onun karanlık savaşçısı Kylo Ren'e karşı verdikleri mücadeleyi başlatan devam üçlemesinin ilk filmi.",
+    genre: ["Aksiyon", "Macera", "Fantastik", "Bilim Kurgu"],
+    cast: "Daisy Ridley, John Boyega, Adam Driver, Oscar Isaac, Harrison Ford, Carrie Fisher, Mark Hamill, Anthony Daniels, Peter Mayhew",
+    director: "J.J. Abrams",
+    imdb: "7.7",
+    duration: "138 Dakika",
+    releaseDate: "18 Aralık 2015",
+    imdbId: "tt2488496"
+    },
+645: {
+    konu: "Ölüm Yıldızı'nın planlarının çalınmasının arkasındaki tehlikeli ve umutsuz görevi konu alan, İmparatorluk'un hakimiyetine karşı direnen bir grup uyumsuz asinin, galaksinin kaderini değiştirecek planları ele geçirmek için kendilerini feda ettikleri Star Wars evreninin kronolojik olarak ana serinin hemen öncesinde geçen bağımsız hikayesi.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu"],
+    cast: "Felicity Jones, Diego Luna, Alan Tudyk, Donnie Yen, Wen Jiang, Ben Mendelsohn, Guy Henry, Mads Mikkelsen",
+    director: "Gareth Edwards",
+    imdb: "7.8",
+    duration: "133 Dakika",
+    releaseDate: "16 Aralık 2016",
+    imdbId: "tt3748528"
+    },
+646: {
+    konu: "Rey'in, efsanevi Jedi ustası Luke Skywalker'dan eğitim alarak Güç'ün yollarını keşfetmeye çalıştığı; bu sırada İlk Düzen'in galaksideki egemenliğini artırması ve Direniş'in hayatta kalmak için son bir savunma hattı kurarak hem dış düşmanlara hem de kendi içindeki bölünmelere karşı verdiği mücadeleyi anlatan karanlık ve sürprizlerle dolu devam üçlemesinin ikinci filmi.",
+    genre: ["Aksiyon", "Macera", "Fantastik", "Bilim Kurgu"],
+    cast: "Daisy Ridley, John Boyega, Adam Driver, Mark Hamill, Carrie Fisher, Oscar Isaac, Andy Serkis, Lupita Nyong'o, Laura Dern, Benicio Del Toro, Frank Oz",
+    director: "Rian Johnson",
+    imdb: "6.8",
+    duration: "152 Dakika",
+    releaseDate: "15 Aralık 2017",
+    imdbId: "tt2527336"
+    },
+647: {
+    konu: "Genç Han Solo'nun, galaktik yeraltı dünyasındaki tehlikeli maceraları sırasında gelecekteki sadık dostu Chewbacca ile nasıl tanıştığını ve efsanevi 'Millennium Falcon' gemisini nasıl kazandığını anlatan, kaçakçıların ve ödül avcılarının dünyasına ışık tutan Star Wars evreninin bağımsız köken hikayesi.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu"],
+    cast: "Alden Ehrenreich, Woody Harrelson, Emilia Clarke, Donald Glover, Thandiwe Newton, Phoebe Waller-Bridge, Joonas Suotamo, Jon Favreau, Paul Bettany",
+    director: "Ron Howard",
+    imdb: "6.9",
+    duration: "135 Dakika",
+    releaseDate: "25 Mayıs 2018",
+    imdbId: "tt3778644"
+    },
+648: {
+    konu: "İmparator Palpatine'in gizemli bir şekilde geri dönüşüyle galaksinin tekrar karanlığa gömülme tehdidiyle karşı karşıya kalması üzerine, Rey, Finn ve Poe'nun kadim kehanetleri takip ederek son bir hesaplaşma için İmparatorluk'un kadim güç merkezlerini aradıkları ve Skywalker efsanesini nihayete erdiren büyük epik final filmi.",
+    genre: ["Aksiyon", "Macera", "Fantastik", "Bilim Kurgu"],
+    cast: "Daisy Ridley, Adam Driver, John Boyega, Oscar Isaac, Mark Hamill, Naomi Ackie, Domhnall Gleeson, Richard E. Grant, Carrie Fisher, Ian McDiarmid, Billy Dee Williams",
+    director: "J.J. Abrams",
+    imdb: "6.3",
+    duration: "141 Dakika",
+    releaseDate: "20 Aralık 2019",
+    imdbId: "tt2527338"
+    },
+649: {
+    konu: "Galaksinin dış bölgelerinde tek başına savaşan bir ödül avcısı olan Din Djarin ve koruması altına aldığı gizemli varlık Grogu'nun, Galaktik İmparatorluk'un kalıntılarından gelen yeni tehditlere karşı verdikleri mücadeleyi ve efsanevi Mandalore geleneklerini yeniden canlandırmak için çıktıkları tehlikeli yolculuğu konu alan mandaloryalı savaşçının sinematik büyük macerası.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu"],
+    cast: "Pedro Pascal, Brendan Wayne, Lateef Crowder, Sigourney Weaver, Steve Blum, Jeremy Allen White, Jonny Coyne, Matthew Willig",
+    director: "Jon Favreau",
+    imdb: "6.8",
+    duration: "112 Dakika",
+    releaseDate: "22 Mayıs 2026",
+    imdbId: "tt30825738"
+    },
+
 
 
 
