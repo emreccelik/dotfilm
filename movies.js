@@ -624,6 +624,14 @@ const filmListesi = [
     { id: 622, title: "Hobbs and Shaw", poster: "./afisler/HobbsandShaw.jpg"},
     { id: 623, title: "F9: The Fast Saga", poster: "./afisler/F9.jpg"},
     { id: 624, title: "Fast X", poster: "./afisler/FastX.jpg"},
+    { id: 625, title: "Mission: Impossible", poster: "./afisler/MissionImpossible.jpg"},
+    { id: 626, title: "Mission: Impossible II", poster: "./afisler/MissionImpossible2.jpg"},
+    { id: 627, title: "Mission: Impossible III", poster: "./afisler/MissionImpossible3.jpg"},
+    { id: 628, title: "Mission: Impossible – Ghost Protocol ", poster: "./afisler/GhostProtocol.jpg"},
+    { id: 629, title: "Mission: Impossible – Rogue Nation", poster: "./afisler/RogueNation.jpg"},
+    { id: 630, title: "Mission: Impossible – Fallout", poster: "./afisler/MissionImpossibleFallout.jpg"},
+    { id: 631, title: "Mission: Impossible – Dead Reckoning Part One", poster: "./afisler/DeadReckoningPartOne.jpg"},
+    { id: 632, title: "Mission: Impossible – The Final Reckoning", poster: "./afisler/TheFinalReckoning.jpg"},
 
 
 
@@ -6881,6 +6889,86 @@ const filmDetaylari = {
     duration: "141 Dakika",
     releaseDate: "19 Mayıs 2023",
     imdbId: "tt5433140"
+    },
+625: {
+    konu: "CIA'de çalışan bir grup ajanın gizli bir operasyon sırasında tuzağa düşürülüp öldürülmesi ve bu ihanetin suçunun tek sağ kalan ajan olan Ethan Hunt'a kalması üzerine, Hunt'ın kendi teşkilatından kaçarak gerçek hainleri bulmak ve ismini temizlemek için gizli bir ekiple birlikte CIA merkez kasasına girdiği nefes kesen Brian De Palma imzalı efsanevi casusluk filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Tom Cruise, Jon Voight, Emmanuelle Béart, Henry Czerny, Jean Reno, Ving Rhames, Kristin Scott Thomas",
+    director: "Brian De Palma",
+    imdb: "7.2",
+    duration: "110 Dakika",
+    releaseDate: "22 Mayıs 1996",
+    imdbId: "tt0117060"
+    },
+626: {
+    konu: "IMF ajanı Ethan Hunt'ın, laboratuvarda üretilen ölümcül 'Chimera' virüsünü ve onun tek çaresi olan 'Bellerophon' serumunu ele geçirerek dünyayı tehdit eden eski bir ajanı ve biyoterör planını durdurmak için usta hırsız Nyah Nordoff-Hall ile iş birliği yaparak Sidney'de katıldığı yüksek riskli ve akrobatik kovalamacaları anlatan John Woo imzalı serinin ikinci filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Tom Cruise, Dougray Scott, Thandiwe Newton, Ving Rhames, Richard Roxburgh, John Polson",
+    director: "John Woo",
+    imdb: "6.1",
+    duration: "123 Dakika",
+    releaseDate: "24 Mayıs 2000",
+    imdbId: "tt0120755"
+    },
+627: {
+    konu: "IMF'nin aktif saha görevlerinden emekli olarak ajan eğitmeyi seçen ve fiancée Julia ile sakin bir hayat kurmaya hazırlanan Ethan Hunt'ın, eski öğrencisinin kaçırılmasıyla yeniden sahaya dönmesi; acımasız ve karaborsa silah tüccarı Owen Davian'ın elindeki gizemli ve tehlikeli 'Tavşan Ayağı' adlı nesneyi ele geçirmek için dünya çapında nefes kesen bir zamana karşı yarış verdiği J.J. Abrams yönetimindeki serinin üçüncü filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Tom Cruise, Philip Seymour Hoffman, Ving Rhames, Billy Crudup, Michelle Monaghan, Jonathan Rhys Meyers, Keri Russell, Maggie Q",
+    director: "J.J. Abrams",
+    imdb: "6.9",
+    duration: "126 Dakika",
+    releaseDate: "5 Mayıs 2006",
+    imdbId: "tt0317919"
+    },
+628: {
+    konu: "Kremlin'de gerçekleşen gizemli bir bombalı saldırının ardından IMF teşkilatının suçlanarak 'Hayalet Protokol' ile feshedilmesi üzerine, Ethan Hunt ve ekibinin isimlerini temizlemek ve nükleer savaş başlatmak isteyen radikal bir aşırılık yanlısını durdurmak için dünyanın en yüksek binası olan Dubai'deki Burj Khalifa'da ve Moskova'da imkansız görünen operasyonlara imza attığı soluk soluğa izlenen serinin dördüncü filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Tom Cruise, Jeremy Renner, Simon Pegg, Paula Patton, Michael Nyqvist, Anil Kapoor, Léa Seydoux",
+    director: "Brad Bird",
+    imdb: "7.4",
+    duration: "132 Dakika",
+    releaseDate: "21 Aralık 2011",
+    imdbId: "tt1229238"
+    },
+629: {
+    konu: "IMF teşkilatının resmi olarak kapatılmasının ardından Ethan Hunt ve sadık ekibinin, dünyanın dört bir yanındaki kaçak ajanlardan oluşan ve devletlerin yıkılması için çalışan ölümcül gizli bir örgüt olan 'Sendika'yı (The Syndicate) ve onun lideri Solomon Lane'i çökertmek için İngiliz ajanı Ilsa Faust ile birlikte uluslararası bir köşe kapmaca oyununa giriştiği serinin beşinci filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Tom Cruise, Jeremy Renner, Simon Pegg, Rebecca Ferguson, Ving Rhames, Sean Harris, Alec Baldwin",
+    director: "Christopher McQuarrie",
+    imdb: "7.4",
+    duration: "131 Dakika",
+    releaseDate: "31 Temmuz 2015",
+    imdbId: "tt2381249"
+    },
+630: {
+    konu: "Önceki operasyonda yakalanan Solomon Lane'in kaçmasının ardından, kalıntıları 'Havariler' adıyla yeniden örgütlenen terör grubunun nükleer silahları ele geçirmesini önlemek için IMF ekibinin CIA'in de baskısıyla zamana karşı yarıştığı; Paris, Londra ve Yeni Zelanda'da nefes kesen fiziksel performanslar ve tehlikeli gösterilerle dolu serinin altıncı ve en çok övgü alan filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Tom Cruise, Henry Cavill, Ving Rhames, Simon Pegg, Rebecca Ferguson, Sean Harris, Angela Bassett, Vanessa Kirby, Michelle Monaghan",
+    director: "Christopher McQuarrie",
+    imdb: "7.7",
+    duration: "147 Dakika",
+    releaseDate: "27 Temmuz 2018",
+    imdbId: "tt4912910"
+    },
+631: {
+    konu: "Ethan Hunt ve IMF ekibinin, insanlığın geleceğini tehdit eden 'Varlık' (The Entity) adı verilen son derece tehlikeli, bilinç kazanan yapay zekalı bir dijital silahın yanlış ellere geçmesini önlemek ve kontrolü ele geçirmek için dünyanın dört bir yanında eski düşmanlarla ve zamanla yarışarak tren üzerinde verdikleri heyecan dolu mücadeleyi anlatan serinin yedinci filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Tom Cruise, Hayley Atwell, Ving Rhames, Simon Pegg, Rebecca Ferguson, Vanessa Kirby, Esai Morales, Pom Klementieff, Henry Czerny",
+    director: "Christopher McQuarrie",
+    imdb: "7.6",
+    duration: "163 Dakika",
+    releaseDate: "12 Temmuz 2023",
+    imdbId: "tt9603212"
+    },
+632: {
+    konu: "Ethan Hunt ve IMF ekibinin, insanlığın kontrolünü ele geçirmeye çalışan bilinçli yapay zeka 'Varlık'ı tamamen etkisiz hale getirmek ve geçmişteki tüm seçimlerinin hesabını vererek dünyayı kurtarmak için ölümcül bir riskle karşı karşıya kaldığı serinin nefes kesen final filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim"],
+    cast: "Tom Cruise, Hayley Atwell, Ving Rhames, Simon Pegg, Rebecca Ferguson, Vanessa Kirby, Esai Morales, Pom Klementieff, Henry Czerny",
+    director: "Christopher McQuarrie",
+    imdb: "7.1",
+    duration: "169 Dakika",
+    releaseDate: "23 Mayıs 2025",
+    imdbId: "tt9603208"
     },
 
 
