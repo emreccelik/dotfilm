@@ -649,6 +649,9 @@ const filmListesi = [
     { id: 647, title: "Solo: A Star Wars Story", poster: "./afisler/SoloAStarWarsStory.jpg"},
     { id: 648, title: "Star Wars: The Rise of Skywalker", poster: "./afisler/TheRiseofSkywalker.jpg"},
     { id: 649, title: "The Mandalorian and Grogu", poster: "./afisler/TheMandalorianandGrogu.jpg"},
+    { id: 650, title: "Three Colors: Blue", poster: "./afisler/ThreeColorsBlue.jpg"},
+    { id: 651, title: "Three Colors: White", poster: "./afisler/ThreeColorsWhite.jpg"},
+    { id: 652, title: "Three Colors: Red", poster: "./afisler/ThreeColorsRed.jpg"},
 
 
 
@@ -7156,6 +7159,36 @@ const filmDetaylari = {
     duration: "112 Dakika",
     releaseDate: "22 Mayıs 2026",
     imdbId: "tt30825738"
+    },
+650: {
+    konu: "Kocasını ve kızını trafik kazasında kaybettikten sonra hayata karşı tüm bağlarını koparmaya, her türlü duygusal ve insani ilişkiden kaçarak bomboş ve özgür bir hayat yaşamaya çalışan Julie'nin, geçmişin hayaletlerinden ve kocasının bitmemiş müzikal eserinden kaçamayarak yeniden hissetmeye ve hayata tutunmaya başlamasını anlatan Krzysztof Kieslowski'nin usta işi renk üçlemesinin ilk filmi.",
+    genre: ["Dram", "Gizem", "Romantik"],
+    cast: "Juliette Binoche, Zbigniew Zamachowski, Julie Delpy, Benoît Régent, Florence Pernel",
+    director: "Krzysztof Kieslowski",
+    imdb: "7.8",
+    duration: "98 Dakika",
+    releaseDate: "8 Eylül 1993",
+    imdbId: "tt0108394"
+    },
+651: {
+    konu: "Polonyalı kuaför Karol Karol'un, Fransız karısının boşanma davası açması ve tüm mal varlığına el koymasıyla sıfır noktasına düşmesinin ardından, memleketi Polonya'ya dönüp kara mizah dolu entrikalar ve başarılı iş hamleleriyle servet kazanarak eski eşinden intikam almaya çalışmasını, bu süreçte özgürlük kavramını kendi mizahi ve trajikomik bakış açısıyla irdeleyen Krzysztof Kieslowski'nin renk üçlemesinin ikinci filmi.",
+    genre: ["Komedi", "Dram", "Romantik"],
+    cast: "Zbigniew Zamachowski, Julie Delpy, Janusz Gajos, Jerzy Stuhr",
+    director: "Krzysztof Kieslowski",
+    imdb: "7.6",
+    duration: "92 Dakika",
+    releaseDate: "26 Ocak 1994",
+    imdbId: "tt0111507"
+    },
+652: {
+    konu: "Cenevre'de yaşayan genç ve idealist model Valentine'ın, arabasıyla çarptığı yaşlı ve emekli bir yargıcın komşularının özel hayatını gizlice dinleme gibi tuhaf ve etik dışı bir hobiye sahip olduğunu keşfetmesiyle ikili arasında kurulan sıra dışı dostluğu; kader, tesadüf ve karşılıksız sevgi temaları etrafında işleyen, renk üçlemesinin insanı derinden etkileyen ve onur ödülleriyle taçlandırılmış final filmi.",
+    genre: ["Dram", "Gizem", "Romantik"],
+    cast: "Irène Jacob, Jean-Louis Trintignant, Jean-Pierre Lorit, Samuel Benchetrit, Marion Stothard",
+    director: "Krzysztof Kieslowski",
+    imdb: "8.0",
+    duration: "99 Dakika",
+    releaseDate: "16 Mayıs 1994",
+    imdbId: "tt0111495"
     },
 
 
