@@ -223,6 +223,80 @@
         }
         .play-btn:hover { background: #e5e5e5; transform: scale(1.02); }
 
+        /*Filter*/
+        .filter-dropdown {
+    position: relative;
+}
+
+.filter-btn {
+    background: #1c1c1e;
+    color: white;
+    border: 1px solid #3a3a3c;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s;
+    letter-spacing: 0.5px;
+}
+
+.filter-btn:hover {
+    background: #2c2c2e;
+    border-color: #636366;
+}
+
+.filter-btn.active {
+    border-color: white;
+}
+
+.filter-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    background: rgba(28, 28, 30, 0.98);
+    border: 1px solid #3a3a3c;
+    border-radius: 10px;
+    min-width: 200px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    z-index: 999;
+}
+
+.filter-menu.open {
+    display: block;
+}
+
+.filter-menu a {
+    display: block;
+    padding: 13px 18px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+    border-bottom: 1px solid #2c2c2e;
+}
+
+.filter-menu a:last-child {
+    border-bottom: none;
+}
+
+.filter-menu a:hover {
+    background: #2c2c2e;
+    color: white;
+}
+
+.filter-menu a.selected {
+    color: white;
+    font-weight: 600;
+}
+
+
+
         /* Slider */
         .slider-section {
             position: relative;
