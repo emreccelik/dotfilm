@@ -69,15 +69,22 @@
 
         <!-- Filmler Grid Section -->
         <section id="movies-section">
-            <h2 style="margin-bottom: 25px;">Tüm Filmler</h2>
-            <div class="movies-grid" id="movie-container"></div>
-            <div class="pagination" id="pagination">
-                <button class="page-btn active">1</button>
-                <button class="page-btn">2</button>
-                <button class="page-btn">3</button>
-                <button class="page-btn">4</button>
-            </div>
-        </section>
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 25px;">
+        <h2 id="movies-section-title" style="margin: 0;">Tüm Filmler</h2>
+        <div class="filter-dropdown">
+            <button class="filter-btn" onclick="toggleFilterMenu(event)">
+                FİLTRELE <i class="fas fa-chevron-down" id="filter-chevron"></i>
+            </button>
+            <div class="filter-menu" id="filter-menu">
+    <a href="javascript:void(0);" onclick="setSortOrder('newest'); event.preventDefault();">En Yeni Çıkanlar</a>
+    <a href="javascript:void(0);" onclick="setSortOrder('oldest'); event.preventDefault();">En Eski Çıkanlar</a>
+    <a href="javascript:void(0);" onclick="setSortOrder('highest'); event.preventDefault();">En İyi IMDb Puanı</a>
+</div>
+        </div>
+    </div>
+    <div class="movies-grid" id="movie-container"></div>
+    <div class="pagination" id="pagination"></div>
+</section>
 
         <!-- FAQ Section -->
         <section id="faq-section">
@@ -200,33 +207,107 @@ function renderTrending() {
 // 2. TÜM FİLMLER VE SAYFALAMA
 function renderMovies(page) {
     const container = document.getElementById('movie-container');
-    if(!container) return;
+    if (!container) return;
     container.innerHTML = '';
 
-    // 1. Seçili kategoriye göre filmleri filtrele
-    let filteredMovies = (currentCategory === "Tüm Filmler") 
-        ? allMovies 
+    let filteredMovies = (currentCategory === "Tüm Filmler")
+        ? [...allMovies]
         : allMovies.filter(m => m.genre && m.genre.includes(currentCategory));
 
-    // 2. Sadece bu sayfanın filmlerini al
+    // Sıralama
+    if (currentSortOrder === 'newest') {
+        filteredMovies.sort((a, b) => parseDate(b.releaseDate) - parseDate(a.releaseDate));
+    } else if (currentSortOrder === 'oldest') {
+        filteredMovies.sort((a, b) => parseDate(a.releaseDate) - parseDate(b.releaseDate));
+    } else if (currentSortOrder === 'highest') {
+        filteredMovies.sort((a, b) =>
+            parseFloat(String(b.imdb).replace(',', '.')) - parseFloat(String(a.imdb).replace(',', '.'))
+        );
+    }
+
     const start = (page - 1) * itemsPerPage;
     const pageItems = filteredMovies.slice(start, start + itemsPerPage);
 
-    // 3. Filmleri ekrana bas
     if (pageItems.length === 0) {
-        container.innerHTML = `<p style="color: #86868b; grid-column: 1/-1; text-align: center; padding: 50px;">Bu kategoride henüz film bulunamadı.</p>`;
+        container.innerHTML = `<p style="color: #86868b; grid-column: 1/-1; text-align: center; padding: 50px;">Film bulunamadı.</p>`;
     } else {
         pageItems.forEach(movie => {
             const card = document.createElement('div');
             card.className = 'movie-card';
             card.onclick = () => showMovieDetail(movie.id);
-            card.innerHTML = `<img src="${movie.poster}" alt="${movie.title}"><div class="info">${movie.title}</div>`;
+            card.innerHTML = `<img src="${movie.poster}" alt="${movie.title}" draggable="false"><div class="info">${movie.title}</div>`;
             container.appendChild(card);
         });
     }
 
-    // 4. Sayfalama butonlarını güncelle (Filtrelenmiş sayıyı gönderiyoruz)
     renderPagination(page, filteredMovies.length);
+}
+
+   //5. Filtreleme Kodları
+        // Tarih string'ini sıralanabilir formata çevirme
+function parseDate(dateStr) {
+    if (!dateStr) return new Date(0);
+    const months = {
+        "Ocak": 0, "Şubat": 1, "Mart": 2, "Nisan": 3, "Mayıs": 4, "Haziran": 5,
+        "Temmuz": 6, "Ağustos": 7, "Eylül": 8, "Ekim": 9, "Kasım": 10, "Aralık": 11
+    };
+    const parts = dateStr.split(' ');
+    if (parts.length === 3) {
+        return new Date(parseInt(parts[2]), months[parts[1]] ?? 0, parseInt(parts[0]));
+    }
+    return new Date(0);
+}
+
+let currentSortOrder = null;
+
+function toggleFilterMenu(e) {
+    e.stopPropagation();
+    const menu = document.getElementById('filter-menu');
+    const btn = document.querySelector('.filter-btn');
+    const chevron = document.getElementById('filter-chevron');
+    menu.classList.toggle('open');
+    btn.classList.toggle('active');
+    chevron.style.transform = menu.classList.contains('open') ? 'rotate(180deg)' : 'rotate(0deg)';
+}
+
+// Menü dışına tıklayınca kapat
+document.addEventListener('click', () => {
+    const menu = document.getElementById('filter-menu');
+    const btn = document.querySelector('.filter-btn');
+    const chevron = document.getElementById('filter-chevron');
+    if (menu) {
+        menu.classList.remove('open');
+        btn.classList.remove('active');
+        if (chevron) chevron.style.transform = 'rotate(0deg)';
+    }
+});
+
+function setSortOrder(order) {
+    currentSortOrder = order;
+
+    // Tıklanan öğeyi seçili yap (güvenli kontrol ile)
+    if (window.event && window.event.target) {
+        document.querySelectorAll('.filter-menu a').forEach(a => a.classList.remove('selected'));
+        window.event.target.classList.add('selected');
+    }
+
+    // Menüyü kapat
+    const menu = document.getElementById('filter-menu');
+    const btn = document.querySelector('.filter-btn');
+    const chevron = document.getElementById('filter-chevron');
+    if (menu) menu.classList.remove('open');
+    if (btn) btn.classList.remove('active');
+    if (chevron) chevron.style.transform = 'rotate(0deg)';
+
+    // Filmleri 1. sayfaya göre yeniden sırala
+    renderMovies(1);
+
+    // Sayfanın en üste (DOTFILM logosuna) zıplamasını kesin olarak engelle 
+    // ve doğrudan filmler div'inin olduğu yere odaklan
+    const moviesSection = document.getElementById('movies-section');
+    if (moviesSection) {
+        moviesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 
 function renderPagination(currentPage, totalItems) {
@@ -320,22 +401,20 @@ function performLiveSearch() {
 let currentCategory = "Tüm Filmler"; // Varsayılan kategori
 
 function filterByCategory(category) {
-    // 1. Önce gizli olan bölümleri aç/kapat (BURASI ÖNEMLİ)
-    document.getElementById('movie-detail').style.display = 'none'; // Detay sayfasını kapat
-    document.getElementById('movie-player').src = ""; // Videoyu durdur
-    document.getElementById('main-content').style.display = 'block'; // Ana içeriği göster
-    document.getElementById('search-page').style.display = 'none'; // Arama sayfasını kapat
+    currentSortOrder = null;
+    document.querySelectorAll('.filter-menu a').forEach(a => a.classList.remove('selected'));
     
-    // 2. Kategori ayarlarını yap
+    document.getElementById('movie-detail').style.display = 'none';
+    document.getElementById('movie-player').src = "";
+    document.getElementById('main-content').style.display = 'block';
+    document.getElementById('search-page').style.display = 'none';
+    
     currentCategory = category;
-    const titleElement = document.querySelector('#movies-section h2');
-    if(titleElement) titleElement.innerText = category === "Tüm Filmler" ? "Tüm Filmler" : `${category} Filmleri`;
+    const titleElement = document.getElementById('movies-section-title');
+    if (titleElement) titleElement.innerText = category === "Tüm Filmler" ? "Tüm Filmler" : `${category} Filmleri`;
     
-    // 3. Menüyü kapat ve kaydır
-    if(typeof closeMenu === "function") closeMenu();
+    if (typeof closeMenu === "function") closeMenu();
     document.getElementById('movies-section').scrollIntoView({behavior: 'smooth'});
-
-    // 4. Filmleri filtreleyip göster
     renderMovies(1);
 }
 
