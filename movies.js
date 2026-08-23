@@ -676,7 +676,7 @@ const filmListesi = [
     { id: 674, title: "Risky Business", poster: "./afisler/RiskyBusiness.jpg"},
     { id: 675, title: "The Dark Crystal", poster: "./afisler/TheDarkCrystal.jpg"},
     { id: 676, title: "Road House", poster: "./afisler/RoadHouse.jpg"},
-    { id: 677, title: "Tenebrae", poster: "./afisler/Tenebre.jpg"},
+    { id: 677, title: "Tenebrae", poster: "./afisler/Tenebrae.jpg"},
     { id: 678, title: "Conclave", poster: "./afisler/Conclave.jpg"},
     { id: 679, title: "The Bride!", poster: "./afisler/TheBride.jpg"},
     { id: 680, title: "The Moment", poster: "./afisler/TheMoment.jpg"},
