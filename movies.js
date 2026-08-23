@@ -674,6 +674,25 @@ const filmListesi = [
     { id: 672, title: "To Live and Die in L.A.", poster: "./afisler/ToLiveandDieinLA.jpg"},
     { id: 673, title: "Cruising", poster: "./afisler/Cruising.jpg"},
     { id: 674, title: "Risky Business", poster: "./afisler/RiskyBusiness.jpg"},
+    { id: 675, title: "The Dark Crystal", poster: "./afisler/TheDarkCrystal.jpg"},
+    { id: 676, title: "Road House", poster: "./afisler/RoadHouse.jpg"},
+    { id: 677, title: "Tenebrae", poster: "./afisler/Tenebre.jpg"},
+    { id: 678, title: "Conclave", poster: "./afisler/Conclave.jpg"},
+    { id: 679, title: "The Bride!", poster: "./afisler/TheBride.jpg"},
+    { id: 680, title: "The Moment", poster: "./afisler/TheMoment.jpg"},
+    { id: 681, title: "Hoppers", poster: "./afisler/Hoppers.jpg"},
+    { id: 682, title: "Swapped", poster: "./afisler/Swapped.jpg"},
+    { id: 683, title: "The Wild Robot", poster: "./afisler/TheWildRobot.jpg"},
+    { id: 684, title: "Peaky Blinders: The Immortal Man", poster: "./afisler/PeakyBlindersTheImmortalMan.jpg"},
+    { id: 685, title: "Supergirl", poster: "./afisler/Supergirl.jpg"},
+    { id: 686, title: "Materialists", poster: "./afisler/Materialists.jpg"},
+    { id: 687, title: "Novocaine", poster: "./afisler/Novocaine.jpg"},
+    { id: 688, title: "Black Bag", poster: "./afisler/BlackBag.jpg"},
+    { id: 689, title: "The Roses", poster: "./afisler/TheRoses.jpg"},
+    { id: 690, title: "The Amateur", poster: "./afisler/TheAmateur.jpg"},
+    { id: 691, title: "Dracula", poster: "./afisler/Dracula.jpg"},
+    { id: 692, title: "Nuremberg", poster: "./afisler/Nuremberg.jpg"},
+    { id: 693, title: "Steve", poster: "./afisler/Steve.jpg"},
 
 
 
@@ -7431,6 +7450,196 @@ const filmDetaylari = {
     duration: "99 Dakika",
     releaseDate: "5 Ağustos 1983",
     imdbId: "tt0086200"
+    },
+675: {
+    konu: "Fantastik bir dünyada, asırlar önce kırılan ve iki ırkın kaderini belirleyen sihirli bir kristalin parçasını bularak dünyasına dengeyi yeniden getirmek ve kötü ruhlu Skeksislerin saltanatına son vermek için tehlikeli bir maceraya atılan genç Gelfling kahramanı Jen'in destansı mücadelesini anlatan Jim Henson ve Frank Oz imzalı çığır açıcı kukla filmi.",
+    genre: ["Macera", "Aile", "Fantastik"],
+    cast: "Jim Henson, Kathryn Mullen, Frank Oz, Dave Goelz, Steve Whitmire, Percy Edwards",
+    director: "Jim Henson, Frank Oz",
+    imdb: "7.1",
+    duration: "93 Dakika",
+    releaseDate: "17 Aralık 1982",
+    imdbId: "tt0083791"
+    },
+676: {
+    konu: "Missouri'deki belalı ve şiddet yanlısı bir barda düzeni sağlamak ve kasabayı esir alan yozlaşmış bir iş adamının baskısına son vermek için işe alınan, ülkenin en yetenekli ve sakin 'bouncers'larından (fedai) biri olan Dalton'ın akıl, karate ve karizmayla harmanladığı dövüş dolu adalet mücadelesini anlatan eğlenceli ve ikonik aksiyon filmi.",
+    genre: ["Aksiyon", "Dram", "Gerilim"],
+    cast: "Patrick Swayze, Kelly Lynch, Sam Elliott, Ben Gazzara, Redmond Gleeson, Kevin Tighe",
+    director: "Rowdy Herrington",
+    imdb: "6.7",
+    duration: "114 Dakika",
+    releaseDate: "19 Mayıs 1989",
+    imdbId: "tt0098206"
+    },
+677: {
+    konu: "Yeni kitabı için İtalya'ya gelen ve burada geçirdiği süre zarfında yazdığı hikayelerdeki cinayetlere benzer olayların gerçek hayatta da işlenmeye başladığını fark eden Amerikalı bir gerilim yazarının, katilin peşine düşerek karmaşık ve kanlı sırları çözmeye çalıştığı Dario Argento imzalı giallo klasiği.",
+    genre: ["Gizem", "Korku", "Gerilim"],
+    cast: "Anthony Franciosa, John Saxon, Daria Nicolodi, Eva Robins, Mirella D'Angelo, Giuliano Gemma",
+    director: "Dario Argento",
+    imdb: "7.0",
+    duration: "101 Dakika",
+    releaseDate: "27 Ekim 1982",
+    imdbId: "tt0084777"
+    },
+678: {
+    konu: "Papa'nın ani ölümünün ardından dünyanın dört bir yanından gelen kardinallerin yeni lideri seçmek üzere Vatikan'da kapalı kapılar ardında gerçekleştirdiği gizli ve gerilim dolu konklav sürecini yönetmekle görevlendirilen Kardinal Lawrence'ın, adaylar arasındaki derin güç savaşlarını, skandalları ve komplo ağlarını ortaya çıkardığı sürükleyici siyasi dram ve gerilim filmi.",
+    genre: ["Dram", "Gizem", "Gerilim"],
+    cast: "Ralph Fiennes, Stanley Tucci, John Lithgow, Isabella Rossellini, Sergio Castellitto, Carlos Diehz",
+    director: "Edward Berger",
+    imdb: "7.4",
+    duration: "120 Dakika",
+    releaseDate: "25 Ekim 2024",
+    imdbId: "tt20215234"
+    },
+679: {
+    konu: "1930'lu yılların Chicago'sunda geçen filmde, yalnız canavar Frankenstein'ın Dr. Euphronius'tan kendisi için bir eş yaratmasını istemesi ve ikilinin öldürülen bir kadını hayata döndürmesiyle birlikte, uyanışının ardından anarşi, isyan, yasak bir aşk ve toplumsal bir patlama başlatan Maggie Gyllenhaal imzalı gotik ve karanlık komedi türündeki yeniden uyarlama.",
+    genre: ["Dram", "Korku", "Romantik", "Komedi"],
+    cast: "Jessie Buckley, Christian Bale, Peter Sarsgaard, Annette Bening, Jake Gyllenhaal, Penélope Cruz",
+    director: "Maggie Gyllenhaal",
+    imdb: "5.6",
+    duration: "126 Dakika",
+    releaseDate: "6 Mart 2026",
+    imdbId: "tt30851137"
+    },
+680: {
+    konu: "İngiliz pop yıldızı Charli XCX'in kültürel bir fenomene dönüşen 'Brat' albümü döneminin ve ardından çıkacağı devasa arena turnesinin ardındaki kaotik atmosferi, müzik endüstrisinin dayatmalarını ve şöhretin getirdiği psikolojik baskıları ultra stilize bir dille ele alan Aidan Zamiri imzalı eğlenceli ve hiciv dolu sahte belgesel tarzındaki komedi ve dram filmi.",
+    genre: ["Komedi", "Dram", "Gerilim", "Müzikal"],
+    cast: "Charli XCX, Rosanna Arquette, Alexander Skarsgård, Jamie Demetriou, Rachel Sennott, Kate Berlant",
+    director: "Aidan Zamiri",
+    imdb: "6.1",
+    duration: "103 Dakika",
+    releaseDate: "23 Ocak 2026",
+    imdbId: "tt35524793"
+    },
+681: {
+    konu: "Bilim insanlarının insan bilincini gerçekçi robot hayvan bedenlerine aktararak hayvanlarla iletişim kurmayı mümkün kılan çığır açıcı bir teknoloji geliştirmesini ve doğa tutkunu genç bir üniversite öğrencisi olan Mabel Tanaka'nın, bu teknoloji yardımıyla bir robot kunduz bedenine bürünerek hayvanlar alemine sızmasını ve yerel yaşam alanlarını yok etmek isteyen hırslı belediye başkanına karşı doğayı savunma mücadelesini anlatan Daniel Chong imzalı eğlenceli ve tempolu Pixar animasyonu.",
+    genre: ["Animasyon", "Macera", "Komedi", "Bilim Kurgu", "Aile"],
+    cast: "Piper Curda, Bobby Moynihan, Jon Hamm, Kathy Najimy, Dave Franco, Eduardo Franco",
+    director: "Daniel Chong",
+    imdb: "7.2",
+    duration: "104 Dakika",
+    releaseDate: "6 Mart 2026",
+    imdbId: "tt26443616"
+    },
+682: {
+    konu: "Sihirli bir vadide yaşayan, tembel hayvan benzeri küçük bir pookoo olan Ollie ile kuş benzeri bir javan olan Ivy'nin, kazara birbirlerinin türüne dönüşmesi ve hayatta kalabilmek için birbirlerinin bedenlerinde dünyayı keşfetmek zorunda kaldıkları Nathan Greno imzalı renkli ve eğlenceli Skydance animasyonu.",
+    genre: ["Animasyon", "Macera", "Komedi", "Fantastik", "Aile"],
+    cast: "Michael B. Jordan, Juno Temple, Tracy Morgan, Cedric the Entertainer, Justina Machado, Ambika Mod",
+    director: "Nathan Greno",
+    imdb: "7.3",
+    duration: "98 Dakika",
+    releaseDate: "1 Mayıs 2026",
+    imdbId: "tt29552248"
+    },
+683: {
+    konu: "Bir kaza sonucu ıssız, vahşi bir adaya mahsur kalan ve doğadaki hayvanlarla iletişim kurmayı öğrenerek adeta adanın bir parçası haline gelen Rozzum unit 7134 ('Roz') adlı gelişmiş bir robotun, yetim kalan yavru bir kazı evlat edinmesiyle birlikte hayatta kalma mücadelesinin, şefkatin, teknolojinin ve doğanın uyumunun hikayesine dönüşen Chris Sanders imzalı büyüleyici animasyon başyapıtı.",
+    genre: ["Animasyon", "Macera", "Bilim Kurgu", "Aile", "Dram"],
+    cast: "Lupita Nyong'o, Pedro Pascal, Kit Connor, Bill Nighy, Stephanie Hsu, Mark Hamill, Catherine O'Hara",
+    director: "Chris Sanders",
+    imdb: "8.1",
+    duration: "102 Dakika",
+    releaseDate: "27 Eylül 2024",
+    imdbId: "tt29623480"
+    },
+684: {
+    konu: "Popüler dizi serisinin olaylarından birkaç yıl sonra, İkinci Dünya Savaşı'nın çalkantılı gölgesinde geçen filmde Tommy Shelby'nin ailesini ve imparatorluğunu korumak için karanlık geçmişiyle yeniden yüzleşmesini ve son bir kez ölümcül bir mücadelenin içine girmesini anlatan Tom Harper imzalı sürükleyici suç ve dram filmi.",
+    genre: ["Suç", "Dram", "Tarihi", "Gerilim"],
+    cast: "Cillian Murphy, Rebecca Ferguson, Tim Roth, Barry Keoghan, Sophie Rundle, Stephen Graham",
+    director: "Tom Harper",
+    imdb: "6.5",
+    duration: "112 Dakika",
+    releaseDate: "20 Mart 2026",
+    imdbId: "tt15574124"
+    },
+685: {
+    konu: "DC evreninin en güçlü ve karmaşık karakterlerinden biri olan Kara Zor-El'in (Supergirl), Krypton'un yıkılışının ardından uzayda geçen zorlu ve travmatik çocukluk yıllarını, Krypton'un parçalanmış bir parçasında yaşamanın getirdiği yalnızlığı ve Superman'den farklı olarak evrenin karanlık yüzüyle yüzleşmesini anlatan sürükleyici çizgi roman uyarlaması ve süper kahraman filmi.",
+    genre: ["Aksiyon", "Macera", "Bilim Kurgu", "Fantastik"],
+    cast: "Milly Alcock, Matthias Schoenaerts, Eve Ridley",
+    director: "Craig Gillespie",
+    imdb: "5.9",
+    duration: "108 Dakika",
+    releaseDate: "23 Haziran 2026",
+    imdbId: "tt8814476"
+    },
+686: {
+    konu: "New York'un rekabetçi ve lüks flört dünyasında geçen filmde, başarılı ve hırslı bir çöpçatan olan Lucy'nin; mükemmel eşleşme ile kusurlu ama kalbini çelen eski sevgilisi arasında kalmasını ve modern ilişkiler ile kapitalizm arasındaki ince çizgiye odaklanan Celine Song imzasi taşiyan şık ve etkileyici romantik komedi ve dram filmi.",
+    genre: ["Komedi", "Dram", "Romantik"],
+    cast: "Dakota Johnson, Chris Evans, Pedro Pascal, Marin Ireland, Zoë Winters, Dasha Nekrasova",
+    director: "Celine Song",
+    imdb: "6.2",
+    duration: "116 Dakika",
+    releaseDate: "13 Haziran 2025",
+    imdbId: "tt30253473"
+    },
+687: {
+    konu: "Nadir bir tıbbi durum nedeniyle hiç fiziksel acı hissetmeyen mütevazı bir banka çalışanı olan Nathan Caine'in, yeni kız arkadaşının bir banka soygunu sırasında rehin alınmasının ardından, bu benzersiz ve tuhaf durumunu haydutları alt etmek ve onu kurtarmak için beklenmedik bir avantaja dönüştürdüğü tempolu ve eğlenceli aksiyon komedi filmi.",
+    genre: ["Aksiyon", "Komedi", "Suç", "Gerilim"],
+    cast: "Jack Quaid, Amber Midthunder, Ray Nicholson, Betty Gabriel, Matt Walsh, Jacob Batalon",
+    director: "Dan Berk, Robert Olsen",
+    imdb: "6.5",
+    duration: "110 Dakika",
+    releaseDate: "14 Mart 2025",
+    imdbId: "tt29603959"
+    },
+688: {
+    konu: "Uluslararası casusluk dünyasının en üst kademelerinde görev yapan sırlar ve ihanetlerle dolu evlilikleri olan iki ajanın, ulusal güvenliği tehlikeye atan gizli bir siyah çantanın peşine düşmesiyle birlikte gelişen tehlikeli ittifakları, yalanları ve zeka oyunlarını konu alan Steven Soderbergh imzalı şık ve gerilim dolu casusluk filmi.",
+    genre: ["Dram", "Gizem", "Gerilim"],
+    cast: "Cate Blanchett, Michael Fassbender, Regé-Jean Page, Naomie Harris, Marisa Abela, Tom Burke",
+    director: "Steven Soderbergh",
+    imdb: "6.7",
+    duration: "93 Dakika",
+    releaseDate: "14 Mart 2025",
+    imdbId: "tt30988739"
+    },
+689: {
+    konu: "Dışarıdan bakıldığında kusursuz görünen evlilikleri ve başarılı yaşamlarıyla dikkat çeken Ivy ve Theo çiftinin, kocasının kariyerinde yaşadığı büyük düşüşün ardından restoranı ani bir başarı yakalayan eşinin ailenin mali kontrolünü ele almasıyla birlikte aralarındaki gizli rekabetin, kıskançlığın ve bastırılmış öfkenin patlama noktasına ulaştığı Jay Roach imzalı kara mizah ve komedi filmi.",
+    genre: ["Komedi", "Dram"],
+    cast: "Benedict Cumberbatch, Olivia Colman, Kate McKinnon, Andy Samberg, Allison Janney, Ncuti Gatwa",
+    director: "Jay Roach",
+    imdb: "6.6",
+    duration: "105 Dakika",
+    releaseDate: "29 Ağustos 2025",
+    imdbId: "tt31973693"
+    },
+690: {
+    konu: "CIA'in şifre çözme departmanında çalışan dahi ancak içe dönük bir analiz memuru olan Charlie Heller'ın, karısının Londra'daki bir terör saldırısında hayatını kaybetmesi ve teşkilatın resmi olarak harekete geçmeyi reddetmesi üzerine, kurumu kendisini eğitmeye zorlayarak intikamını almak için zekasını ve gizli taktikleri kullandığı James Hawes imzalı sürükleyici aksiyon ve gerilim filmi.",
+    genre: ["Aksiyon", "Gerilim", "Suç", "Dram"],
+    cast: "Rami Malek, Rachel Brosnahan, Laurence Fishburne, Caitríona Balfe, Jon Bernthal, Michael Stuhlbarg, Holt McCallany",
+    director: "James Hawes",
+    imdb: "6.5",
+    duration: "122 Dakika",
+    releaseDate: "11 Nisan 2025",
+    imdbId: "tt0899043"
+    },
+691: {
+    konu: "15. yüzyılda karısının trajik ölümünün ardından Tanrı'ya sırt çeviren ve ölümsüz bir lanete mahkûm olan Prens Vladimir'in, yüzyıllar sonra modern dünyada kaybettiği büyük aşkına tıpatıp benzeyen bir kadınla karşılaşmasıyla yeniden alevlenen tutkusunu, karanlık takibini ve inançla lanet arasındaki mücadelesini anlatan Luc Besson imzalı gotik, fantastik ve romantik türdeki uyarlama film.",
+    genre: ["Korku", "Fantastik", "Romantik", "Dram"],
+    cast: "Caleb Landry Jones, Christoph Waltz, Zoë Bleu Sidel, Matilda De Angelis, Guillaume De Tonquedec, Ewens Abid",
+    director: "Luc Besson",
+    imdb: "6.2",
+    duration: "129 Dakika",
+    releaseDate: "30 Haziran 2025",
+    imdbId: "tt31434030"
+    },
+692: {
+    konu: "İkinci Dünya Savaşı'nın ardından Nazi liderlerini yargılamak üzere kurulan tarihi Nuremberg duruşmaları öncesinde, ABD'li ordu psikiyatristi Douglas Kelley'nin sanıkların zihinsel durumlarını değerlendirmek ve Hermann Göring ile kurduğu tehlikeli bağ üzerinden kötülüğün kökenlerini anlamaya çalışmakla geçen gerilim dolu sürecini anlatan James Vanderbilt imzalı tarihi dram ve psikolojik gerilim filmi.",
+    genre: ["Biyografi", "Dram", "Tarih", "Gerilim"],
+    cast: "Rami Malek, Russell Crowe, Michael Shannon, Leo Woodall, Richard E. Grant, John Slattery, Colin Hanks",
+    director: "James Vanderbilt",
+    imdb: "7.3",
+    duration: "148 Dakika",
+    releaseDate: "7 Kasım 2025",
+    imdbId: "tt29567915"
+    },
+693: {
+    konu: "Zor durumdaki gençlerin rehabilite edildiği bir gözlem okulunda son derece yoğun ve kritik bir gün geçiren müdür Steve'in, hem kendi akıl sağlığını korumak hem de kontrolü elinde tutmak için öğrencileriyle birlikte verdiği yirmi dört saatlik duygusal, yıpratıcı ve çarpıcı mücadeleyi anlatan Tim Mielants imzalı dram filmi.",
+    genre: ["Dram"],
+    cast: "Cillian Murphy, Jay Lycurgo, Emily Watson, Tommy Jessop, Sarah Goldberg",
+    director: "Tim Mielants",
+    imdb: "6.4",
+    duration: "93 Dakika",
+    releaseDate: "5 Eylül 2025",
+    imdbId: "tt32985279"
     },
 
 
