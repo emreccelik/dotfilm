@@ -664,7 +664,7 @@ const filmListesi = [
     { id: 662, title: "The Aristocats", poster: "./afisler/The Aristocats.jpg"},
     { id: 663, title: "All That Jazz", poster: "./afisler/AllThatJazz.jpg"},
     { id: 664, title: "Serpico", poster: "./afisler/Serpico.jpg"},
-    { id: 665, title: "Invasion of the Body Snatchers", poster: "./afisler/Invasionof theBodySnatchers.jpg"},
+    { id: 665, title: "Invasion of the Body Snatchers", poster: "./afisler/InvasionoftheBodySnatchers.jpg"},
     { id: 666, title: "Beetlejuice", poster: "./afisler/Beetlejuice.jpg"},
     { id: 667, title: "Big", poster: "./afisler/Big.jpg"},
     { id: 668, title: "Videodrome", poster: "./afisler/Videodrome.jpg"},
