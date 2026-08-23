@@ -652,6 +652,28 @@ const filmListesi = [
     { id: 650, title: "Three Colors: Blue", poster: "./afisler/ThreeColorsBlue.jpg"},
     { id: 651, title: "Three Colors: White", poster: "./afisler/ThreeColorsWhite.jpg"},
     { id: 652, title: "Three Colors: Red", poster: "./afisler/ThreeColorsRed.jpg"},
+    { id: 653, title: "The Third Man", poster: "./afisler/TheThirdMan.jpg"},
+    { id: 654, title: "Suspiria", poster: "./afisler/Suspiria.jpg"},
+    { id: 655, title: "Mr. Nobody", poster: "./afisler/MrNobody.jpg"},
+    { id: 656, title: "Don’t Say Good Luck", poster: "./afisler/DontSayGoodLuck.jpg"},
+    { id: 657, title: "One Night Only", poster: "./afisler/OneNightOnly.jpg"},
+    { id: 658, title: "The Conversation", poster: "./afisler/TheConversation.jpg"},
+    { id: 659, title: "Monty Python's Life of Brian", poster: "./afisler/LifeofBrian.jpg"},
+    { id: 660, title: "Autumn Sonata", poster: "./afisler/AutumnSonata.jpg"},
+    { id: 661, title: "The Holy Mountain", poster: "./afisler/TheHolyMountain.jpg"},
+    { id: 662, title: "The Aristocats", poster: "./afisler/The Aristocats.jpg"},
+    { id: 663, title: "All That Jazz", poster: "./afisler/AllThatJazz.jpg"},
+    { id: 664, title: "Serpico", poster: "./afisler/Serpico.jpg"},
+    { id: 665, title: "Invasion of the Body Snatchers", poster: "./afisler/Invasionof theBodySnatchers.jpg"},
+    { id: 666, title: "Beetlejuice", poster: "./afisler/Beetlejuice.jpg"},
+    { id: 667, title: "Big", poster: "./afisler/Big.jpg"},
+    { id: 668, title: "Videodrome", poster: "./afisler/Videodrome.jpg"},
+    { id: 669, title: "Dead Ringers", poster: "./afisler/DeadRingers.jpg"},
+    { id: 670, title: "Good Morning, Vietnam", poster: "./afisler/GoodMorningVietnam.jpg"},
+    { id: 671, title: "The Abyss", poster: "./afisler/TheAbyss.jpg"},
+    { id: 672, title: "To Live and Die in L.A.", poster: "./afisler/ToLiveandDieinLA.jpg"},
+    { id: 673, title: "Cruising", poster: "./afisler/Cruising.jpg"},
+    { id: 674, title: "Risky Business", poster: "./afisler/RiskyBusiness.jpg"},
 
 
 
@@ -7189,6 +7211,226 @@ const filmDetaylari = {
     duration: "99 Dakika",
     releaseDate: "16 Mayıs 1994",
     imdbId: "tt0111495"
+    },
+653: {
+    konu: "İkinci Dünya Savaşı sonrasında müttefiklerin denetimindeki bölünmüş Viyana'da geçen filmde, ucuz roman yazarı Holly Martins'in, katıldığı Viyana'da gizemli bir şekilde ölen eski dostu Harry Lime'ın ölümünün arkasındaki sır perdesini aralamaya çalışırken yeraltı karaborsası ve soğuk savaş entrikalarıyla dolu tehlikeli bir labirentte kayboluşunu anlatan sinema tarihinin en büyük kara filmlerinden biri.",
+    genre: ["Kara Film", "Gizem", "Gerilim", "Dram"],
+    cast: "Joseph Cotten, Alida Valli, Orson Welles, Trevor Howard, Bernard Lee",
+    director: "Carol Reed",
+    imdb: "8.1",
+    duration: "104 Dakika",
+    releaseDate: "3 Eylül 1949",
+    imdbId: "tt0041959"
+    },
+654: {
+    konu: "1977 yılında Berlin'de geçen filmde, prestijli bir Alman dans akademisine katılan Amerikalı genç dansçı Susie Bannion'ın, okulun kurucuları ve eğitmenleri arasındaki karanlık, uğursuz ve büyüsel sırları yavaş yavaş keşfetmesiyle cemaatin dehşet verici ritüellerinin ve cadılık ağının merkezine sürüklendiği, Luca Guadagnino imzalı çarpıcı ve atmosferik korku filmi.",
+    genre: ["Korku", "Gizem", "Fantezi"],
+    cast: "Dakota Johnson, Tilda Swinton, Mia Goth, Lutz Ebersdorf, Jessica Harper, Chloë Grace Moretz",
+    director: "Luca Guadagnino",
+    imdb: "6.8",
+    duration: "152 Dakika",
+    releaseDate: "26 Ekim 2018",
+    imdbId: "tt1034415"
+    },
+655: {
+    konu: "Dünyanın son ölümlü insanı olarak 118 yaşında ölüm döşeğinde yatan Nemo Nobody'nin, zihninde geçmişte yaptığı seçimler doğrultusunda girdiği farklı yaşam yollarını, alternatif gelecekleri ve aşk hikayelerini hatırlayarak 'doğru' seçimin ne olduğunu sorguladığı büyüleyici ve felsefi bir bilim kurgu draması.",
+    genre: ["Dram", "Fantezi", "Romantik", "Bilim Kurgu"],
+    cast: "Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham, Rhys Ifans, Natasha Little",
+    director: "Jaco Van Dormael",
+    imdb: "7.7",
+    duration: "141 Dakika",
+    releaseDate: "26 Eylül 2009",
+    imdbId: "tt0485947"
+    },
+656: {
+    konu: "Lise müzikalinde başrol kapmaya hazırlanan genç Sophie'nin, bir yandan okul sahnesindeki provalar ve ergenlik karmaşasıyla boğuşurken, diğer yandan annesinin kanser hastalığının nüksetmesiyle sarsılan aile yaşamı ve duygusal dengesini korumaya çalışmasını anlatan dokunaklı ve samimi bir gençlik draması.",
+    genre: ["Dram", "Müzikal", "Komedi"],
+    cast: "Sunny Sandler, Melanie Lynskey, Max Greenfield, Jack Champion, Stephanie Beatriz, Bebe Neuwirth, Steve Buscemi",
+    director: "Julia Hart",
+    imdb: "6.8",
+    duration: "95 Dakika",
+    releaseDate: "14 Ağustos 2026",
+    imdbId: "tt36590417"
+    },
+657: {
+    konu: "Tek gecelik ilişkilerin yılın sadece tek bir gününde yasal kabul edildiği sıra dışı bir kurgusal dünyada geçen filmde, aşkı ve gerçek bir bağı arayan Allie ve Owen'ın New York'un kaotik ve kural tanımaz gecesinde yollarının kesişmesiyle birlikte yaşadıkları tesadüfler, yanlış anlaşılmalar ve eğlenceli maceralar zincirini anlatan romantik komedi.",
+    genre: ["Komedi", "Dram", "Romantik"],
+    cast: "Monica Barbaro, Callum Turner, Maya Hawke, Molly Ringwald, Julia Fox, LeVar Burton, Quintessa Swindell",
+    director: "Will Gluck",
+    imdb: "6.3",
+    duration: "102 Dakika",
+    releaseDate: "7 Ağustos 2026",
+    imdbId: "tt37853455"
+    },
+658: {
+    konu: "Özel bir ses dinleme ve gözetleme uzmanı olan Harry Caul'un, bir çiftin parkta yaptığı konuşmanın ses kayıtlarını çözerken onları yaklaşan bir felaketin ve cinayetin beklediğini fark etmesiyle paranoyaya kapılıp kendi gerçeğini sorgulamaya başladığı başyapıt niteliğindeki psikolojik gerilim.",
+    genre: ["Gizem", "Dram", "Gerilim"],
+    cast: "Gene Hackman, John Cazale, Allen Garfield, Cindy Williams, Frederic Forrest, Harrison Ford",
+    director: "Francis Ford Coppola",
+    imdb: "7.7",
+    duration: "113 Dakika",
+    releaseDate: "12 Nisan 1974",
+    imdbId: "tt0071360"
+    },
+659: {
+    konu: "Antik Yahudiye'de geçen filmde, MÖ 33 yılında yanlışlıkla Mesih sanılan ve hayatı boyunca absürt yanlış anlamalar, hicivli dini göndermeler ve toplumsal taşlamalarla dolu komik olaylar silsilesiyle karşılaşan Brian adındaki talihsiz bir adamın öyküsünü anlatan Monty Python ekibinin unutulmaz komedi klasiği.",
+    genre: ["Komedi"],
+    cast: "Graham Chapman, John Cleese, Terry Gilliam, Eric Idle, Terry Jones, Michael Palin",
+    director: "Terry Jones",
+    imdb: "8.0",
+    duration: "94 Dakika",
+    releaseDate: "17 Ağustos 1979",
+    imdbId: "tt0079470"
+    },
+660: {
+    konu: "Dünyaca ünlü konser piyanisti Charlotte'un, uzun yıllardır ihmal ettiği ve duygusal olarak uzak kaldığı kızı Eva'yı kırsaldaki evinde ziyaret etmesiyle aralarındaki bastırılmış öfkelerin, suçluluk duygularının ve annelik-çocukluk travmalarının su yüzüne çıktığı Ingmar Bergman imzalı sarsıcı psikolojik dram.",
+    genre: ["Dram", "Müzik"],
+    cast: "Ingrid Bergman, Liv Ullmann, Lena Nyman, Halvar Björk, Gunnar Björnstrand",
+    director: "Ingmar Bergman",
+    imdb: "8.1",
+    duration: "99 Dakika",
+    releaseDate: "18 Ekim 1978",
+    imdbId: "tt0077771"
+    },
+661: {
+    konu: "Yönetmen Alejandro Jodorowsky'nin tasarladığı, batı esoterizmi, tarot sembolizmi, din ve kapitalizm eleştirisini harmanlayan; bir grup insanın aydınlanma ve ölümsüzlük arayışıyla simyacı ve tanrı figürlerini aramak için çıktığı görsel olarak zihin açıcı ve sürrealist yolculuk.",
+    genre: ["Fantastik", "Macera", "Dram"],
+    cast: "Alejandro Jodorowsky, Horacio Salinas, Ramona Saunders, Juan Ferrara",
+    director: "Alejandro Jodorowsky",
+    imdb: "7.7",
+    duration: "114 Dakika",
+    releaseDate: "29 Kasım 1973",
+    imdbId: "tt0071615"
+    },
+662: {
+    konu: "Paris'te zengin ve hayırsever bir kedinin ve sevimli yavrularının, açgözlü hizmetçileri Edgar tarafından mirasın tek varisi oldukları için kaçırılıp kırsala atılması; bu sırada sokak kedisi Thomas O'Malley ve dostlarının yardımıyla evlerine geri dönmeye çalışırken yaşadıkları eğlenceli müzikal maceralar.",
+    genre: ["Animasyon", "Macera", "Komedi", "Aile"],
+    cast: "Phil Harris, Eva Gabor, Sterling Holloway, Scatman Crothers, Paul Winchell",
+    director: "Wolfgang Reitherman",
+    imdb: "7.1",
+    duration: "78 Dakika",
+    releaseDate: "24 Aralık 1970",
+    imdbId: "tt0065421"
+    },
+663: {
+    konu: "Kendi otobiyografik yaşamından esinlenen filmde, hem Broadway müzikalleri sahneleyen hem de gece gündüz demeden yoğun temposuyla film kurgulayan hırslı tiyatro yönetmeni Joe Gideon'ın, uyuşturucu, çapkınlıklar ve stres dolu hayatı sürerken ölümle yüzleşmesini gösterişli dans numaraları ve hayali hastane sahneleriyle anlatan Bob Fosse başyapıtı.",
+    genre: ["Dram", "Müzikal"],
+    cast: "Roy Scheider, Jessica Lange, Ann Reinking, Leland Palmer, Cliff Gorman, Ben Vereen",
+    director: "Bob Fosse",
+    imdb: "7.8",
+    duration: "123 Dakika",
+    releaseDate: "20 Aralık 1979",
+    imdbId: "tt0078754"
+    },
+664: {
+    konu: "New York Polis Teşkilatı içerisindeki yaygın ve kökleşmiş yolsuzlukları üstlerine bildirmeyi reddeden ve bu dürüst tutumu sayesinde teşkilattaki meslektaşlarının hedefi haline gelen idealist polis memuru Frank Serpico'nun gerçek yaşam öyküsünü ve adalet mücadelesini anlatan Sidney Lumet yönetmenliğindeki sarsıcı suç draması.",
+    genre: ["Biyografi", "Suç", "Dram"],
+    cast: "Al Pacino, John Randolph, Jack Kehoe, Biff McGuire, David Paterson, Tony Roberts",
+    director: "Sidney Lumet",
+    imdb: "7.7",
+    duration: "130 Dakika",
+    releaseDate: "5 Aralık 1973",
+    imdbId: "tt0070666"
+    },
+665: {
+    konu: "San Francisco'da çalışan bir sağlık müfettişinin, çevresindeki insanların tuhaf bir şekilde duygusuzlaşarak birebir kopyalarıyla değiştirildiğini ve uzaylı bir türün dünyayı sessizce ele geçirmeye başladığını fark etmesiyle başlayan, paranoia ve korku dolu gerilim dolu bilim kurgu klasiği.",
+    genre: ["Bilim Kurgu", "Korku", "Gizem", "Gerilim"],
+    cast: "Donald Sutherland, Brooke Adams, Jeff Goldblum, Veronica Cartwright, Leonard Nimoy",
+    director: "Philip Kaufman",
+    imdb: "7.4",
+    duration: "115 Dakika",
+    releaseDate: "22 Aralık 1978",
+    imdbId: "tt0077745"
+    },
+666: {
+    konu: "Yeni ölen genç bir çiftin, evlerine taşınan dayanılmaz derecede görgülü ve kibirli yeni sahipleri evden uzaklaştırmak için hayalet dünyasının garip ve düzenbaz 'kova cini' Beetlejuice'u yardıma çağırmasıyla kontrolden çıkan absürt, gotik ve eğlenceli olaylar silsilesi.",
+    genre: ["Komedi", "Fantastik"],
+    cast: "Alec Baldwin, Geena Davis, Michael Keaton, Catherine O'Hara, Winona Ryder, Jeffrey Jones",
+    director: "Tim Burton",
+    imdb: "7.4",
+    duration: "92 Dakika",
+    releaseDate: "30 Mart 1988",
+    imdbId: "tt0094721"
+    },
+667: {
+    konu: "Bir lunaparkta dilediği dilek sonucunda bir gecede yetişkin bir bedene bürünen 12 yaşındaki Josh Baskin'in, çocuk ruhunu koruyarak New York'un karmaşık iş dünyasında ve oyuncak sektöründe hızla yükselmesini, bu süreçte ilk kez aşkla ve yetişkinliğin sorumluluklarıyla tanışmasını anlatan eğlenceli ve sıcakkanlı aile komedisi.",
+    genre: ["Komedi", "Fantastik", "Dram", "Romantik"],
+    cast: "Tom Hanks, Elizabeth Perkins, Robert Loggia, John Heard, Jared Rushton, Jon Lovitz",
+    director: "Penny Marshall",
+    imdb: "7.3",
+    duration: "104 Dakika",
+    releaseDate: "3 Haziran 1988",
+    imdbId: "tt0094737"
+    },
+668: {
+    konu: "Yeraltı yayınları yapan küçük bir kablolu TV kanalının yöneticisi olan Max Renn'in, şiddet ve işkence içeren 'Videodrome' adlı gizemli ve hipnotik bir sinyal keşfetmesiyle birlikte gerçeklik algısının bulanıklaşması, halüsinasyonlar görmesi ve vücudunda korkunç mutasyonların başlamasıyla zihni ile teknolojinin iç içe geçtiği David Cronenberg imzalı sarsıcı bir vücut korkusu ve bilim kurgu klasiği.",
+    genre: ["Bilim Kurgu", "Korku", "Gizem", "Gerilim"],
+    cast: "James Woods, Sonja Smits, Deborah Harry, Peter Dvorsky, Lesleh Donaldson, Jack Creley",
+    director: "David Cronenberg",
+    imdb: "7.2",
+    duration: "87 Dakika",
+    releaseDate: "4 Şubat 1983",
+    imdbId: "tt0086541"
+    },
+669: {
+    konu: "Önde gelen kadın doğum uzmanları olan, her şeyi paylaşan ancak kişilikleri zamanla tehlikeli bir şekilde çatışmaya başlayan tek yumurta ikizleri Beverly ve Elliot Mantle'ın, kliniğindeki gizemli bir aktrisin hayatlarına girmesiyle birlikte gerçeklikten kopmalarını, akıl sağlığının bozulmasını ve giderek karanlıklaşan bağımlılık ilişkilerini anlatan David Cronenberg imzalı psikolojik gerilim ve dram filmi.",
+    genre: ["Dram", "Gerilim", "Psikolojik"],
+    cast: "Jeremy Irons, Geneviève Bujold, Heidi von Palleske, Rita Taggart, Shirley Douglas",
+    director: "David Cronenberg",
+    imdb: "7.2",
+    duration: "116 Dakika",
+    releaseDate: "23 Eylül 1988",
+    imdbId: "tt0094964"
+    },
+670: {
+    konu: "1965 yılında Saygon'daki Amerikan Silahlı Kuvvetleri Radyosu'nda DJ olarak göreve başlayan ve geleneksel askeri yayıncılık kurallarını hiçe sayarak çaldığı hareketli rock and roll parçaları, hızlı esprileri ve keskin mizahıyla askerlerin sevgisini kazanırken üstlerinin tepkisini çeken radyo yayıncısı Adrian Cronauer'ın gerçek olaylardan esinlenen eğlenceli ve duygusal hikayesi.",
+    genre: ["Biyografi", "Komedi", "Dram", "Savaş"],
+    cast: "Robin Williams, Forest Whitaker, Tung Thanh Tran, Chintara Sukapatana, Bruno Kirby, Robert Wuhl",
+    director: "Barry Levinson",
+    imdb: "7.3",
+    duration: "121 Dakika",
+    releaseDate: "23 Aralık 1987",
+    imdbId: "tt0093105"
+    },
+671: {
+    konu: "Karayipler açıklarında gizemli bir şekilde batan bir nükleer denizaltıyı aramak ve kurtarmak için görevlendirilen bir arama-kurtarma ekibinin, okyanusun en derin çukurunda hem Sovyet güçleriyle gerilim yaşamasını hem de insanlığın şimdiye kadar karşılaşmadığı akıllı ve sıra dışı bir su altı medeniyetiyle temas kurmasını anlatan James Cameron imzalı büyüleyici bilim kurgu ve macera filmi.",
+    genre: ["Macera", "Bilim Kurgu", "Gerilim", "Dram"],
+    cast: "Ed Harris, Mary Elizabeth Mastrantonio, Michael Biehn, Leo Burmester, Todd Graff, John Bedford Lloyd",
+    director: "James Cameron",
+    imdb: "7.5",
+    duration: "140 Dakika",
+    releaseDate: "9 Ağustos 1989",
+    imdbId: "tt0096754"
+    },
+672: {
+    konu: "Ortağı acımasızca katledilen ve intikam almak için her şeyi göze alan hırslı bir ABD Gizli Servis ajanı ile tehlikeli ve zeki bir sahtekar arasındaki gerilim dolu kedi-fare oyununu, Los Angeles'ın sert sokaklarında geçen soluk soluğa bir atmosfer ve unutulmaz bir finalle anlatan William Friedkin imzalı suç ve aksiyon klasiği.",
+    genre: ["Aksiyon", "Suç", "Dram", "Gerilim"],
+    cast: "William Petersen, Willem Dafoe, John Pankow, Debra Feuer, John Turturro, Darlanne Fluegel",
+    director: "William Friedkin",
+    imdb: "7.3",
+    duration: "116 Dakika",
+    releaseDate: "1 Kasım 1985",
+    imdbId: "tt0090180"
+    },
+673: {
+    konu: "New York'un yer altı eşcinsel deri kulüpleri ve barlarında işlenen bir dizi seri cinayeti çözmek için kılık değiştirerek bu tehlikeli dünyaya sızan ve soruşturma derinleştikçe kendi kimliği, cinselliği ve ruh sağlığı ile sınanan genç bir polis memurunun hikayesini anlatan William Friedkin imzalı cesur, karanlık ve tartışmalı suç gerilimi.",
+    genre: ["Suç", "Gizem", "Gerilim"],
+    cast: "Al Pacino, Paul Sorvino, Karen Allen, Richard Cox, Don Scardino, Joe Spinell",
+    director: "William Friedkin",
+    imdb: "6.5",
+    duration: "102 Dakika",
+    releaseDate: "15 Şubat 1980",
+    imdbId: "tt0080569"
+    },
+674: {
+    konu: "Chicago'da yaşayan hırslı ve örnek bir lise öğrencisi olan Joel'un, ailesi tatile gittiğinde evde tek başına kalmasıyla birlikte kontrolden çıkan partiler, lüks bir araba, bir eskort kız olan Lana ile tanışması ve hayatının alt üst olmasıyla hem eğlenceli hem de riskli bir büyüme hikayesine dönüşen 1980'lerin ikonik gençlik komedisi.",
+    genre: ["Komedi", "Suç", "Dram", "Romantik"],
+    cast: "Tom Cruise, Rebecca De Mornay, Joe Pantoliano, Richard Masur, Bronson Pinchot, Curtis Armstrong",
+    director: "Paul Brickman",
+    imdb: "6.8",
+    duration: "99 Dakika",
+    releaseDate: "5 Ağustos 1983",
+    imdbId: "tt0086200"
     },
 
 
