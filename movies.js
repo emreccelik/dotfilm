@@ -693,6 +693,10 @@ const filmListesi = [
     { id: 691, title: "Dracula", poster: "./afisler/Dracula.jpg"},
     { id: 692, title: "Nuremberg", poster: "./afisler/Nuremberg.jpg"},
     { id: 693, title: "Steve", poster: "./afisler/Steve.jpg"},
+    { id: 694, title: "Ponette", poster: "./afisler/Ponette.jpg"},
+    { id: 695, title: "Pierrot le Fou", poster: "./afisler/PierrotleFou.jpg"},
+    { id: 696, title: "Masculin Féminin", poster: "./afisler/MasculinFéminin.jpg"},
+    { id: 697, title: "Phantom Thread", poster: "./afisler/PhantomThread.jpg"},
 
 
 
@@ -7640,6 +7644,46 @@ const filmDetaylari = {
     duration: "93 Dakika",
     releaseDate: "5 Eylül 2025",
     imdbId: "tt32985279"
+    },
+694: {
+    konu: "Annesini trajik bir kazada kaybeden dört yaşındaki küçük Ponette'in, ölümün ne anlama geldiğini anlamaya çalışması, yetişkinlerin karmaşık teselli cümleleri yerine kendi saf çocuk dünyasında ve inançlarında annesinin geri döneceği mucizevi anı bekleyişini anlatan Jacques Doillon imzalı sarsıcı, derin ve duygu dolu dram filmi.",
+    genre: ["Dram"],
+    cast: "Victoire Thivisol, Marie Trintignant, Delphine Schiltz, Matéï Paleologue, Léopoldine Serre",
+    director: "Jacques Doillon",
+    imdb: "7.5",
+    duration: "97 Dakika",
+    releaseDate: "25 Eylül 1996",
+    imdbId: "tt0117359"
+    },
+695: {
+    konu: "Mutsuz evliliğinden ve sıkıcı burjuva hayatından bunalan Ferdinand'ın (Pierrot), eski sevgilisi Marianne ile birlikte Cezayirli gangsterlerin ve polisin takibi altında Fransa'nın güneyine doğru çıktıkları, suç, kaçış ve sanatla harmanlanmış anarşist, renkli ve trajik yolculuğunu anlatan Jean-Luc Godard imzalı Fransız Yeni Dalgası sinemasının başyapıtı.",
+    genre: ["Suç", "Dram", "Romantik", "Macera"],
+    cast: "Jean-Paul Belmondo, Anna Karina, Dirk Sanders, Graziella Galvani, Jimmy Karoubi",
+    director: "Jean-Luc Godard",
+    imdb: "7.4",
+    duration: "110 Dakika",
+    releaseDate: "29 Ağustos 1965",
+    imdbId: "tt0059592"
+    },
+696: {
+    konu: "1960'lar Paris'inin çalkantılı atmosferinde geçen filmde, idealist ve politik genç Paul'ün, pop müzik kariyerine adım atmak isteyen özgür ruhlu Madeleine'e olan aşkını, dönemin gençliğinin cinsellik, politika, tüketim çılgınlığı ve Vietnam Savaşı üzerine sorgulamalarını ve hayal kırıklıklarını anlatan Jean-Luc Godard imzalı kült ve sosyolojik başyapıt.",
+    genre: ["Dram", "Romantik"],
+    cast: "Jean-Pierre Léaud, Chantal Goya, Marlène Jobert, Catherine-Isabel Duport, Michel Debray",
+    director: "Jean-Luc Godard",
+    imdb: "7.3",
+    duration: "103 Dakika",
+    releaseDate: "22 Mart 1966",
+    imdbId: "tt0060675"
+    },
+697: {
+    konu: "1950'lerin Londra'sında haute couture moda dünyasının kalbinde yer alan, titiz, kontrolcü ve ünlü terzi Reynolds Woodcock'un hayatının, güçlü iradeli genç bir kadın olan Alma ile karşılaşmasıyla altüst olmasını, aralarındaki toksik ama büyüleyici aşkı, manipülasyonu ve saplantıyı merkeze alan Paul Thomas Anderson imzalı zarif ve hipnotize edici dram filmi.",
+    genre: ["Dram", "Romantik"],
+    cast: "Daniel Day-Lewis, Vicky Krieps, Lesley Manville, Camilla Rutherford, Gina McKee",
+    director: "Paul Thomas Anderson",
+    imdb: "7.4",
+    duration: "130 Dakika",
+    releaseDate: "11 Aralık 2017",
+    imdbId: "tt5776858"
     },
 
 
