@@ -697,6 +697,10 @@ const filmListesi = [
     { id: 695, title: "Pierrot le Fou", poster: "./afisler/PierrotleFou.jpg"},
     { id: 696, title: "Masculin Féminin", poster: "./afisler/MasculinFéminin.jpg"},
     { id: 697, title: "Phantom Thread", poster: "./afisler/PhantomThread.jpg"},
+    { id: 698, title: "The Unknown", poster: "./afisler/TheUnknown.jpg"},
+    { id: 699, title: "Send Help", poster: "./afisler/SendHelp.jpg"},
+    
+    
 
 
 
@@ -7684,6 +7688,26 @@ const filmDetaylari = {
     duration: "130 Dakika",
     releaseDate: "11 Aralık 2017",
     imdbId: "tt5776858"
+    },
+698: {
+    konu: "Parisli yalnız ve içine kapanık bir fotoğrafçı olan David Zimmerman'ın, arkadaşlarının zoruyla katıldığı çılgın bir partide karşılaştığı gizemli kadına karşı duyduğu yoğun takıntının ardından, sabaha karşı uykusundan uyandığında kendisini o gizemli kadının bedeninde bulmasıyla başlayan kimlik değişimi, yabancılaşma ve psikolojik gerilim dolu arayışını anlatan Arthur Harari imzalı büyüleyici fantastik dram filmi.",
+    genre: ["Dram", "Fantastik", "Gizem", "Gerilim"],
+    cast: "Léa Seydoux, Niels Schneider, Valérie Dréville, Lilith Grasmug, Radu Jude, Shanti Masud, Victoire Du Bois",
+    director: "Arthur Harari",
+    imdb: "6.3",
+    duration: "139 Dakika",
+    releaseDate: "26 Ağustos 2026",
+    imdbId: "tt32359586"
+    },
+699: {
+    konu: "Uçaklarının düşmesi sonucunda uzak ve ıssız bir adada mahsur kalan, aralarında sürekli gerginlik ve mesleki sürtüşme bulunan hor gördüğü kibirli patronu Bradley ile mutsuz çalışan Linda'nın hayatta kalabilmek için birbirlerine bağımlı hale gelmelerini, aralarındaki güç dengesinin tamamen değişmesini ve hayatta kalma mücadelesini anlatan Sam Raimi imzalı gerilim ve hayatta kalma türündeki sürükleyici film.",
+    genre: ["Macera", "Korku", "Gerilim"],
+    cast: "Rachel McAdams, Dylan O'Brien, Edyll Ismail, Xavier Samuel, Chris Pang, Dennis Haysbert",
+    director: "Sam Raimi",
+    imdb: "6.7",
+    duration: "113 Dakika",
+    releaseDate: "30 Ocak 2026",
+    imdbId: "tt8036976"
     },
 
 
