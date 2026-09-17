@@ -701,8 +701,8 @@ const filmListesi = [
     { id: 699, title: "Send Help", poster: "./afisler/SendHelp.jpg"},
     { id: 700, title: "The Founder", poster: "./afisler/TheFounder.jpg"},
     { id: 701, title: "Dumb Money", poster: "./afisler/DumbMoney.jpg"},
-    { id: 702, title: "Wall Street", poster: "./afisler/TheFounder.jpg"},
-    { id: 703, title: "Inside Job", poster: "./afisler/TheFounder.jpg"},
+    { id: 702, title: "Wall Street", poster: "./afisler/WallStreet.jpg"},
+    { id: 703, title: "Inside Job", poster: "./afisler/InsideJob.jpg"},
     { id: 704, title: "GoldenEye", poster: "./afisler/GoldenEye.jpg"},
     
     
