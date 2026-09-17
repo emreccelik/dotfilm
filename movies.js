@@ -699,6 +699,11 @@ const filmListesi = [
     { id: 697, title: "Phantom Thread", poster: "./afisler/PhantomThread.jpg"},
     { id: 698, title: "The Unknown", poster: "./afisler/TheUnknown.jpg"},
     { id: 699, title: "Send Help", poster: "./afisler/SendHelp.jpg"},
+    { id: 700, title: "The Founder", poster: "./afisler/TheFounder.jpg"},
+    { id: 701, title: "Dumb Money", poster: "./afisler/DumbMoney.jpg"},
+    { id: 702, title: "Wall Street", poster: "./afisler/TheFounder.jpg"},
+    { id: 703, title: "Inside Job", poster: "./afisler/TheFounder.jpg"},
+    { id: 704, title: "GoldenEye", poster: "./afisler/GoldenEye.jpg"},
     
     
 
@@ -7709,6 +7714,58 @@ const filmDetaylari = {
     releaseDate: "30 Ocak 2026",
     imdbId: "tt8036976"
     },
+700: {
+    konu: "1954 yılında Kaliforniya'da macera peşinde koşan başarısız bir mikser satıcısı olan Ray Kroc'un, McDonald kardeşlerin San Bernardino'daki yenilikçi ve hızlı servis sunan küçük restoranını keşfetmesiyle başlayan, hırs, manipülasyon ve acımasız iş zekası sayesinde bu yerel lezzeti küresel bir fast-food imparatorluğuna dönüştürürken kardeşleri nasıl tasfiye ettiğini gözler önüne seren John Lee Hancock imzalı biyografik dram filmi.",
+    genre: ["Biyografi", "Dram", "Tarih"],
+    cast: "Michael Keaton, Nick Offerman, John Carroll Lynch, Linda Cardellini, B.J. Novak, Laura Dern",
+    director: "John Lee Hancock",
+    imdb: "7.2",
+    duration: "115 Dakika",
+    releaseDate: "20 Ocak 2017",
+    imdbId: "tt4276820"
+    },
+701: {
+    konu: "Pandemi döneminde, GameStop hisselerinin Wall Street'in dev fonları tarafından açığa satışla batırılmak istenmesine karşı sıradan küçük yatırımcıların, Reddit ve sosyal medya üzerinden örgütlenerek devasa bir finansal başkaldırıya imza atmasını, sıradan insanların borsa devlerini nasıl dize getirdiğini anlatan Craig Gillespie imzalı tempolu, eğlenceli ve gerçek olaylara dayanan biyografik komedi-dram filmi.",
+    genre: ["Biyografi", "Komedi", "Dram"],
+    cast: "Paul Dano, Pete Davidson, Vincent D'Onofrio, America Ferrera, Nick Offerman, Anthony Ramos, Seth Rogen, Shailene Woodley",
+    director: "Craig Gillespie",
+    imdb: "6.8",
+    duration: "105 Dakika",
+    releaseDate: "29 Eylül 2023",
+    imdbId: "tt13957560"
+    },
+702: {
+    konu: "1980'lerin New York'unda hızla yükselme hırsıyla yanıp tutuşan genç ve hırslı borsa brokerı Bud Fox'un, Wall Street'in efsanevi, acımasız ve zengin yatırımcısı Gordon Gekko'nun kanatları altına girmesiyle birlikte açgözlülük, lüks hayat ve etik değerler arasında kayboluşunu, 'açgözlülük iyidir' felsefesininucu kişisel ve ahlaki çöküşe giden yolunu gözler önüne seren Oliver Stone imzalı ikonik dram filmi.",
+    genre: ["Dram", "Suç"],
+    cast: "Charlie Sheen, Michael Douglas, Daryl Hannah, Martin Sheen, Terence Stamp, John C. McGinley",
+    director: "Oliver Stone",
+    imdb: "7.3",
+    duration: "126 Dakika",
+    releaseDate: "11 Aralık 1987",
+    imdbId: "tt0094291"
+    },
+703: {
+    konu: "2008 Küresel Ekonomik Krizi'nin ardındaki sistemik çürümeyi, denetimsizliği, açgözlülüğü ve Wall Street ile akademik dünyasındaki çıkar çatışmalarını gözler önüne seren, krizin nasıl küresel bir felakete dönüştüğünü derinlemesine ve sarsıcı bir dille inceleyen Charles Ferguson imzalı Oscar ödüllü belgesel film.",
+    genre: ["Belgesel", "Suç", "Tarih"],
+    cast: "Matt Damon, Charles Ferguson, William Ackman, Nouriel Roubini, George Soros, Dominique Strauss-Kahn",
+    director: "Charles Ferguson",
+    imdb: "8.2",
+    duration: "108 Dakika",
+    releaseDate: "12 Kasım 2010",
+    imdbId: "tt1645089"
+    },
+704: {
+    konu: "Sovyetler Birliği'nin dağılmasının ardından gizli bir silah programı olan 'GoldenEye' uydusunu ele geçiren Janus adlı suç şebekesinin dünyayı ekonomik kaosa sürüklemek ve Londra'yı yok etmek istemesi üzerine, MI6 ajanı James Bond'un eski dostu ama artık düşmanı olan Alec Trevelyan'ı durdurmak ve felaketi önlemek için giriştiği ölümcül mücadeleyi anlatan Martin Campbell imzalı ikonik aksiyon ve casusluk filmi.",
+    genre: ["Aksiyon", "Macera", "Gerilim", "Casusluk"],
+    cast: "Pierce Brosnan, Sean Bean, Izabella Scorupco, Famke Janssen, Joe Don Baker, Judi Dench",
+    director: "Martin Campbell",
+    imdb: "7.2",
+    duration: "130 Dakika",
+    releaseDate: "17 Kasım 1995",
+    imdbId: "tt0113189"
+    },
+
+
 
 
 
