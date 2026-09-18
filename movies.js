@@ -704,6 +704,11 @@ const filmListesi = [
     { id: 702, title: "Wall Street", poster: "./afisler/WallStreet.jpg"},
     { id: 703, title: "Inside Job", poster: "./afisler/InsideJob.jpg"},
     { id: 704, title: "GoldenEye", poster: "./afisler/GoldenEye.jpg"},
+    { id: 705, title: "Coyote vs. Acme", poster: "./afisler/CoyotevsAcme.jpg"},
+    { id: 706, title: "Mandaadi", poster: "./afisler/Mandaadi.jpg"},
+    { id: 707, title: "Pressure", poster: "./afisler/Pressure.jpg"},
+    { id: 708, title: "The Sheep Detectives", poster: "./afisler/TheSheepDetectives.jpg"},
+    { id: 709, title: "Tony", poster: "./afisler/Tony.jpg"},
     
     
 
@@ -7764,6 +7769,59 @@ const filmDetaylari = {
     releaseDate: "17 Kasım 1995",
     imdbId: "tt0113189"
     },
+705: {
+    konu: "Yıllardır Wile E. Coyote'un başarısız icatları ve patlayan ürünleri yüzünden akıl sağlığını ve çölün sessizliğini kaybeden kurtun, sonunda ACME şirketine karşı dava açmaya karar vermesi ve bu davada kendisine yardım etmesi için ezik ama hırslı insan avukatı Kevin'ı işe almasıyla başlayan neşeli, absürt ve mahkeme salonunda geçen çılgın maceraları anlatan Dave Green imzalı komedi filmi.",
+    genre: ["Komedi", "Animasyon", "Macera", "Aile"],
+    cast: "Will Forte, Lana Condor, John Cena, Pj Byrne, Martha Kelly, Eric Bauza",
+    director: "Dave Green",
+    imdb: "7.5",
+    duration: "93 Dakika",
+    releaseDate: "28 Ağustos 2026",
+    imdbId: "tt1756855"
+    },
+706: {
+    konu: "Kıyı kesimindeki balıkçı topluluklarının geleneksel kültürünü, deniz üzerindeki kıyasıya rekabeti ve hayatta kalma mücadelelerini merkeze alan, geleneksel tekne yarışları ile insan iradesinin ve dayanışmanın sınırlarını zorlayan çatışmaları gözler önüne seren Mathimaran Pugazhendhi imzalı sürükleyici spor ve aksiyon draması.",
+    genre: ["Aksiyon", "Spor", "Dram"],
+    cast: "Soori, Sathyaraj, Mahima Nambiar, Suhas, Ravindra Vijay, Krish Hassan, Mithun Jai Shankar, Bala Saravanan",
+    director: "Mathimaran Pugazhendhi",
+    imdb: "9.3",
+    duration: "154 Dakika",
+    releaseDate: "10 Eylül 2026",
+    imdbId: "tt36596965"
+    },
+707: {
+    konu: "Normandya Çıkarması'ndan önceki kader belirleyici 72 saatte geçen filmde, General Dwight D. Eisenhower ile baş meteorolog Kaptan James Stagg'in tarihin en büyük ve en tehlikeli deniz çıkarma operasyonunu başlatmak ya da hava koşulları yüzünden savaşı kaybetme riskiyle karşı karşıya kalmak arasında verdikleri imkansız kararı, yoğun gerilim ve psikolojik baskı altında gözler önüne seren Anthony Maras imzalı tarihi savaş draması.",
+    genre: ["Savaş", "Tarih", "Gerilim", "Dram"],
+    cast: "Andrew Scott, Brendan Fraser, Kerry Condon, Chris Messina, Damian Lewis, Henry Ashton",
+    director: "Anthony Maras",
+    imdb: "7.3",
+    duration: "100 Dakika",
+    releaseDate: "29 Mayıs 2026",
+    imdbId: "tt32547691"
+    },
+708: {
+    konu: "Her gece sürü otlatırken sevdiği koyunlarına dedektif romanları okuyan çobanın gizemli bir şekilde ölü bulunmasının ardından, koyunların insanlardan öğrendikleri ve edindikleri bu katı cinayet çözme yöntemleriyle kendi başlarına katili bulmak için zekice ve absürt bir soruşturma başlatmasını anlatan Kyle Balda imzalı eğlenceli ve komedi dolu aile gizem filmi.",
+    genre: ["Komedi", "Suç", "Gizem", "Aile"],
+    cast: "Hugh Jackman, Emma Thompson, Nicholas Braun, Nicholas Galitzine, Molly Gordon, Hong Chau, Julia Louis-Dreyfus, Bryan Cranston, Patrick Stewart",
+    director: "Kyle Balda",
+    imdb: "7.4",
+    duration: "109 Dakika",
+    releaseDate: "8 Mayıs 2026",
+    imdbId: "tt32565993"
+    },
+709: {
+    konu: "Anthony Bourdain'in çok satan anı kitabı 'Kitchen Confidential'dan uyarlanan filmde, ünlü şefin 1970'lerde Massachusetts'e bağlı Provincetown'da geçirdiği, mutfak dünyasının kaotik, uyuşturucu dolu ve sert atmosferiyle ilk kez tanıştığı gençlik yıllarını, kimlik arayışını ve mutfakta bulduğu tutkulu hayatta kalma mücadelesini anlatan Matt Johnson imzalı biyografik ve etkileyici bir büyüme hikayesi.",
+    genre: ["Biyografi", "Komedi", "Dram"],
+    cast: "Dominic Sessa, Antonio Banderas, Emilia Jones, Leo Woodall, Stavros Halkias, Dagmara Dominczyk",
+    director: "Matt Johnson",
+    imdb: "7.5",
+    duration: "106 Dakika",
+    releaseDate: "21 Ağustos 2026",
+    imdbId: "tt33095251"
+    },
+
+
+
 
 
 
